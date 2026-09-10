@@ -1,0 +1,585 @@
+{
+ "lessons": [
+  {
+   "week": 1,
+   "title": "Неделя 01. Как работает команда",
+   "files": {
+    "lesson.md": {
+     "path": "data/w01-lesson.md.enc",
+     "bytes": 26539,
+     "sha256": "beedea4ea561b443"
+    },
+    "narration.md": {
+     "path": "data/w01-narration.md.enc",
+     "bytes": 6141,
+     "sha256": "462b78379ae1133a"
+    },
+    "audio.mp3": {
+     "path": "data/w01-audio.mp3.enc",
+     "bytes": 1499840,
+     "sha256": "4652292b19a22e5c"
+    },
+    "video.mp4": {
+     "path": "data/w01-video.mp4.enc",
+     "bytes": 2392299,
+     "sha256": "b611954076b91aa1"
+    },
+    "video.vtt": {
+     "path": "data/w01-video.vtt.enc",
+     "bytes": 8157,
+     "sha256": "5988fce785a338a2"
+    },
+    "poster.jpg": {
+     "path": "data/w01-poster.jpg.enc",
+     "bytes": 129473,
+     "sha256": "b8b4586b8e57e4e7"
+    }
+   }
+  },
+  {
+   "week": 2,
+   "title": "Неделя 02. Сервис по раскладке проекта",
+   "files": {
+    "lesson.md": {
+     "path": "data/w02-lesson.md.enc",
+     "bytes": 27959,
+     "sha256": "7dcaefe716d99cfe"
+    },
+    "narration.md": {
+     "path": "data/w02-narration.md.enc",
+     "bytes": 6066,
+     "sha256": "0e207db934ed51c5"
+    },
+    "audio.mp3": {
+     "path": "data/w02-audio.mp3.enc",
+     "bytes": 1495677,
+     "sha256": "aff0b9399b45cc8f"
+    },
+    "video.mp4": {
+     "path": "data/w02-video.mp4.enc",
+     "bytes": 2375601,
+     "sha256": "2129cde494f98035"
+    },
+    "video.vtt": {
+     "path": "data/w02-video.vtt.enc",
+     "bytes": 8219,
+     "sha256": "9ef0fcff941c8d39"
+    },
+    "poster.jpg": {
+     "path": "data/w02-poster.jpg.enc",
+     "bytes": 125487,
+     "sha256": "90fdd90db15c37e4"
+    }
+   }
+  },
+  {
+   "week": 3,
+   "title": "Неделя 03. Frontend как в проекте",
+   "files": {
+    "lesson.md": {
+     "path": "data/w03-lesson.md.enc",
+     "bytes": 27326,
+     "sha256": "20ba9f2ab383a26b"
+    },
+    "narration.md": {
+     "path": "data/w03-narration.md.enc",
+     "bytes": 5876,
+     "sha256": "477bfe2a682cfdef"
+    },
+    "audio.mp3": {
+     "path": "data/w03-audio.mp3.enc",
+     "bytes": 1450731,
+     "sha256": "8f8f7ce83748109a"
+    },
+    "video.mp4": {
+     "path": "data/w03-video.mp4.enc",
+     "bytes": 2331912,
+     "sha256": "0fdc344466afcafc"
+    },
+    "video.vtt": {
+     "path": "data/w03-video.vtt.enc",
+     "bytes": 7960,
+     "sha256": "3ccd4d4f7571c471"
+    },
+    "poster.jpg": {
+     "path": "data/w03-poster.jpg.enc",
+     "bytes": 132555,
+     "sha256": "c8273eeccd7b34b9"
+    }
+   }
+  },
+  {
+   "week": 4,
+   "title": "Неделя 04. Jira, Confluence, ревью, DoD · Демо-день 1",
+   "files": {
+    "lesson.md": {
+     "path": "data/w04-lesson.md.enc",
+     "bytes": 31080,
+     "sha256": "a6f53f7f30f846ca"
+    },
+    "narration.md": {
+     "path": "data/w04-narration.md.enc",
+     "bytes": 6770,
+     "sha256": "3a5eca9c1c788534"
+    },
+    "audio.mp3": {
+     "path": "data/w04-audio.mp3.enc",
+     "bytes": 1672226,
+     "sha256": "0567fd7646b17b0f"
+    },
+    "video.mp4": {
+     "path": "data/w04-video.mp4.enc",
+     "bytes": 2750476,
+     "sha256": "a43b9e5f3a52d468"
+    },
+    "video.vtt": {
+     "path": "data/w04-video.vtt.enc",
+     "bytes": 9057,
+     "sha256": "0056103a322e6238"
+    },
+    "poster.jpg": {
+     "path": "data/w04-poster.jpg.enc",
+     "bytes": 139717,
+     "sha256": "443d80a10516fd93"
+    }
+   }
+  },
+  {
+   "week": 5,
+   "title": "Неделя 05. Видео: эмулятор камер → HLS → кадры в очередь",
+   "files": {
+    "lesson.md": {
+     "path": "data/w05-lesson.md.enc",
+     "bytes": 30367,
+     "sha256": "f635b133d42fa40d"
+    },
+    "narration.md": {
+     "path": "data/w05-narration.md.enc",
+     "bytes": 6508,
+     "sha256": "cbc78d5e8ae1a94d"
+    },
+    "audio.mp3": {
+     "path": "data/w05-audio.mp3.enc",
+     "bytes": 1554458,
+     "sha256": "56f8be8b62275db8"
+    },
+    "video.mp4": {
+     "path": "data/w05-video.mp4.enc",
+     "bytes": 2529773,
+     "sha256": "823ffa5566478be6"
+    },
+    "video.vtt": {
+     "path": "data/w05-video.vtt.enc",
+     "bytes": 8319,
+     "sha256": "5d5c2428d53b278c"
+    },
+    "poster.jpg": {
+     "path": "data/w05-poster.jpg.enc",
+     "bytes": 132204,
+     "sha256": "883c80fa36caed0c"
+    }
+   }
+  },
+  {
+   "week": 6,
+   "title": "Неделя 06. Разметка по регламенту проекта",
+   "files": {
+    "lesson.md": {
+     "path": "data/w06-lesson.md.enc",
+     "bytes": 31665,
+     "sha256": "a8a13f51a0af3b2d"
+    },
+    "narration.md": {
+     "path": "data/w06-narration.md.enc",
+     "bytes": 6289,
+     "sha256": "8062873094764de2"
+    },
+    "audio.mp3": {
+     "path": "data/w06-audio.mp3.enc",
+     "bytes": 1541475,
+     "sha256": "287955b120609544"
+    },
+    "video.mp4": {
+     "path": "data/w06-video.mp4.enc",
+     "bytes": 2532175,
+     "sha256": "d7756bf5d599279e"
+    },
+    "video.vtt": {
+     "path": "data/w06-video.vtt.enc",
+     "bytes": 8336,
+     "sha256": "f274cfc222960fa1"
+    },
+    "poster.jpg": {
+     "path": "data/w06-poster.jpg.enc",
+     "bytes": 139066,
+     "sha256": "b30de3c36c253f1d"
+    }
+   }
+  },
+  {
+   "week": 7,
+   "title": "Неделя 07. Обучение как `model_train`",
+   "files": {
+    "lesson.md": {
+     "path": "data/w07-lesson.md.enc",
+     "bytes": 28885,
+     "sha256": "81aa19faeb810c1f"
+    },
+    "narration.md": {
+     "path": "data/w07-narration.md.enc",
+     "bytes": 6334,
+     "sha256": "f2678f71d04e8572"
+    },
+    "audio.mp3": {
+     "path": "data/w07-audio.mp3.enc",
+     "bytes": 1534973,
+     "sha256": "1be1a3b66a868fca"
+    },
+    "video.mp4": {
+     "path": "data/w07-video.mp4.enc",
+     "bytes": 2530721,
+     "sha256": "480bd9166bc15db0"
+    },
+    "video.vtt": {
+     "path": "data/w07-video.vtt.enc",
+     "bytes": 8212,
+     "sha256": "757752efa8bbc802"
+    },
+    "poster.jpg": {
+     "path": "data/w07-poster.jpg.enc",
+     "bytes": 125419,
+     "sha256": "b69d92c1b1b95581"
+    }
+   }
+  },
+  {
+   "week": 8,
+   "title": "Неделя 08. Пайплайн, оценка, promotion · Демо-день 2",
+   "files": {
+    "lesson.md": {
+     "path": "data/w08-lesson.md.enc",
+     "bytes": 33204,
+     "sha256": "91fc9bd0e6336d68"
+    },
+    "narration.md": {
+     "path": "data/w08-narration.md.enc",
+     "bytes": 6671,
+     "sha256": "6b6338c251febfe8"
+    },
+    "audio.mp3": {
+     "path": "data/w08-audio.mp3.enc",
+     "bytes": 1620826,
+     "sha256": "b0dad844bfd12807"
+    },
+    "video.mp4": {
+     "path": "data/w08-video.mp4.enc",
+     "bytes": 2732608,
+     "sha256": "4d29eebbac4cbdf5"
+    },
+    "video.vtt": {
+     "path": "data/w08-video.vtt.enc",
+     "bytes": 8651,
+     "sha256": "a16b4caa8f2e7760"
+    },
+    "poster.jpg": {
+     "path": "data/w08-poster.jpg.enc",
+     "bytes": 150291,
+     "sha256": "e6b3f9a5e8812e8e"
+    }
+   }
+  },
+  {
+   "week": 9,
+   "title": "Неделя 09. События, очереди, история",
+   "files": {
+    "lesson.md": {
+     "path": "data/w09-lesson.md.enc",
+     "bytes": 30357,
+     "sha256": "21a71009e65169df"
+    },
+    "narration.md": {
+     "path": "data/w09-narration.md.enc",
+     "bytes": 6706,
+     "sha256": "096e48cdc0425a9e"
+    },
+    "audio.mp3": {
+     "path": "data/w09-audio.mp3.enc",
+     "bytes": 1577464,
+     "sha256": "7707b4dd04a335c4"
+    },
+    "video.mp4": {
+     "path": "data/w09-video.mp4.enc",
+     "bytes": 2619682,
+     "sha256": "5d43902e9c602560"
+    },
+    "video.vtt": {
+     "path": "data/w09-video.vtt.enc",
+     "bytes": 8481,
+     "sha256": "ee19147c478392ba"
+    },
+    "poster.jpg": {
+     "path": "data/w09-poster.jpg.enc",
+     "bytes": 125596,
+     "sha256": "bf3d47f14fc588e2"
+    }
+   }
+  },
+  {
+   "week": 10,
+   "title": "Неделя 10. Логи, метрики, здоровье, приватность",
+   "files": {
+    "lesson.md": {
+     "path": "data/w10-lesson.md.enc",
+     "bytes": 28225,
+     "sha256": "efc29950c5762e2d"
+    },
+    "narration.md": {
+     "path": "data/w10-narration.md.enc",
+     "bytes": 6234,
+     "sha256": "b8fa2cb3b3c8b498"
+    },
+    "audio.mp3": {
+     "path": "data/w10-audio.mp3.enc",
+     "bytes": 1494108,
+     "sha256": "124822d972698735"
+    },
+    "video.mp4": {
+     "path": "data/w10-video.mp4.enc",
+     "bytes": 2445194,
+     "sha256": "5a737088715240e8"
+    },
+    "video.vtt": {
+     "path": "data/w10-video.vtt.enc",
+     "bytes": 8010,
+     "sha256": "0425d9dd45d0a3dd"
+    },
+    "poster.jpg": {
+     "path": "data/w10-poster.jpg.enc",
+     "bytes": 140156,
+     "sha256": "dcc499cde4f70d3d"
+    }
+   }
+  },
+  {
+   "week": 11,
+   "title": "Неделя 11. CI/CD как в проекте",
+   "files": {
+    "lesson.md": {
+     "path": "data/w11-lesson.md.enc",
+     "bytes": 31819,
+     "sha256": "52404fe24fae3023"
+    },
+    "narration.md": {
+     "path": "data/w11-narration.md.enc",
+     "bytes": 6218,
+     "sha256": "ef0992eac9799211"
+    },
+    "audio.mp3": {
+     "path": "data/w11-audio.mp3.enc",
+     "bytes": 1446696,
+     "sha256": "9b1b7a88238f7048"
+    },
+    "video.mp4": {
+     "path": "data/w11-video.mp4.enc",
+     "bytes": 2489640,
+     "sha256": "7c029de8e8b422fe"
+    },
+    "video.vtt": {
+     "path": "data/w11-video.vtt.enc",
+     "bytes": 7757,
+     "sha256": "3db72f29c7a17613"
+    },
+    "poster.jpg": {
+     "path": "data/w11-poster.jpg.enc",
+     "bytes": 157015,
+     "sha256": "3bac918f2cdfca75"
+    }
+   }
+  },
+  {
+   "week": 12,
+   "title": "Неделя 12. Kubernetes и восстановление · Демо-день 3",
+   "files": {
+    "lesson.md": {
+     "path": "data/w12-lesson.md.enc",
+     "bytes": 31832,
+     "sha256": "7445bb85bf372689"
+    },
+    "narration.md": {
+     "path": "data/w12-narration.md.enc",
+     "bytes": 6953,
+     "sha256": "9733494b6be1d4c4"
+    },
+    "audio.mp3": {
+     "path": "data/w12-audio.mp3.enc",
+     "bytes": 1653813,
+     "sha256": "5d628ad87cc61401"
+    },
+    "video.mp4": {
+     "path": "data/w12-video.mp4.enc",
+     "bytes": 2873639,
+     "sha256": "604a190c7fd85cf6"
+    },
+    "video.vtt": {
+     "path": "data/w12-video.vtt.enc",
+     "bytes": 8762,
+     "sha256": "86fe698e5c76e051"
+    },
+    "poster.jpg": {
+     "path": "data/w12-poster.jpg.enc",
+     "bytes": 159238,
+     "sha256": "265b04781d22a250"
+    }
+   }
+  },
+  {
+   "week": 13,
+   "title": "Неделя 13. BFF и Studio: собрать всё в интерфейс",
+   "files": {
+    "lesson.md": {
+     "path": "data/w13-lesson.md.enc",
+     "bytes": 29717,
+     "sha256": "417c6d14ccca4053"
+    },
+    "narration.md": {
+     "path": "data/w13-narration.md.enc",
+     "bytes": 6207,
+     "sha256": "b07e407a5e3eb726"
+    },
+    "audio.mp3": {
+     "path": "data/w13-audio.mp3.enc",
+     "bytes": 1460980,
+     "sha256": "f768e20f3c99dae7"
+    },
+    "video.mp4": {
+     "path": "data/w13-video.mp4.enc",
+     "bytes": 2372223,
+     "sha256": "5e804ab55f56e8e4"
+    },
+    "video.vtt": {
+     "path": "data/w13-video.vtt.enc",
+     "bytes": 7812,
+     "sha256": "ea91c96e1a2ccaa3"
+    },
+    "poster.jpg": {
+     "path": "data/w13-poster.jpg.enc",
+     "bytes": 119853,
+     "sha256": "2de8a21c0434f4c4"
+    }
+   }
+  },
+  {
+   "week": 14,
+   "title": "Неделя 14. AI в команде: правила, агенты, бот",
+   "files": {
+    "lesson.md": {
+     "path": "data/w14-lesson.md.enc",
+     "bytes": 31310,
+     "sha256": "cb0017fdb6373278"
+    },
+    "narration.md": {
+     "path": "data/w14-narration.md.enc",
+     "bytes": 6344,
+     "sha256": "e794740cd4f4d7f7"
+    },
+    "audio.mp3": {
+     "path": "data/w14-audio.mp3.enc",
+     "bytes": 1528804,
+     "sha256": "65a839ffd17ed33b"
+    },
+    "video.mp4": {
+     "path": "data/w14-video.mp4.enc",
+     "bytes": 2472186,
+     "sha256": "95e3b97db85aab54"
+    },
+    "video.vtt": {
+     "path": "data/w14-video.vtt.enc",
+     "bytes": 8255,
+     "sha256": "19fd4d3e63c7ed49"
+    },
+    "poster.jpg": {
+     "path": "data/w14-poster.jpg.enc",
+     "bytes": 120939,
+     "sha256": "48be952f0020a175"
+    }
+   }
+  },
+  {
+   "week": 15,
+   "title": "Неделя 15. QA-цикл и подготовка к интервью",
+   "files": {
+    "lesson.md": {
+     "path": "data/w15-lesson.md.enc",
+     "bytes": 28547,
+     "sha256": "84a94cd9032fd9fc"
+    },
+    "narration.md": {
+     "path": "data/w15-narration.md.enc",
+     "bytes": 6465,
+     "sha256": "5baaf3a9b2383419"
+    },
+    "audio.mp3": {
+     "path": "data/w15-audio.mp3.enc",
+     "bytes": 1567825,
+     "sha256": "c3efbbea61bda7bc"
+    },
+    "video.mp4": {
+     "path": "data/w15-video.mp4.enc",
+     "bytes": 2558865,
+     "sha256": "3863293a9266c2ec"
+    },
+    "video.vtt": {
+     "path": "data/w15-video.vtt.enc",
+     "bytes": 8478,
+     "sha256": "dc054ccc05531b3b"
+    },
+    "poster.jpg": {
+     "path": "data/w15-poster.jpg.enc",
+     "bytes": 146512,
+     "sha256": "e6686008eb001ebf"
+    }
+   }
+  },
+  {
+   "week": 16,
+   "title": "Неделя 16. Релиз и экзамен",
+   "files": {
+    "lesson.md": {
+     "path": "data/w16-lesson.md.enc",
+     "bytes": 27948,
+     "sha256": "845253ae028507e4"
+    },
+    "narration.md": {
+     "path": "data/w16-narration.md.enc",
+     "bytes": 7033,
+     "sha256": "30a949b46a0cd207"
+    },
+    "audio.mp3": {
+     "path": "data/w16-audio.mp3.enc",
+     "bytes": 1711078,
+     "sha256": "9f67586c41b52424"
+    },
+    "video.mp4": {
+     "path": "data/w16-video.mp4.enc",
+     "bytes": 2730521,
+     "sha256": "c138a269ff031ddb"
+    },
+    "video.vtt": {
+     "path": "data/w16-video.vtt.enc",
+     "bytes": 9216,
+     "sha256": "8f490ee6849dd73f"
+    },
+    "poster.jpg": {
+     "path": "data/w16-poster.jpg.enc",
+     "bytes": 134323,
+     "sha256": "e8653c11aca57de0"
+    }
+   }
+  }
+ ],
+ "kdf": {
+  "name": "PBKDF2-SHA256",
+  "iterations": 300000,
+  "salt": "zz+BEC/08qz9fhotM/GNcQ=="
+ }
+}
