@@ -180,6 +180,8 @@
     const standLocked = !teacher && !quizOk;
     const tasksLocked = !teacher && !quizOk;
     const title = (lab && lab.title) || `Неделя ${week}`;
+    const keys = ((lab && lab.tasks) || []).map((t) => t.key).filter(Boolean);
+    const taskRange = keys.length > 1 ? `${keys[0]}…${keys[keys.length - 1].replace(/^LRN-/, '')}` : (keys[0] || 'Задания LRN');
     root.innerHTML = `<div class="lab-hub">
       <p class="lab-crumb"><a href="${escapeHtml(opts.homeHref || '#/')}"${linkAttr(opts)}>← Уроки</a>
         ${opts.roleHref ? ` · <a href="${escapeHtml(opts.roleHref)}"${linkAttr(opts)}>Сменить роль</a>` : ''}
@@ -192,7 +194,7 @@
         ${doorCard(opts, 'material', 'Материал', 'Словарь, источники, порядок настройки. Без квиза внутри текста.')}
         ${doorCard(opts, 'quiz', 'Квиз', `Все ${score.total} карточек. Порог 100 %.`, false)}
         ${doorCard(opts, 'stand', 'Стенд', 'Учебный терминал: подставить куски команд, увидеть вывод.', standLocked)}
-        ${doorCard(opts, 'tasks', 'Задания', 'LRN-101…106 — после квиза, не вместо него.', tasksLocked)}
+        ${doorCard(opts, 'tasks', 'Задания', `${taskRange} — после квиза, не вместо него.`, tasksLocked)}
       </div>
     </div>`;
   }
