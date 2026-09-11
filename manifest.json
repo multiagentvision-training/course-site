@@ -7,32 +7,32 @@
     "lesson.md": {
      "path": "data/w01-lesson.md.enc",
      "bytes": 8210,
-     "sha256": "6f7599efe8eda918"
+     "sha256": "42f9a652a31b373a"
     },
     "narration.md": {
      "path": "data/w01-narration.md.enc",
      "bytes": 7012,
-     "sha256": "30084e3a745a0c7d"
+     "sha256": "85cdb88bf6187b99"
     },
     "audio.mp3": {
      "path": "data/w01-audio.mp3.enc",
      "bytes": 1672217,
-     "sha256": "d000b87b924a6b92"
+     "sha256": "17c3066f77dcda2e"
     },
     "video.mp4": {
      "path": "data/w01-video.mp4.enc",
      "bytes": 2793881,
-     "sha256": "590d31967510f9d4"
+     "sha256": "2bec4d2b195054b7"
     },
     "video.vtt": {
      "path": "data/w01-video.vtt.enc",
      "bytes": 8863,
-     "sha256": "19f113714322981f"
+     "sha256": "244030652fee1d02"
     },
     "poster.jpg": {
      "path": "data/w01-poster.jpg.enc",
      "bytes": 137661,
-     "sha256": "a481c3c1f96fbe29"
+     "sha256": "231860f96232df95"
     }
    }
   },
@@ -43,32 +43,32 @@
     "lesson.md": {
      "path": "data/w02-lesson.md.enc",
      "bytes": 21042,
-     "sha256": "7e79b8c3d9665a40"
+     "sha256": "79708f9100a30902"
     },
     "narration.md": {
      "path": "data/w02-narration.md.enc",
      "bytes": 7082,
-     "sha256": "628bd3ad8ed07cf3"
+     "sha256": "bbcbaf68367942e7"
     },
     "audio.mp3": {
      "path": "data/w02-audio.mp3.enc",
      "bytes": 1633046,
-     "sha256": "683ec45de166f3cb"
+     "sha256": "53e9c7534e92f8f0"
     },
     "video.mp4": {
      "path": "data/w02-video.mp4.enc",
      "bytes": 2678325,
-     "sha256": "2680b77743c9bd78"
+     "sha256": "ba4965d3fa014875"
     },
     "video.vtt": {
      "path": "data/w02-video.vtt.enc",
      "bytes": 9006,
-     "sha256": "dd2d79b93fc6c47b"
+     "sha256": "01151b386b911f97"
     },
     "poster.jpg": {
      "path": "data/w02-poster.jpg.enc",
      "bytes": 113584,
-     "sha256": "faca0a249c1ffd30"
+     "sha256": "35330d858371dfe0"
     }
    }
   },
@@ -79,32 +79,32 @@
     "lesson.md": {
      "path": "data/w03-lesson.md.enc",
      "bytes": 8644,
-     "sha256": "3442a1b4216ee6b1"
+     "sha256": "77f3ceae8887d6c5"
     },
     "narration.md": {
      "path": "data/w03-narration.md.enc",
      "bytes": 4380,
-     "sha256": "31e29d1bf4c58115"
+     "sha256": "961dd60b61188928"
     },
     "audio.mp3": {
      "path": "data/w03-audio.mp3.enc",
      "bytes": 1050716,
-     "sha256": "cf3382ec459aea7c"
+     "sha256": "d4699d731ba10276"
     },
     "video.mp4": {
      "path": "data/w03-video.mp4.enc",
      "bytes": 1765728,
-     "sha256": "8960125f27ab3ab4"
+     "sha256": "be2a7cdd3967ff26"
     },
     "video.vtt": {
      "path": "data/w03-video.vtt.enc",
      "bytes": 5254,
-     "sha256": "e29a7f820b2f5bbe"
+     "sha256": "91989d5a811c1c52"
     },
     "poster.jpg": {
      "path": "data/w03-poster.jpg.enc",
      "bytes": 132699,
-     "sha256": "07ea34d144968d2c"
+     "sha256": "06f41f1b6e8bda1c"
     }
    }
   },
@@ -115,32 +115,32 @@
     "lesson.md": {
      "path": "data/w04-lesson.md.enc",
      "bytes": 12584,
-     "sha256": "401c4c11ca15de75"
+     "sha256": "bff88fa044b543dc"
     },
     "narration.md": {
      "path": "data/w04-narration.md.enc",
      "bytes": 7320,
-     "sha256": "61ed5e356ffa8c77"
+     "sha256": "719c78713039d1a5"
     },
     "audio.mp3": {
      "path": "data/w04-audio.mp3.enc",
      "bytes": 1664367,
-     "sha256": "e4db241c1c58688c"
+     "sha256": "1ec9138ebd11040a"
     },
     "video.mp4": {
      "path": "data/w04-video.mp4.enc",
      "bytes": 2874085,
-     "sha256": "b86877f8c74e4e95"
+     "sha256": "f35fa1c18576c365"
     },
     "video.vtt": {
      "path": "data/w04-video.vtt.enc",
      "bytes": 9142,
-     "sha256": "49ef2cf052b9440b"
+     "sha256": "f68e523da048022a"
     },
     "poster.jpg": {
      "path": "data/w04-poster.jpg.enc",
      "bytes": 154816,
-     "sha256": "6f578993c834b623"
+     "sha256": "2e5324e863413bf8"
     }
    }
   },
@@ -151,32 +151,32 @@
     "lesson.md": {
      "path": "data/w05-lesson.md.enc",
      "bytes": 12846,
-     "sha256": "04db58212a5db101"
+     "sha256": "c6a86daff93e5f96"
     },
     "narration.md": {
      "path": "data/w05-narration.md.enc",
      "bytes": 4433,
-     "sha256": "a0e8251a5d0af863"
+     "sha256": "d2d51972f168d5ef"
     },
     "audio.mp3": {
      "path": "data/w05-audio.mp3.enc",
      "bytes": 1027673,
-     "sha256": "37b6d2b606f5e9fd"
+     "sha256": "8afb15b698152808"
     },
     "video.mp4": {
      "path": "data/w05-video.mp4.enc",
      "bytes": 1672245,
-     "sha256": "b5b2a8fd0f7c04c1"
+     "sha256": "8acddcfff03368cb"
     },
     "video.vtt": {
      "path": "data/w05-video.vtt.enc",
      "bytes": 5474,
-     "sha256": "e2d8337740c2cfe2"
+     "sha256": "58c3df7add1b8393"
     },
     "poster.jpg": {
      "path": "data/w05-poster.jpg.enc",
      "bytes": 157528,
-     "sha256": "aa5158f970f78f54"
+     "sha256": "e0e17d1a72191237"
     }
    }
   },
@@ -187,32 +187,32 @@
     "lesson.md": {
      "path": "data/w06-lesson.md.enc",
      "bytes": 15275,
-     "sha256": "ae26cbf314b0efa5"
+     "sha256": "55aed7497c818714"
     },
     "narration.md": {
      "path": "data/w06-narration.md.enc",
      "bytes": 4075,
-     "sha256": "b4a4ac3975a0bc93"
+     "sha256": "2901f09950be1bcf"
     },
     "audio.mp3": {
      "path": "data/w06-audio.mp3.enc",
      "bytes": 904862,
-     "sha256": "3e05ae8f020165ea"
+     "sha256": "7faacb6d42b4ab47"
     },
     "video.mp4": {
      "path": "data/w06-video.mp4.enc",
      "bytes": 1574550,
-     "sha256": "42c09a78d05a50e5"
+     "sha256": "0df4c83afc861544"
     },
     "video.vtt": {
      "path": "data/w06-video.vtt.enc",
      "bytes": 4917,
-     "sha256": "5bd67508383046d9"
+     "sha256": "db53df55ab21a206"
     },
     "poster.jpg": {
      "path": "data/w06-poster.jpg.enc",
      "bytes": 151504,
-     "sha256": "b0584beae4a905be"
+     "sha256": "9dd938abecff30f3"
     }
    }
   },
@@ -223,32 +223,32 @@
     "lesson.md": {
      "path": "data/w07-lesson.md.enc",
      "bytes": 11314,
-     "sha256": "734fbb1f9f47e97e"
+     "sha256": "a579c4a0a7d91a21"
     },
     "narration.md": {
      "path": "data/w07-narration.md.enc",
      "bytes": 4723,
-     "sha256": "7a03ebffab803bf6"
+     "sha256": "3f07f031cf8c48b5"
     },
     "audio.mp3": {
      "path": "data/w07-audio.mp3.enc",
      "bytes": 1081954,
-     "sha256": "aaa0e1b6b96b2c0d"
+     "sha256": "687dfc132ef3e481"
     },
     "video.mp4": {
      "path": "data/w07-video.mp4.enc",
      "bytes": 1787904,
-     "sha256": "ec2809bf91bc09bc"
+     "sha256": "27caf3e1d6c9fe0c"
     },
     "video.vtt": {
      "path": "data/w07-video.vtt.enc",
      "bytes": 5731,
-     "sha256": "055cf8585c36b660"
+     "sha256": "17a2e0a494065162"
     },
     "poster.jpg": {
      "path": "data/w07-poster.jpg.enc",
      "bytes": 135766,
-     "sha256": "17f33ba06c951b2b"
+     "sha256": "428622dafa6dc289"
     }
    }
   },
@@ -259,32 +259,32 @@
     "lesson.md": {
      "path": "data/w08-lesson.md.enc",
      "bytes": 10138,
-     "sha256": "41a2c81ac75addb2"
+     "sha256": "3449367b7e4981ab"
     },
     "narration.md": {
      "path": "data/w08-narration.md.enc",
      "bytes": 4289,
-     "sha256": "723aa9c2d51109d6"
+     "sha256": "4d563d51fb71a551"
     },
     "audio.mp3": {
      "path": "data/w08-audio.mp3.enc",
      "bytes": 986335,
-     "sha256": "03e63a4892479597"
+     "sha256": "1c7bafce2f9b7a54"
     },
     "video.mp4": {
      "path": "data/w08-video.mp4.enc",
      "bytes": 1602061,
-     "sha256": "44f39f5925574ddf"
+     "sha256": "55e4340f437cf1a8"
     },
     "video.vtt": {
      "path": "data/w08-video.vtt.enc",
      "bytes": 5299,
-     "sha256": "c217fd558fb5f55f"
+     "sha256": "98c639caf220c793"
     },
     "poster.jpg": {
      "path": "data/w08-poster.jpg.enc",
      "bytes": 139080,
-     "sha256": "9bbf3f1682bfdbf1"
+     "sha256": "a55018722c1af092"
     }
    }
   },
@@ -295,32 +295,32 @@
     "lesson.md": {
      "path": "data/w09-lesson.md.enc",
      "bytes": 10598,
-     "sha256": "9b7507c01331b6ef"
+     "sha256": "a0c43d9ff055f66d"
     },
     "narration.md": {
      "path": "data/w09-narration.md.enc",
      "bytes": 6357,
-     "sha256": "89cd319dbb9d34fd"
+     "sha256": "8a5fb9e5794f9297"
     },
     "audio.mp3": {
      "path": "data/w09-audio.mp3.enc",
      "bytes": 1670568,
-     "sha256": "f69d35a80262a85f"
+     "sha256": "62dd2aa4fc5303dc"
     },
     "video.mp4": {
      "path": "data/w09-video.mp4.enc",
      "bytes": 2656124,
-     "sha256": "b255a5b18d57c58b"
+     "sha256": "9dc35079e730b4cb"
     },
     "video.vtt": {
      "path": "data/w09-video.vtt.enc",
      "bytes": 7844,
-     "sha256": "a0845677f7aef807"
+     "sha256": "a1db891966884468"
     },
     "poster.jpg": {
      "path": "data/w09-poster.jpg.enc",
      "bytes": 124015,
-     "sha256": "aee638ebac96e979"
+     "sha256": "48a2d18986bb6a63"
     }
    }
   },
@@ -331,32 +331,32 @@
     "lesson.md": {
      "path": "data/w10-lesson.md.enc",
      "bytes": 8224,
-     "sha256": "a38217f9bbb8b00d"
+     "sha256": "58877bc6f39efaa8"
     },
     "narration.md": {
      "path": "data/w10-narration.md.enc",
      "bytes": 3992,
-     "sha256": "003c7f4906283f8c"
+     "sha256": "873112559b45117f"
     },
     "audio.mp3": {
      "path": "data/w10-audio.mp3.enc",
      "bytes": 948902,
-     "sha256": "a4be2d62ef7a7079"
+     "sha256": "faef756ec3b86e37"
     },
     "video.mp4": {
      "path": "data/w10-video.mp4.enc",
      "bytes": 1555844,
-     "sha256": "8b945089d84523a0"
+     "sha256": "85bc7c775595952d"
     },
     "video.vtt": {
      "path": "data/w10-video.vtt.enc",
      "bytes": 5138,
-     "sha256": "37a0c1306f608f49"
+     "sha256": "07d4c299ba01bc11"
     },
     "poster.jpg": {
      "path": "data/w10-poster.jpg.enc",
      "bytes": 89224,
-     "sha256": "4615340a09e55d0b"
+     "sha256": "10cdf6fa8aff3198"
     }
    }
   },
@@ -366,33 +366,33 @@
    "files": {
     "lesson.md": {
      "path": "data/w11-lesson.md.enc",
-     "bytes": 12682,
-     "sha256": "912863cbbab57c48"
+     "bytes": 13157,
+     "sha256": "c320e809d2d12376"
     },
     "narration.md": {
      "path": "data/w11-narration.md.enc",
-     "bytes": 6230,
-     "sha256": "099cf552e1de7f81"
+     "bytes": 6390,
+     "sha256": "e8df3b0f384a440c"
     },
     "audio.mp3": {
      "path": "data/w11-audio.mp3.enc",
-     "bytes": 1401075,
-     "sha256": "ecd5542cdff000e2"
+     "bytes": 1446867,
+     "sha256": "27886d25c0dc94a3"
     },
     "video.mp4": {
      "path": "data/w11-video.mp4.enc",
-     "bytes": 2373769,
-     "sha256": "412f199015467e84"
+     "bytes": 2419394,
+     "sha256": "c101bf643e0aafc3"
     },
     "video.vtt": {
      "path": "data/w11-video.vtt.enc",
-     "bytes": 7512,
-     "sha256": "491f5cb9d393759f"
+     "bytes": 7808,
+     "sha256": "852d4f52f57b7c6c"
     },
     "poster.jpg": {
      "path": "data/w11-poster.jpg.enc",
      "bytes": 140920,
-     "sha256": "43d6495ae4f9a14c"
+     "sha256": "78dac2f6beb92004"
     }
    }
   },
@@ -403,32 +403,32 @@
     "lesson.md": {
      "path": "data/w12-lesson.md.enc",
      "bytes": 13055,
-     "sha256": "498f7e7bd1236b6d"
+     "sha256": "6b4e16095b0609d2"
     },
     "narration.md": {
      "path": "data/w12-narration.md.enc",
      "bytes": 4588,
-     "sha256": "61662891c9977e0a"
+     "sha256": "8bc7c3ac2be6a180"
     },
     "audio.mp3": {
      "path": "data/w12-audio.mp3.enc",
      "bytes": 1063268,
-     "sha256": "fc7d2c07bef70775"
+     "sha256": "5edb25da80aa1e14"
     },
     "video.mp4": {
      "path": "data/w12-video.mp4.enc",
      "bytes": 1907164,
-     "sha256": "a435dfa7e11020d7"
+     "sha256": "191625ac2ed12b7a"
     },
     "video.vtt": {
      "path": "data/w12-video.vtt.enc",
      "bytes": 5596,
-     "sha256": "4dc5722231820728"
+     "sha256": "bfee268478a75c7f"
     },
     "poster.jpg": {
      "path": "data/w12-poster.jpg.enc",
      "bytes": 170226,
-     "sha256": "2838f27d1abfe968"
+     "sha256": "aaba8fa2312c3933"
     }
    }
   },
@@ -439,32 +439,32 @@
     "lesson.md": {
      "path": "data/w13-lesson.md.enc",
      "bytes": 14028,
-     "sha256": "f0c2918fa3365526"
+     "sha256": "0a7b8a589cb27016"
     },
     "narration.md": {
      "path": "data/w13-narration.md.enc",
      "bytes": 4168,
-     "sha256": "8b52926363321381"
+     "sha256": "115f5bf479868220"
     },
     "audio.mp3": {
      "path": "data/w13-audio.mp3.enc",
      "bytes": 940181,
-     "sha256": "1044f6efb31f1cc8"
+     "sha256": "0f92a001525da151"
     },
     "video.mp4": {
      "path": "data/w13-video.mp4.enc",
      "bytes": 1593129,
-     "sha256": "db01729be9ff4fbd"
+     "sha256": "3e7ddfceb22bad07"
     },
     "video.vtt": {
      "path": "data/w13-video.vtt.enc",
      "bytes": 4974,
-     "sha256": "b1910dd4ccf9ca90"
+     "sha256": "c6b58da3e5eb1622"
     },
     "poster.jpg": {
      "path": "data/w13-poster.jpg.enc",
      "bytes": 124670,
-     "sha256": "4555ddd36fa8a436"
+     "sha256": "3adf6c853f89856c"
     }
    }
   },
@@ -475,32 +475,32 @@
     "lesson.md": {
      "path": "data/w14-lesson.md.enc",
      "bytes": 8204,
-     "sha256": "61e4694a39524614"
+     "sha256": "4b575503225b6365"
     },
     "narration.md": {
      "path": "data/w14-narration.md.enc",
      "bytes": 4290,
-     "sha256": "c1f97f746a2330fe"
+     "sha256": "23eb4eb3cca74ea4"
     },
     "audio.mp3": {
      "path": "data/w14-audio.mp3.enc",
      "bytes": 997961,
-     "sha256": "f1aa423823868494"
+     "sha256": "52ca573c074e79fa"
     },
     "video.mp4": {
      "path": "data/w14-video.mp4.enc",
      "bytes": 1599682,
-     "sha256": "4b9b74dfc6ba6059"
+     "sha256": "57396ed2ed25c17b"
     },
     "video.vtt": {
      "path": "data/w14-video.vtt.enc",
      "bytes": 5298,
-     "sha256": "8c1246673046123f"
+     "sha256": "1100152765eb69bd"
     },
     "poster.jpg": {
      "path": "data/w14-poster.jpg.enc",
      "bytes": 119855,
-     "sha256": "8d84bfc0a7763267"
+     "sha256": "1510cd7b4c203c60"
     }
    }
   },
@@ -511,32 +511,32 @@
     "lesson.md": {
      "path": "data/w15-lesson.md.enc",
      "bytes": 12625,
-     "sha256": "747165f43fb646d8"
+     "sha256": "0f14469194c5d9d6"
     },
     "narration.md": {
      "path": "data/w15-narration.md.enc",
      "bytes": 6637,
-     "sha256": "0fb00469978519c2"
+     "sha256": "ca5d5ded6f909f33"
     },
     "audio.mp3": {
      "path": "data/w15-audio.mp3.enc",
      "bytes": 1459620,
-     "sha256": "21ef1159d3bd6782"
+     "sha256": "39f85f974239dc74"
     },
     "video.mp4": {
      "path": "data/w15-video.mp4.enc",
      "bytes": 2411080,
-     "sha256": "0aafae9f3422e08e"
+     "sha256": "ad701a56035c2aed"
     },
     "video.vtt": {
      "path": "data/w15-video.vtt.enc",
      "bytes": 7879,
-     "sha256": "e93a9d639151438f"
+     "sha256": "ab61b24989f4bc1b"
     },
     "poster.jpg": {
      "path": "data/w15-poster.jpg.enc",
      "bytes": 146135,
-     "sha256": "8ac547339c8fafc2"
+     "sha256": "1a89c529dbb51fdf"
     }
    }
   },
@@ -547,32 +547,320 @@
     "lesson.md": {
      "path": "data/w16-lesson.md.enc",
      "bytes": 9063,
-     "sha256": "2b1e926ace12483a"
+     "sha256": "a32e3bc34fe2ab75"
     },
     "narration.md": {
      "path": "data/w16-narration.md.enc",
      "bytes": 4342,
-     "sha256": "21bb326b86a8ad40"
+     "sha256": "f06879889eed79fe"
     },
     "audio.mp3": {
      "path": "data/w16-audio.mp3.enc",
      "bytes": 1014534,
-     "sha256": "ca9801e393f52083"
+     "sha256": "768ea666cecf0d66"
     },
     "video.mp4": {
      "path": "data/w16-video.mp4.enc",
      "bytes": 1590205,
-     "sha256": "ca49320d08d54098"
+     "sha256": "8104fb491147f72f"
     },
     "video.vtt": {
      "path": "data/w16-video.vtt.enc",
      "bytes": 5451,
-     "sha256": "36ae0e323f628a88"
+     "sha256": "033a13acdb8abeac"
     },
     "poster.jpg": {
      "path": "data/w16-poster.jpg.enc",
      "bytes": 103134,
-     "sha256": "76b52750f1e64ef8"
+     "sha256": "fdd3faf93f302f4c"
+    }
+   }
+  },
+  {
+   "week": 17,
+   "title": "Неделя 17. Unity: синтетическая сцена и кадры в ingest",
+   "files": {
+    "lesson.md": {
+     "path": "data/w17-lesson.md.enc",
+     "bytes": 6664,
+     "sha256": "70291f69277d091e"
+    },
+    "narration.md": {
+     "path": "data/w17-narration.md.enc",
+     "bytes": 2755,
+     "sha256": "ec40bda7b22aa80a"
+    },
+    "audio.mp3": {
+     "path": "data/w17-audio.mp3.enc",
+     "bytes": 690696,
+     "sha256": "45caa61b762b3e5f"
+    },
+    "video.mp4": {
+     "path": "data/w17-video.mp4.enc",
+     "bytes": 1095970,
+     "sha256": "a7fe11ecc0083f9f"
+    },
+    "video.vtt": {
+     "path": "data/w17-video.vtt.enc",
+     "bytes": 3764,
+     "sha256": "dbb2a309649f3808"
+    },
+    "poster.jpg": {
+     "path": "data/w17-poster.jpg.enc",
+     "bytes": 117496,
+     "sha256": "be7e28819d66d744"
+    }
+   }
+  },
+  {
+   "week": 18,
+   "title": "Неделя 18. Unreal и Blender: синтетика без закрытых кадров",
+   "files": {
+    "lesson.md": {
+     "path": "data/w18-lesson.md.enc",
+     "bytes": 6610,
+     "sha256": "070bb19bc3b3b3d4"
+    },
+    "narration.md": {
+     "path": "data/w18-narration.md.enc",
+     "bytes": 2564,
+     "sha256": "3bf85ea67429c965"
+    },
+    "audio.mp3": {
+     "path": "data/w18-audio.mp3.enc",
+     "bytes": 626905,
+     "sha256": "96d00fc2ad659b18"
+    },
+    "video.mp4": {
+     "path": "data/w18-video.mp4.enc",
+     "bytes": 1008123,
+     "sha256": "a4ca14c3fcf65586"
+    },
+    "video.vtt": {
+     "path": "data/w18-video.vtt.enc",
+     "bytes": 3403,
+     "sha256": "5065d90cd57ecc55"
+    },
+    "poster.jpg": {
+     "path": "data/w18-poster.jpg.enc",
+     "bytes": 110965,
+     "sha256": "b0b0c18668230c82"
+    }
+   }
+  },
+  {
+   "week": 19,
+   "title": "Неделя 19. Go: сервис платформы по тому же контракту",
+   "files": {
+    "lesson.md": {
+     "path": "data/w19-lesson.md.enc",
+     "bytes": 6499,
+     "sha256": "7584ae09869ba9fc"
+    },
+    "narration.md": {
+     "path": "data/w19-narration.md.enc",
+     "bytes": 2167,
+     "sha256": "e9d51f370fdb5277"
+    },
+    "audio.mp3": {
+     "path": "data/w19-audio.mp3.enc",
+     "bytes": 541212,
+     "sha256": "fe320c4ca2a5fdb3"
+    },
+    "video.mp4": {
+     "path": "data/w19-video.mp4.enc",
+     "bytes": 844261,
+     "sha256": "5e9ca81b773b4e2c"
+    },
+    "video.vtt": {
+     "path": "data/w19-video.vtt.enc",
+     "bytes": 2972,
+     "sha256": "6b4f266a954e9840"
+    },
+    "poster.jpg": {
+     "path": "data/w19-poster.jpg.enc",
+     "bytes": 112446,
+     "sha256": "543b7439a3f4800f"
+    }
+   }
+  },
+  {
+   "week": 20,
+   "title": "Неделя 20. Java и Spring: тот же контракт на JVM",
+   "files": {
+    "lesson.md": {
+     "path": "data/w20-lesson.md.enc",
+     "bytes": 6225,
+     "sha256": "8904079855e801c0"
+    },
+    "narration.md": {
+     "path": "data/w20-narration.md.enc",
+     "bytes": 1961,
+     "sha256": "422b0afcb0b507ec"
+    },
+    "audio.mp3": {
+     "path": "data/w20-audio.mp3.enc",
+     "bytes": 498885,
+     "sha256": "639d6e797095bef6"
+    },
+    "video.mp4": {
+     "path": "data/w20-video.mp4.enc",
+     "bytes": 774077,
+     "sha256": "25976c6f6be7c20a"
+    },
+    "video.vtt": {
+     "path": "data/w20-video.vtt.enc",
+     "bytes": 2800,
+     "sha256": "f85c2d8ab2036e3a"
+    },
+    "poster.jpg": {
+     "path": "data/w20-poster.jpg.enc",
+     "bytes": 101034,
+     "sha256": "77c62df36622e768"
+    }
+   }
+  },
+  {
+   "week": 21,
+   "title": "Неделя 21. C# и .NET: контракт платформы и стык с Unity",
+   "files": {
+    "lesson.md": {
+     "path": "data/w21-lesson.md.enc",
+     "bytes": 6179,
+     "sha256": "d24c0d2d090743e2"
+    },
+    "narration.md": {
+     "path": "data/w21-narration.md.enc",
+     "bytes": 1945,
+     "sha256": "c93ebceae1c63791"
+    },
+    "audio.mp3": {
+     "path": "data/w21-audio.mp3.enc",
+     "bytes": 502057,
+     "sha256": "2cc03d023c37726e"
+    },
+    "video.mp4": {
+     "path": "data/w21-video.mp4.enc",
+     "bytes": 778958,
+     "sha256": "ec2cf54702ec59dc"
+    },
+    "video.vtt": {
+     "path": "data/w21-video.vtt.enc",
+     "bytes": 2750,
+     "sha256": "5e8b26f611c2c836"
+    },
+    "poster.jpg": {
+     "path": "data/w21-poster.jpg.enc",
+     "bytes": 95192,
+     "sha256": "a5db6555e5497674"
+    }
+   }
+  },
+  {
+   "week": 22,
+   "title": "Неделя 22. C++: edge-модуль ingest и санитайзеры",
+   "files": {
+    "lesson.md": {
+     "path": "data/w22-lesson.md.enc",
+     "bytes": 6428,
+     "sha256": "9e731112815c003b"
+    },
+    "narration.md": {
+     "path": "data/w22-narration.md.enc",
+     "bytes": 2010,
+     "sha256": "0eaae0e62c1057bb"
+    },
+    "audio.mp3": {
+     "path": "data/w22-audio.mp3.enc",
+     "bytes": 513013,
+     "sha256": "ee52fb8f15907457"
+    },
+    "video.mp4": {
+     "path": "data/w22-video.mp4.enc",
+     "bytes": 818667,
+     "sha256": "7713b2d9dedc8b81"
+    },
+    "video.vtt": {
+     "path": "data/w22-video.vtt.enc",
+     "bytes": 2849,
+     "sha256": "f76671144d4a4cf1"
+    },
+    "poster.jpg": {
+     "path": "data/w22-poster.jpg.enc",
+     "bytes": 106409,
+     "sha256": "6a3426b3f1650007"
+    }
+   }
+  },
+  {
+   "week": 23,
+   "title": "Неделя 23. Jenkins целиком и Proxmox / VM-стенд",
+   "files": {
+    "lesson.md": {
+     "path": "data/w23-lesson.md.enc",
+     "bytes": 6320,
+     "sha256": "a20805e67392dd31"
+    },
+    "narration.md": {
+     "path": "data/w23-narration.md.enc",
+     "bytes": 2184,
+     "sha256": "3205b7b7c81133f6"
+    },
+    "audio.mp3": {
+     "path": "data/w23-audio.mp3.enc",
+     "bytes": 538353,
+     "sha256": "98851dfa80490e3a"
+    },
+    "video.mp4": {
+     "path": "data/w23-video.mp4.enc",
+     "bytes": 857397,
+     "sha256": "7b50d958efc0cef5"
+    },
+    "video.vtt": {
+     "path": "data/w23-video.vtt.enc",
+     "bytes": 2989,
+     "sha256": "4d3d5f5bb72eff23"
+    },
+    "poster.jpg": {
+     "path": "data/w23-poster.jpg.enc",
+     "bytes": 103712,
+     "sha256": "2d3de9f1c7df28f5"
+    }
+   }
+  },
+  {
+   "week": 24,
+   "title": "Неделя 24. Optuna полностью, бот уведомлений и автолейбл",
+   "files": {
+    "lesson.md": {
+     "path": "data/w24-lesson.md.enc",
+     "bytes": 6647,
+     "sha256": "16f38c63a60e2df4"
+    },
+    "narration.md": {
+     "path": "data/w24-narration.md.enc",
+     "bytes": 2430,
+     "sha256": "168b1a8798aa61f3"
+    },
+    "audio.mp3": {
+     "path": "data/w24-audio.mp3.enc",
+     "bytes": 589045,
+     "sha256": "2179f52f777dc9c4"
+    },
+    "video.mp4": {
+     "path": "data/w24-video.mp4.enc",
+     "bytes": 941372,
+     "sha256": "4412bf0d7a4f45ca"
+    },
+    "video.vtt": {
+     "path": "data/w24-video.vtt.enc",
+     "bytes": 3269,
+     "sha256": "01927315fe7b1325"
+    },
+    "poster.jpg": {
+     "path": "data/w24-poster.jpg.enc",
+     "bytes": 113383,
+     "sha256": "8212857cc46d848c"
     }
    }
   }
@@ -580,6 +868,6 @@
  "kdf": {
   "name": "PBKDF2-SHA256",
   "iterations": 300000,
-  "salt": "DI1hLiaO8Pxv/Va8LQamHg=="
+  "salt": "dooj+DKdyytm0tiW0NU7Zg=="
  }
 }
