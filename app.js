@@ -209,16 +209,31 @@
     const m = await loadManifest();
     const done = JSON.parse(localStorage.getItem('mvt.done') || '[]');
     const n = m.lessons.length;
-    app.innerHTML = `<h1>Уроки</h1><p class="muted">${n} недель. Неделя 1 — материал, квиз и стенд. Дальше — текст, аудио и видео. Прогресс хранится только в этом браузере.</p>
+    app.innerHTML = `<h1>Уроки</h1><p class="muted">${n} недели. В каждой: материал (словарь), квиз 100 %, стенд, задания. Прогресс хранится только в этом браузере.</p>
       <div class="progress"><i style="width:${Math.round(100 * done.length / n)}%"></i></div><ul class="list">` +
       m.lessons.map((l) => `<li><a href="#/w/${l.week}">${l.title}</a><span class="badge">${done.includes(l.week) ? 'пройдено' : ''}</span></li>`).join('') + '</ul>';
   }
 
   async function renderLabMaterial(week, entry, lab) {
-    const mdBuf = await file(entry, 'lesson.md');
+    const [mdBuf, narr, poster, audio, video, vtt] = await Promise.all([
+      file(entry, 'lesson.md'),
+      file(entry, 'narration.md'),
+      url(entry, 'poster.jpg'),
+      url(entry, 'audio.mp3'),
+      url(entry, 'video.mp4'),
+      url(entry, 'video.vtt'),
+    ]);
     const o = labOpts(week);
+    const media = (video || audio || narr)
+      ? `<div id="media" class="media media-bottom">
+          <h2>Озвучка и видеоразбор</h2>
+          ${video ? `<video controls playsinline preload="metadata" ${poster ? `poster="${poster}"` : ''}><source src="${video}" type="video/mp4">${vtt ? `<track kind="captions" srclang="ru" label="Русские субтитры" src="${vtt}" default>` : ''}</video>` : ''}
+          ${audio ? `<audio controls preload="none" src="${audio}"></audio>` : ''}
+          ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr), week)}</details>` : ''}
+        </div>`
+      : '';
     app.innerHTML = `<p class="lab-crumb"><a href="#/w/${week}">← Хаб недели ${week}</a></p>
-      <article>${safeMarkdown(mdBuf ? dec.decode(mdBuf) : '', week)}</article>`;
+      <article>${safeMarkdown(mdBuf ? dec.decode(mdBuf) : '', week)}</article>${media}`;
     window.MvtLab.prepareMaterial(app.querySelector('article'), lab, week, o);
   }
 
