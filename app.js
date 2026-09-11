@@ -53,12 +53,44 @@
       m.lessons.map(l => `<li><a href="#/w/${l.week}">${l.title}</a><span class="badge">${done.includes(l.week) ? 'пройдено' : ''}</span></li>`).join('') + '</ul>';
   }
 
-  function safeMarkdown(md) {
+  function mediaKind(href) {
+    const h = (href || '').trim().replace(/^\.\//, '');
+    return /^(narration\.md|audio\.mp3|video\.mp4)$/.test(h) ? h : null;
+  }
+
+  function jumpToMedia(kind) {
+    const box = document.getElementById('media');
+    if (!box) return;
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (kind === 'audio.mp3') {
+      const el = box.querySelector('audio');
+      if (el) el.play().catch(() => {});
+    } else if (kind === 'video.mp4') {
+      const el = box.querySelector('video');
+      if (el) el.play().catch(() => {});
+    } else if (kind === 'narration.md') {
+      const d = box.querySelector('details.narr');
+      if (d) { d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+    }
+  }
+
+  function safeMarkdown(md, week) {
     const html = marked.parse(md, { mangle: false, headerIds: false });
     const doc = new DOMParser().parseFromString(html, 'text/html');
     doc.querySelectorAll('script,iframe,object,embed').forEach(n => n.remove());
     doc.querySelectorAll('*').forEach(n => { [...n.attributes].forEach(a => { if (/^on/i.test(a.name) || (a.name === 'href' && /^\s*javascript:/i.test(a.value))) n.removeAttribute(a.name); }); });
-    doc.querySelectorAll('a[href]').forEach(a => { const h = a.getAttribute('href'); if (/^https?:/.test(h)) { a.target = '_blank'; a.rel = 'noopener'; } else if (/^(narration\.md|audio\.mp3|video\.mp4)$/.test(h)) { a.setAttribute('href', '#media'); } else if (/docs\/weeks\/w(\d\d)\.md/.test(h)) { a.replaceWith(doc.createTextNode(a.textContent)); } else if (!h.startsWith('#')) { a.replaceWith(doc.createTextNode(a.textContent)); } });
+    doc.querySelectorAll('a[href]').forEach(a => {
+      const h = a.getAttribute('href') || '';
+      if (/^https?:/.test(h)) { a.target = '_blank'; a.rel = 'noopener'; return; }
+      const kind = mediaKind(h);
+      if (kind) {
+        a.setAttribute('href', `#/w/${week}`);
+        a.setAttribute('data-media', kind);
+        return;
+      }
+      if (h.startsWith('#/')) return;
+      a.replaceWith(doc.createTextNode(a.textContent));
+    });
     return doc.body.innerHTML;
   }
 
@@ -73,9 +105,9 @@
       app.innerHTML = `<div id="media" class="media">
           ${video ? `<video controls playsinline preload="metadata" ${poster ? `poster="${poster}"` : ''}><source src="${video}" type="video/mp4">${vtt ? `<track kind="captions" srclang="ru" label="Русские субтитры" src="${vtt}" default>` : ''}</video>` : ''}
           ${audio ? `<audio controls preload="none" src="${audio}"></audio>` : ''}
-          ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr))}</details>` : ''}
+          ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr), week)}</details>` : ''}
         </div>
-        <article>${safeMarkdown(dec.decode(md))}</article>
+        <article>${safeMarkdown(dec.decode(md), week)}</article>
         <p><button id="done" class="primary">${isDone ? 'Снять отметку «пройдено»' : 'Отметить пройденным'}</button></p>
         <div class="pager"><span>${prev ? `<a href="#/w/${prev.week}">← ${prev.title}</a>` : ''}</span><span>${next ? `<a href="#/w/${next.week}">${next.title} →</a>` : ''}</span></div>`;
       document.getElementById('done').onclick = () => { const d = JSON.parse(localStorage.getItem('mvt.done') || '[]'); const idx = d.indexOf(week); if (idx >= 0) d.splice(idx, 1); else d.push(week); localStorage.setItem('mvt.done', JSON.stringify(d)); renderLesson(week); };
@@ -88,9 +120,17 @@
     if (!key && !(await restoreKey())) { renderLogin(); return; }
     if (!(await verify())) { sessionStorage.removeItem('mvt.key'); key = null; renderLogin('Сессия устарела, введите код снова.'); return; }
     renderNav();
-    const h = location.hash || '#/'; const mw = h.match(/^#\/w\/(\d+)/);
+    const h = location.hash || '#/';
+    if (h === '#media') { location.replace('#/'); return; }
+    const mw = h.match(/^#\/w\/(\d+)/);
     if (mw) renderLesson(parseInt(mw[1], 10)); else renderList();
   }
+  app.addEventListener('click', e => {
+    const a = e.target.closest('a[data-media]');
+    if (!a) return;
+    e.preventDefault();
+    jumpToMedia(a.getAttribute('data-media'));
+  });
   window.addEventListener('hashchange', route);
   if (!window.isSecureContext || !crypto.subtle) app.innerHTML = '<p class="err">Нужен HTTPS и современный браузер.</p>'; else route();
 })();
