@@ -33,7 +33,48 @@
   const mime = { 'audio.mp3': 'audio/mpeg', 'video.mp4': 'video/mp4', 'video.vtt': 'text/vtt', 'poster.jpg': 'image/jpeg' };
   async function url(entry, name) { const buf = await file(entry, name); return buf ? URL.createObjectURL(new Blob([buf], { type: mime[name] })) : null; }
 
-  function renderNav() { nav.innerHTML = key ? '<a href="#/">Уроки</a><button id="logout">Выйти</button>' : ''; const b = document.getElementById('logout'); if (b) b.onclick = () => { sessionStorage.removeItem('mvt.key'); key = null; cache.clear(); location.hash = '#/'; route(); }; }
+  function labHref(week) {
+    return (screen, extra) => {
+      extra = extra || {};
+      if (screen === 'role') return '#/role';
+      if (screen === 'hub') return `#/w/${week}`;
+      if (screen === 'quiz') {
+        let u = extra.q ? `#/w/${week}/quiz/${extra.q}` : `#/w/${week}/quiz`;
+        if (extra.topic) u += `?t=${encodeURIComponent(extra.topic)}`;
+        return u;
+      }
+      return `#/w/${week}/${screen}`;
+    };
+  }
+
+  function parseRoute() {
+    const raw = (location.hash || '#/').replace(/^#/, '');
+    const [path, query] = raw.split('?');
+    const params = new URLSearchParams(query || '');
+    if (path === '/role') return { screen: 'role' };
+    const m = path.match(/^\/w\/(\d+)(?:\/(material|quiz|stand|tasks)(?:\/(\d+))?)?\/?$/);
+    if (m) return { week: parseInt(m[1], 10), screen: m[2] || 'hub', q: m[3] ? parseInt(m[3], 10) : 0, topic: params.get('t') || '' };
+    return { screen: 'list' };
+  }
+
+  function labOpts(week, extra) {
+    const Lab = window.MvtLab;
+    return Object.assign({
+      week,
+      role: Lab ? Lab.getRole() : 'student',
+      href: labHref(week),
+      homeHref: '#/',
+      roleHref: '#/role',
+    }, extra || {});
+  }
+
+  function renderNav() {
+    const role = window.MvtLab && window.MvtLab.getRole();
+    const roleBit = role ? `<a href="#/role">${role === 'teacher' ? 'учитель' : 'учащийся'}</a>` : '';
+    nav.innerHTML = key ? `<a href="#/">Уроки</a>${roleBit}<button id="logout">Выйти</button>` : '';
+    const b = document.getElementById('logout');
+    if (b) b.onclick = () => { sessionStorage.removeItem('mvt.key'); key = null; cache.clear(); location.hash = '#/'; route(); };
+  }
 
   function renderLogin(msg) {
     app.innerHTML = `<div class="login"><h1>Вход</h1><p class="muted">Введите код доступа, выданный организатором. Расшифровка происходит в браузере.</p>
@@ -94,15 +135,24 @@
     return doc.body.innerHTML;
   }
 
-  async function renderLesson(week) {
+  async function decodeLab(entry) {
+    const labBuf = await file(entry, 'lab.json');
+    if (!labBuf) return null;
+    try { return JSON.parse(dec.decode(labBuf)); } catch { return null; }
+  }
+
+  async function renderMaterial(week, screen) {
     const m = await loadManifest(); const i = m.lessons.findIndex(l => l.week === week); const entry = m.lessons[i];
     if (!entry) { app.innerHTML = '<p>Урок не найден.</p>'; return; }
     app.innerHTML = '<p class="muted">Расшифровка урока…</p>';
     try {
-      const [md, narr, poster, audio, video, vtt] = await Promise.all([file(entry, 'lesson.md'), file(entry, 'narration.md'), url(entry, 'poster.jpg'), url(entry, 'audio.mp3'), url(entry, 'video.mp4'), url(entry, 'video.vtt')]);
+      const [md, narr, poster, audio, video, vtt, lab] = await Promise.all([file(entry, 'lesson.md'), file(entry, 'narration.md'), url(entry, 'poster.jpg'), url(entry, 'audio.mp3'), url(entry, 'video.mp4'), url(entry, 'video.vtt'), decodeLab(entry)]);
       const done = JSON.parse(localStorage.getItem('mvt.done') || '[]'); const isDone = done.includes(week);
       const prev = m.lessons[i - 1], next = m.lessons[i + 1];
-      app.innerHTML = `<div id="media" class="media">
+      const Lab = window.MvtLab;
+      const o = labOpts(week);
+      const hubLink = lab ? `<p class="lab-crumb"><a href="#/w/${week}">← Хаб недели ${week}</a></p>` : '';
+      app.innerHTML = `${hubLink}<div id="media" class="media">
           ${video ? `<video controls playsinline preload="metadata" ${poster ? `poster="${poster}"` : ''}><source src="${video}" type="video/mp4">${vtt ? `<track kind="captions" srclang="ru" label="Русские субтитры" src="${vtt}" default>` : ''}</video>` : ''}
           ${audio ? `<audio controls preload="none" src="${audio}"></audio>` : ''}
           ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr), week)}</details>` : ''}
@@ -110,9 +160,38 @@
         <article>${safeMarkdown(dec.decode(md), week)}</article>
         <p><button id="done" class="primary">${isDone ? 'Снять отметку «пройдено»' : 'Отметить пройденным'}</button></p>
         <div class="pager"><span>${prev ? `<a href="#/w/${prev.week}">← ${prev.title}</a>` : ''}</span><span>${next ? `<a href="#/w/${next.week}">${next.title} →</a>` : ''}</span></div>`;
-      document.getElementById('done').onclick = () => { const d = JSON.parse(localStorage.getItem('mvt.done') || '[]'); const idx = d.indexOf(week); if (idx >= 0) d.splice(idx, 1); else d.push(week); localStorage.setItem('mvt.done', JSON.stringify(d)); renderLesson(week); };
+      const doneBtn = document.getElementById('done');
+      const article = app.querySelector('article');
+      if (lab && Lab) Lab.prepareMaterial(article, lab, week, o);
+      doneBtn.onclick = () => {
+        if (lab && Lab && !Lab.isComplete(week, lab)) return;
+        const d = JSON.parse(localStorage.getItem('mvt.done') || '[]'); const idx = d.indexOf(week); if (idx >= 0) d.splice(idx, 1); else d.push(week); localStorage.setItem('mvt.done', JSON.stringify(d)); renderMaterial(week, screen);
+      };
+      if (lab && Lab && !Lab.isComplete(week, lab)) {
+        doneBtn.disabled = true;
+        doneBtn.title = 'Сначала квиз 100 % и стенд';
+      }
       window.scrollTo(0, 0);
     } catch (e) { app.innerHTML = `<p class="err">Не удалось расшифровать урок. Выйдите и введите код заново.</p>`; }
+  }
+
+  async function renderWeek(week, screen, extra) {
+    const m = await loadManifest(); const entry = m.lessons.find(l => l.week === week);
+    if (!entry) { app.innerHTML = '<p>Урок не найден.</p>'; return; }
+    const lab = await decodeLab(entry);
+    const Lab = window.MvtLab;
+    if (!lab || !Lab) {
+      await renderMaterial(week, 'material');
+      return;
+    }
+    const o = labOpts(week, extra);
+    app.classList.toggle('is-wide', screen === 'quiz' || screen === 'stand');
+    if (screen === 'hub') Lab.renderHub(app, lab, week, o);
+    else if (screen === 'quiz') Lab.renderQuiz(app, lab, week, o);
+    else if (screen === 'stand') Lab.renderStand(app, lab, week, o);
+    else if (screen === 'tasks') Lab.renderTasks(app, lab, week, o);
+    else await renderMaterial(week, screen);
+    window.scrollTo(0, 0);
   }
 
   async function route() {
@@ -122,8 +201,19 @@
     renderNav();
     const h = location.hash || '#/';
     if (h === '#media') { location.replace('#/'); return; }
-    const mw = h.match(/^#\/w\/(\d+)/);
-    if (mw) renderLesson(parseInt(mw[1], 10)); else renderList();
+    const r = parseRoute();
+    const Lab = window.MvtLab;
+    if (r.screen !== 'role' && Lab && !Lab.getRole()) { location.hash = '#/role'; return; }
+    app.classList.remove('is-wide');
+    if (r.screen === 'role') {
+      Lab.renderRole(app, {
+        href: () => '#/',
+        onPick: () => { location.hash = '#/'; },
+      });
+      return;
+    }
+    if (r.screen === 'list') renderList();
+    else renderWeek(r.week, r.screen, { qIndex: r.q, filter: r.topic });
   }
   app.addEventListener('click', e => {
     const a = e.target.closest('a[data-media]');
