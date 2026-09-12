@@ -6,38 +6,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w01-lesson.md.enc",
-     "bytes": 34631,
-     "sha256": "26b8ed763bbccbc3"
+     "bytes": 36421,
+     "sha256": "93093759d0abdaed"
     },
     "narration.md": {
      "path": "data/w01-narration.md.enc",
      "bytes": 3956,
-     "sha256": "b7266512296c3249"
+     "sha256": "21594ff2d43692d7"
     },
     "lab.json": {
      "path": "data/w01-lab.json.enc",
      "bytes": 38344,
-     "sha256": "062f689e2f528f33"
+     "sha256": "08323a9343c4b5b9"
     },
     "audio.mp3": {
      "path": "data/w01-audio.mp3.enc",
      "bytes": 1672217,
-     "sha256": "0e1f831ade57c684"
+     "sha256": "8ad3e26f5f983f3e"
     },
     "video.mp4": {
      "path": "data/w01-video.mp4.enc",
      "bytes": 2793881,
-     "sha256": "566163cb40edfa9a"
+     "sha256": "a63d04c0eda1335d"
     },
     "video.vtt": {
      "path": "data/w01-video.vtt.enc",
      "bytes": 8863,
-     "sha256": "b95d7e4d3179b117"
+     "sha256": "77234847692d99c7"
     },
     "poster.jpg": {
      "path": "data/w01-poster.jpg.enc",
      "bytes": 137661,
-     "sha256": "b4cb6d07a6f0d7e3"
+     "sha256": "2750f0d69769c8ea"
     }
    }
   },
@@ -47,38 +47,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w02-lesson.md.enc",
-     "bytes": 59034,
-     "sha256": "5af3f581f067dc9c"
+     "bytes": 60760,
+     "sha256": "7180542a8e1914c6"
     },
     "narration.md": {
      "path": "data/w02-narration.md.enc",
      "bytes": 7082,
-     "sha256": "caedcb3ec32aaea7"
+     "sha256": "812d419291504951"
     },
     "lab.json": {
      "path": "data/w02-lab.json.enc",
      "bytes": 36917,
-     "sha256": "d8cb3e162f871236"
+     "sha256": "5f31981d80c61364"
     },
     "audio.mp3": {
      "path": "data/w02-audio.mp3.enc",
      "bytes": 1633046,
-     "sha256": "93a76afa38dd1960"
+     "sha256": "2cc962241ab0a36e"
     },
     "video.mp4": {
      "path": "data/w02-video.mp4.enc",
      "bytes": 2856024,
-     "sha256": "f8d0890aa90d54fd"
+     "sha256": "1e3bfc78c61350dc"
     },
     "video.vtt": {
      "path": "data/w02-video.vtt.enc",
      "bytes": 9006,
-     "sha256": "22f8d6ac1d76c7a1"
+     "sha256": "73debf7cf6869ae7"
     },
     "poster.jpg": {
      "path": "data/w02-poster.jpg.enc",
      "bytes": 156476,
-     "sha256": "3baa1e23ea5b6599"
+     "sha256": "40c8fb6eb05708b7"
     }
    }
   },
@@ -88,38 +88,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w03-lesson.md.enc",
-     "bytes": 35595,
-     "sha256": "2fbd830bfe403c47"
+     "bytes": 37310,
+     "sha256": "f825f04f6fd25f7d"
     },
     "narration.md": {
      "path": "data/w03-narration.md.enc",
      "bytes": 5366,
-     "sha256": "4e18e213ca02b882"
+     "sha256": "305bb8a5644432ce"
     },
     "lab.json": {
      "path": "data/w03-lab.json.enc",
      "bytes": 34303,
-     "sha256": "519d2792ea2ae9e3"
+     "sha256": "101dc4056406ac83"
     },
     "audio.mp3": {
      "path": "data/w03-audio.mp3.enc",
      "bytes": 1291789,
-     "sha256": "c8d85ca9f2adde3c"
+     "sha256": "74912769c92d0857"
     },
     "video.mp4": {
      "path": "data/w03-video.mp4.enc",
      "bytes": 2173712,
-     "sha256": "2fa5c2373488b45d"
+     "sha256": "83a4f096ea54632e"
     },
     "video.vtt": {
      "path": "data/w03-video.vtt.enc",
      "bytes": 7119,
-     "sha256": "ff29d198a44cacc5"
+     "sha256": "64bae40fc29415e5"
     },
     "poster.jpg": {
      "path": "data/w03-poster.jpg.enc",
      "bytes": 134145,
-     "sha256": "8b74aba37b14086a"
+     "sha256": "382ea59aff0b92a0"
     }
    }
   },
@@ -129,38 +129,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w04-lesson.md.enc",
-     "bytes": 32095,
-     "sha256": "72fab99410c6bcf7"
+     "bytes": 33802,
+     "sha256": "be1a87610b3ffd6e"
     },
     "narration.md": {
      "path": "data/w04-narration.md.enc",
      "bytes": 4599,
-     "sha256": "01ca935b49bcd07c"
+     "sha256": "508fdd475e4e4019"
     },
     "lab.json": {
      "path": "data/w04-lab.json.enc",
      "bytes": 31332,
-     "sha256": "ec1c64dff0d411de"
+     "sha256": "c26c591512cca230"
     },
     "audio.mp3": {
      "path": "data/w04-audio.mp3.enc",
      "bytes": 1155424,
-     "sha256": "bc9e270a916ec50b"
+     "sha256": "67f7248528e3fa3f"
     },
     "video.mp4": {
      "path": "data/w04-video.mp4.enc",
      "bytes": 1913329,
-     "sha256": "52481c22d9750438"
+     "sha256": "8654f8da746aba9c"
     },
     "video.vtt": {
      "path": "data/w04-video.vtt.enc",
      "bytes": 6352,
-     "sha256": "cf3e072202e19698"
+     "sha256": "47c5b6351a631118"
     },
     "poster.jpg": {
      "path": "data/w04-poster.jpg.enc",
      "bytes": 141505,
-     "sha256": "fcfc9420029652b7"
+     "sha256": "af06aa48144a9b33"
     }
    }
   },
@@ -170,38 +170,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w05-lesson.md.enc",
-     "bytes": 32674,
-     "sha256": "c1229ac30c33f02d"
+     "bytes": 34464,
+     "sha256": "4e5cd72f60f54167"
     },
     "narration.md": {
      "path": "data/w05-narration.md.enc",
      "bytes": 4305,
-     "sha256": "e49bc020ea4fbb36"
+     "sha256": "541651163f2eae6d"
     },
     "lab.json": {
      "path": "data/w05-lab.json.enc",
      "bytes": 34018,
-     "sha256": "b86d2d5682a1bfdf"
+     "sha256": "2b75546bcc7c57aa"
     },
     "audio.mp3": {
      "path": "data/w05-audio.mp3.enc",
      "bytes": 1097401,
-     "sha256": "1ea68a16e7700e72"
+     "sha256": "035c7eca9cd6c1a5"
     },
     "video.mp4": {
      "path": "data/w05-video.mp4.enc",
      "bytes": 1798015,
-     "sha256": "413803d44d97b39e"
+     "sha256": "3407c8b3d877c0ab"
     },
     "video.vtt": {
      "path": "data/w05-video.vtt.enc",
      "bytes": 6059,
-     "sha256": "517e73c0b485134b"
+     "sha256": "e326c29c4cdbe135"
     },
     "poster.jpg": {
      "path": "data/w05-poster.jpg.enc",
      "bytes": 132127,
-     "sha256": "179ab412327a25f9"
+     "sha256": "8bf4d55e2d181b1c"
     }
    }
   },
@@ -211,38 +211,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w06-lesson.md.enc",
-     "bytes": 27076,
-     "sha256": "d15ff012a44a8808"
+     "bytes": 28819,
+     "sha256": "5489d1d6c5666c09"
     },
     "narration.md": {
      "path": "data/w06-narration.md.enc",
      "bytes": 4044,
-     "sha256": "75bb67a9b97da706"
+     "sha256": "f91094f3c07ea078"
     },
     "lab.json": {
      "path": "data/w06-lab.json.enc",
      "bytes": 30282,
-     "sha256": "7415c1f2dd37e192"
+     "sha256": "02d3b5b1f008a0f5"
     },
     "audio.mp3": {
      "path": "data/w06-audio.mp3.enc",
      "bytes": 1063821,
-     "sha256": "c58961d6e2da0bc7"
+     "sha256": "273ce774806a1a3d"
     },
     "video.mp4": {
      "path": "data/w06-video.mp4.enc",
      "bytes": 1714307,
-     "sha256": "0ea48969cf254af1"
+     "sha256": "36d7223e6dc11372"
     },
     "video.vtt": {
      "path": "data/w06-video.vtt.enc",
      "bytes": 6002,
-     "sha256": "9ecf999963e04505"
+     "sha256": "657e2a70bc0e3cb2"
     },
     "poster.jpg": {
      "path": "data/w06-poster.jpg.enc",
      "bytes": 120657,
-     "sha256": "f04631007fac77b6"
+     "sha256": "50910617e5c16c33"
     }
    }
   },
@@ -252,38 +252,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w07-lesson.md.enc",
-     "bytes": 24468,
-     "sha256": "9d199803a01ee61f"
+     "bytes": 26062,
+     "sha256": "ca3f7a05e31be6e2"
     },
     "narration.md": {
      "path": "data/w07-narration.md.enc",
      "bytes": 3743,
-     "sha256": "dea35f02c658e3e6"
+     "sha256": "67f3a4dd3b26fa55"
     },
     "lab.json": {
      "path": "data/w07-lab.json.enc",
      "bytes": 28383,
-     "sha256": "1b13976f2f857cf6"
+     "sha256": "03178b89cbacde42"
     },
     "audio.mp3": {
      "path": "data/w07-audio.mp3.enc",
      "bytes": 990676,
-     "sha256": "7ed2e614b8e59d34"
+     "sha256": "8ddde42def683daf"
     },
     "video.mp4": {
      "path": "data/w07-video.mp4.enc",
      "bytes": 1562188,
-     "sha256": "ffba8628e3bc986a"
+     "sha256": "dea9ef3ddcae267c"
     },
     "video.vtt": {
      "path": "data/w07-video.vtt.enc",
      "bytes": 5633,
-     "sha256": "4a6f1b5eb304fec5"
+     "sha256": "48264888be6c4f57"
     },
     "poster.jpg": {
      "path": "data/w07-poster.jpg.enc",
      "bytes": 119107,
-     "sha256": "a88f19ead4a82b62"
+     "sha256": "b6fb4b84f57a15d6"
     }
    }
   },
@@ -293,38 +293,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w08-lesson.md.enc",
-     "bytes": 30269,
-     "sha256": "9c8477e4a13c6dcc"
+     "bytes": 31944,
+     "sha256": "9cf0306cb815237f"
     },
     "narration.md": {
      "path": "data/w08-narration.md.enc",
      "bytes": 4301,
-     "sha256": "06b03326b728b1bd"
+     "sha256": "5b09bc2247bfeb60"
     },
     "lab.json": {
      "path": "data/w08-lab.json.enc",
      "bytes": 32833,
-     "sha256": "8fd0d205d3b104ce"
+     "sha256": "da81f2a8a6b62643"
     },
     "audio.mp3": {
      "path": "data/w08-audio.mp3.enc",
      "bytes": 1082814,
-     "sha256": "58024e5aa17f3ab9"
+     "sha256": "eb64169865c8a57e"
     },
     "video.mp4": {
      "path": "data/w08-video.mp4.enc",
      "bytes": 1759950,
-     "sha256": "d583eafe041bb48d"
+     "sha256": "2a38fa5f078aff58"
     },
     "video.vtt": {
      "path": "data/w08-video.vtt.enc",
      "bytes": 5953,
-     "sha256": "5d755145777ca68b"
+     "sha256": "cfe6b26e6f917cd9"
     },
     "poster.jpg": {
      "path": "data/w08-poster.jpg.enc",
      "bytes": 134255,
-     "sha256": "bcc8ed09304d9342"
+     "sha256": "3775d9eb8fffee48"
     }
    }
   },
@@ -334,38 +334,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w09-lesson.md.enc",
-     "bytes": 26079,
-     "sha256": "e415d97693b48c86"
+     "bytes": 27688,
+     "sha256": "0296b6bd386008d7"
     },
     "narration.md": {
      "path": "data/w09-narration.md.enc",
      "bytes": 4260,
-     "sha256": "0a8d99703075fbac"
+     "sha256": "05b24253a42fee2f"
     },
     "lab.json": {
      "path": "data/w09-lab.json.enc",
      "bytes": 29519,
-     "sha256": "86f3c6c20ad3ed69"
+     "sha256": "9bcfeb77ae5fe504"
     },
     "audio.mp3": {
      "path": "data/w09-audio.mp3.enc",
      "bytes": 1071586,
-     "sha256": "3062bfb4750ffe59"
+     "sha256": "361740d940df68b1"
     },
     "video.mp4": {
      "path": "data/w09-video.mp4.enc",
      "bytes": 1784843,
-     "sha256": "d1c6085b7413b116"
+     "sha256": "87817c37dbd82ab2"
     },
     "video.vtt": {
      "path": "data/w09-video.vtt.enc",
      "bytes": 5878,
-     "sha256": "02bc2d94de27555d"
+     "sha256": "167df4519917224a"
     },
     "poster.jpg": {
      "path": "data/w09-poster.jpg.enc",
      "bytes": 143771,
-     "sha256": "a3e5901020dd1715"
+     "sha256": "b64b8c1a5c9f2fca"
     }
    }
   },
@@ -375,38 +375,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w10-lesson.md.enc",
-     "bytes": 26217,
-     "sha256": "2bbbb43ea75cbabc"
+     "bytes": 27739,
+     "sha256": "50db13b086d3d8dd"
     },
     "narration.md": {
      "path": "data/w10-narration.md.enc",
      "bytes": 4045,
-     "sha256": "de8b075cba44c2d4"
+     "sha256": "fab0824d029810bb"
     },
     "lab.json": {
      "path": "data/w10-lab.json.enc",
      "bytes": 27986,
-     "sha256": "6181375b4807d95c"
+     "sha256": "ffa4776e1dc1d410"
     },
     "audio.mp3": {
      "path": "data/w10-audio.mp3.enc",
      "bytes": 1011974,
-     "sha256": "09523a9f7f2b9a24"
+     "sha256": "7988810c6f689295"
     },
     "video.mp4": {
      "path": "data/w10-video.mp4.enc",
      "bytes": 1642789,
-     "sha256": "d6f8b2eea568a7bb"
+     "sha256": "eb853bbb3ca2c577"
     },
     "video.vtt": {
      "path": "data/w10-video.vtt.enc",
      "bytes": 5595,
-     "sha256": "f6bdfa13bfff8a0a"
+     "sha256": "c8785ba9535df5bf"
     },
     "poster.jpg": {
      "path": "data/w10-poster.jpg.enc",
      "bytes": 124359,
-     "sha256": "9c0216b93442ba2d"
+     "sha256": "44b455e6f93ee36b"
     }
    }
   },
@@ -416,38 +416,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w11-lesson.md.enc",
-     "bytes": 36079,
-     "sha256": "7f84a90f2f9c788c"
+     "bytes": 37903,
+     "sha256": "f97bf9b9f4479dff"
     },
     "narration.md": {
      "path": "data/w11-narration.md.enc",
      "bytes": 5319,
-     "sha256": "ca623b2a19d0069f"
+     "sha256": "8354bdbf51f89011"
     },
     "lab.json": {
      "path": "data/w11-lab.json.enc",
      "bytes": 40888,
-     "sha256": "e5ceadc35b2ae577"
+     "sha256": "9f53cbcfd549eb5d"
     },
     "audio.mp3": {
      "path": "data/w11-audio.mp3.enc",
      "bytes": 1304474,
-     "sha256": "f5fec02c2435cec4"
+     "sha256": "fc3d145c260d15ff"
     },
     "video.mp4": {
      "path": "data/w11-video.mp4.enc",
      "bytes": 2203633,
-     "sha256": "a9ed88d0a5a956e9"
+     "sha256": "18060273ad4003ed"
     },
     "video.vtt": {
      "path": "data/w11-video.vtt.enc",
      "bytes": 7141,
-     "sha256": "baef247fd5456a07"
+     "sha256": "0796d7d80ec6189f"
     },
     "poster.jpg": {
      "path": "data/w11-poster.jpg.enc",
      "bytes": 174347,
-     "sha256": "9270171694057fe1"
+     "sha256": "baa638f848f36bdd"
     }
    }
   },
@@ -457,38 +457,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w12-lesson.md.enc",
-     "bytes": 30107,
-     "sha256": "3e86dad5388cc2f8"
+     "bytes": 31744,
+     "sha256": "c147247bb9f179f9"
     },
     "narration.md": {
      "path": "data/w12-narration.md.enc",
      "bytes": 5393,
-     "sha256": "1e0b0ea9e161d4fe"
+     "sha256": "337f7e33c93677f8"
     },
     "lab.json": {
      "path": "data/w12-lab.json.enc",
      "bytes": 36650,
-     "sha256": "b0a41daa0fa91efb"
+     "sha256": "e243bd26b51c73cb"
     },
     "audio.mp3": {
      "path": "data/w12-audio.mp3.enc",
      "bytes": 1310110,
-     "sha256": "ea2f42bcb1c9f108"
+     "sha256": "1c296ededfd494b6"
     },
     "video.mp4": {
      "path": "data/w12-video.mp4.enc",
      "bytes": 2235830,
-     "sha256": "b92154d964f94361"
+     "sha256": "ce49b11f3870d805"
     },
     "video.vtt": {
      "path": "data/w12-video.vtt.enc",
      "bytes": 7146,
-     "sha256": "4949c6ddf7147f9e"
+     "sha256": "17d03065e1b6b453"
     },
     "poster.jpg": {
      "path": "data/w12-poster.jpg.enc",
      "bytes": 167989,
-     "sha256": "f4cdd43b753a89eb"
+     "sha256": "a035f532eebbfd61"
     }
    }
   },
@@ -498,38 +498,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w13-lesson.md.enc",
-     "bytes": 26747,
-     "sha256": "6c09f899203f30c5"
+     "bytes": 28479,
+     "sha256": "13fc3a25311f2a78"
     },
     "narration.md": {
      "path": "data/w13-narration.md.enc",
      "bytes": 5018,
-     "sha256": "2b50d802dd6b683d"
+     "sha256": "e4e9978bb56f1c15"
     },
     "lab.json": {
      "path": "data/w13-lab.json.enc",
      "bytes": 36259,
-     "sha256": "41ec82cbb3fe1843"
+     "sha256": "ec8581275c68f97a"
     },
     "audio.mp3": {
      "path": "data/w13-audio.mp3.enc",
      "bytes": 1234354,
-     "sha256": "a3fdd69b143cb257"
+     "sha256": "67cd8f8af55bb2cd"
     },
     "video.mp4": {
      "path": "data/w13-video.mp4.enc",
      "bytes": 2109739,
-     "sha256": "c2aa75e9a05ebead"
+     "sha256": "30deba2437df598b"
     },
     "video.vtt": {
      "path": "data/w13-video.vtt.enc",
      "bytes": 6703,
-     "sha256": "c5ca7232e1606b40"
+     "sha256": "e7c1337bf314a365"
     },
     "poster.jpg": {
      "path": "data/w13-poster.jpg.enc",
      "bytes": 153883,
-     "sha256": "f5f598ce042d89c8"
+     "sha256": "7c0baca450fb8ba7"
     }
    }
   },
@@ -539,38 +539,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w14-lesson.md.enc",
-     "bytes": 26958,
-     "sha256": "ef4ffece7e297c5f"
+     "bytes": 28618,
+     "sha256": "96f0d6b43604eda4"
     },
     "narration.md": {
      "path": "data/w14-narration.md.enc",
      "bytes": 4125,
-     "sha256": "9725e0f8669dc7e9"
+     "sha256": "1bf92c5ddfd863d6"
     },
     "lab.json": {
      "path": "data/w14-lab.json.enc",
      "bytes": 35274,
-     "sha256": "986f018b77206ef2"
+     "sha256": "fb08a80004abeffa"
     },
     "audio.mp3": {
      "path": "data/w14-audio.mp3.enc",
      "bytes": 1013467,
-     "sha256": "459c91af809dbb66"
+     "sha256": "1ff8abcf249ef0fb"
     },
     "video.mp4": {
      "path": "data/w14-video.mp4.enc",
      "bytes": 1694060,
-     "sha256": "56350c738dcec081"
+     "sha256": "b7178a37f269a03e"
     },
     "video.vtt": {
      "path": "data/w14-video.vtt.enc",
      "bytes": 5539,
-     "sha256": "bc34212fdd5102f5"
+     "sha256": "1531af5a2d17750e"
     },
     "poster.jpg": {
      "path": "data/w14-poster.jpg.enc",
      "bytes": 142862,
-     "sha256": "0d31677894cfd822"
+     "sha256": "ecf76f6682a818cc"
     }
    }
   },
@@ -580,38 +580,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w15-lesson.md.enc",
-     "bytes": 24414,
-     "sha256": "86220fc92e0fd60e"
+     "bytes": 26048,
+     "sha256": "0e39fa4e5485a448"
     },
     "narration.md": {
      "path": "data/w15-narration.md.enc",
      "bytes": 3900,
-     "sha256": "15c21f3acad32f2b"
+     "sha256": "be47e542f830ceda"
     },
     "lab.json": {
      "path": "data/w15-lab.json.enc",
      "bytes": 29254,
-     "sha256": "82a86fb76b7562c4"
+     "sha256": "b02e95caf790fe9f"
     },
     "audio.mp3": {
      "path": "data/w15-audio.mp3.enc",
      "bytes": 969255,
-     "sha256": "b840ebdcfc3071b6"
+     "sha256": "1be5543a432608c5"
     },
     "video.mp4": {
      "path": "data/w15-video.mp4.enc",
      "bytes": 1608065,
-     "sha256": "a7f0084f0966556d"
+     "sha256": "285f7bf236307f3a"
     },
     "video.vtt": {
      "path": "data/w15-video.vtt.enc",
      "bytes": 5280,
-     "sha256": "0b8acdeae60920d9"
+     "sha256": "21a0bf02517957f0"
     },
     "poster.jpg": {
      "path": "data/w15-poster.jpg.enc",
      "bytes": 132111,
-     "sha256": "1a9bd40ec76a7870"
+     "sha256": "ce8325442d764415"
     }
    }
   },
@@ -621,38 +621,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w16-lesson.md.enc",
-     "bytes": 24278,
-     "sha256": "3d81e3e35e9e45da"
+     "bytes": 25882,
+     "sha256": "d057f4213fc55586"
     },
     "narration.md": {
      "path": "data/w16-narration.md.enc",
      "bytes": 4062,
-     "sha256": "1238d815a6280ea2"
+     "sha256": "d209f431a42d81f2"
     },
     "lab.json": {
      "path": "data/w16-lab.json.enc",
      "bytes": 28251,
-     "sha256": "9bd99bf9a996c55e"
+     "sha256": "1f274aef703d71c4"
     },
     "audio.mp3": {
      "path": "data/w16-audio.mp3.enc",
      "bytes": 1003827,
-     "sha256": "4638552f224fa0ab"
+     "sha256": "78a23fb68465e9fb"
     },
     "video.mp4": {
      "path": "data/w16-video.mp4.enc",
      "bytes": 1670317,
-     "sha256": "b521597f37c9cc86"
+     "sha256": "9fbf02195931b104"
     },
     "video.vtt": {
      "path": "data/w16-video.vtt.enc",
      "bytes": 5510,
-     "sha256": "17007548aae886df"
+     "sha256": "0e8ed2a38ade936c"
     },
     "poster.jpg": {
      "path": "data/w16-poster.jpg.enc",
      "bytes": 119329,
-     "sha256": "af4bd9c6657f4e63"
+     "sha256": "1902fc09da264f4a"
     }
    }
   },
@@ -662,38 +662,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w17-lesson.md.enc",
-     "bytes": 27025,
-     "sha256": "2005625734e9cfff"
+     "bytes": 28587,
+     "sha256": "6ea541a1f58bfbff"
     },
     "narration.md": {
      "path": "data/w17-narration.md.enc",
      "bytes": 3863,
-     "sha256": "d101a8b91c8d8a54"
+     "sha256": "d690b822face050b"
     },
     "lab.json": {
      "path": "data/w17-lab.json.enc",
      "bytes": 33485,
-     "sha256": "53464afcf5f59952"
+     "sha256": "38ac797a40fdb974"
     },
     "audio.mp3": {
      "path": "data/w17-audio.mp3.enc",
      "bytes": 1005951,
-     "sha256": "c4f51d03a9329f19"
+     "sha256": "f0e435df716e4ed2"
     },
     "video.mp4": {
      "path": "data/w17-video.mp4.enc",
      "bytes": 1684080,
-     "sha256": "652b9e5cee490e11"
+     "sha256": "f692091199915e06"
     },
     "video.vtt": {
      "path": "data/w17-video.vtt.enc",
      "bytes": 5583,
-     "sha256": "1e5c7a90865f3cae"
+     "sha256": "8df4df30c38765c0"
     },
     "poster.jpg": {
      "path": "data/w17-poster.jpg.enc",
      "bytes": 136493,
-     "sha256": "472bc3d3be6e1d67"
+     "sha256": "2cc0d69286fb5042"
     }
    }
   },
@@ -703,38 +703,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w18-lesson.md.enc",
-     "bytes": 22174,
-     "sha256": "538c682ff6409bdf"
+     "bytes": 23733,
+     "sha256": "f86eebb63ab5e717"
     },
     "narration.md": {
      "path": "data/w18-narration.md.enc",
      "bytes": 2941,
-     "sha256": "cc468dbdc7f35bf6"
+     "sha256": "39e22a302ee8d1c6"
     },
     "lab.json": {
      "path": "data/w18-lab.json.enc",
      "bytes": 28637,
-     "sha256": "f1dfee16c71a6e1a"
+     "sha256": "312592da54b028ee"
     },
     "audio.mp3": {
      "path": "data/w18-audio.mp3.enc",
      "bytes": 790552,
-     "sha256": "fb9ebce6d94d13ab"
+     "sha256": "b19422a97f52f55f"
     },
     "video.mp4": {
      "path": "data/w18-video.mp4.enc",
      "bytes": 1305473,
-     "sha256": "d6740b1c0cd8a4e5"
+     "sha256": "87458c64897f559b"
     },
     "video.vtt": {
      "path": "data/w18-video.vtt.enc",
      "bytes": 4423,
-     "sha256": "62afceaf308e7e97"
+     "sha256": "30c5cc8cd88235ee"
     },
     "poster.jpg": {
      "path": "data/w18-poster.jpg.enc",
      "bytes": 150799,
-     "sha256": "f0a575c626d752b9"
+     "sha256": "d554bdc9a13c09d5"
     }
    }
   },
@@ -744,38 +744,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w19-lesson.md.enc",
-     "bytes": 18445,
-     "sha256": "8ccf3c650d94d6f7"
+     "bytes": 19926,
+     "sha256": "fec9827a5e74ea0e"
     },
     "narration.md": {
      "path": "data/w19-narration.md.enc",
      "bytes": 3118,
-     "sha256": "d6d7bd24923c1c53"
+     "sha256": "2869c781104f2587"
     },
     "lab.json": {
      "path": "data/w19-lab.json.enc",
      "bytes": 25927,
-     "sha256": "a4827528c90b8b92"
+     "sha256": "6cad3f14215923a5"
     },
     "audio.mp3": {
      "path": "data/w19-audio.mp3.enc",
      "bytes": 821389,
-     "sha256": "51d01ce293e384d7"
+     "sha256": "35eaa4f237050a99"
     },
     "video.mp4": {
      "path": "data/w19-video.mp4.enc",
      "bytes": 1332074,
-     "sha256": "db9234736f27c17e"
+     "sha256": "65b9439a57dc8ebf"
     },
     "video.vtt": {
      "path": "data/w19-video.vtt.enc",
      "bytes": 4600,
-     "sha256": "80820b291d18f96a"
+     "sha256": "9559b7b67289309b"
     },
     "poster.jpg": {
      "path": "data/w19-poster.jpg.enc",
      "bytes": 134851,
-     "sha256": "53b13d9f77736726"
+     "sha256": "c620854b2340fe9c"
     }
    }
   },
@@ -785,38 +785,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w20-lesson.md.enc",
-     "bytes": 18076,
-     "sha256": "ec7532e7622e4a51"
+     "bytes": 19561,
+     "sha256": "a530f0635b63e8d4"
     },
     "narration.md": {
      "path": "data/w20-narration.md.enc",
      "bytes": 2570,
-     "sha256": "09bc7852dd59d24b"
+     "sha256": "efb6745ed5841bbd"
     },
     "lab.json": {
      "path": "data/w20-lab.json.enc",
      "bytes": 25876,
-     "sha256": "59fd9636997ce6eb"
+     "sha256": "208fe9dae522ae8a"
     },
     "audio.mp3": {
      "path": "data/w20-audio.mp3.enc",
      "bytes": 681423,
-     "sha256": "4917557994fde8a3"
+     "sha256": "c6a7960e5fe53d0f"
     },
     "video.mp4": {
      "path": "data/w20-video.mp4.enc",
      "bytes": 1116389,
-     "sha256": "e89d207340770b67"
+     "sha256": "a97c6248aa10335a"
     },
     "video.vtt": {
      "path": "data/w20-video.vtt.enc",
      "bytes": 3815,
-     "sha256": "a1a099607b785315"
+     "sha256": "54e292c51076d4f1"
     },
     "poster.jpg": {
      "path": "data/w20-poster.jpg.enc",
      "bytes": 156308,
-     "sha256": "0a59cfb22bea9fed"
+     "sha256": "cfe2944cf624edc9"
     }
    }
   },
@@ -826,38 +826,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w21-lesson.md.enc",
-     "bytes": 17705,
-     "sha256": "cf6661e2fa8ef972"
+     "bytes": 19115,
+     "sha256": "90ce7c22434b4bc8"
     },
     "narration.md": {
      "path": "data/w21-narration.md.enc",
      "bytes": 2527,
-     "sha256": "95c17f26c62c4f16"
+     "sha256": "ecf40d61d3e6ceaa"
     },
     "lab.json": {
      "path": "data/w21-lab.json.enc",
      "bytes": 24631,
-     "sha256": "ed26f3ab141f8577"
+     "sha256": "740b1af300f0ff48"
     },
     "audio.mp3": {
      "path": "data/w21-audio.mp3.enc",
      "bytes": 680393,
-     "sha256": "2dff0d40644d3440"
+     "sha256": "e24c2f640954c335"
     },
     "video.mp4": {
      "path": "data/w21-video.mp4.enc",
      "bytes": 1105779,
-     "sha256": "bb092349c92cd8f5"
+     "sha256": "8a79284a8d04bf94"
     },
     "video.vtt": {
      "path": "data/w21-video.vtt.enc",
      "bytes": 3771,
-     "sha256": "e18813b4f3887d1c"
+     "sha256": "29174673bd7ec761"
     },
     "poster.jpg": {
      "path": "data/w21-poster.jpg.enc",
      "bytes": 135515,
-     "sha256": "af20673ec6012921"
+     "sha256": "b3aa98683d826f3c"
     }
    }
   },
@@ -867,38 +867,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w22-lesson.md.enc",
-     "bytes": 16656,
-     "sha256": "2a6710ad017836de"
+     "bytes": 18158,
+     "sha256": "9f5f9883f45392ac"
     },
     "narration.md": {
      "path": "data/w22-narration.md.enc",
      "bytes": 2420,
-     "sha256": "a500de8b587d2cef"
+     "sha256": "bdaf1e1675c06ade"
     },
     "lab.json": {
      "path": "data/w22-lab.json.enc",
      "bytes": 23755,
-     "sha256": "0c35b1db8406e3b7"
+     "sha256": "19430b2be1eb208d"
     },
     "audio.mp3": {
      "path": "data/w22-audio.mp3.enc",
      "bytes": 665145,
-     "sha256": "5fb38baafdd02097"
+     "sha256": "c3f8c3828304c206"
     },
     "video.mp4": {
      "path": "data/w22-video.mp4.enc",
      "bytes": 1080598,
-     "sha256": "5f70a6b549389d59"
+     "sha256": "bb69f116a1cc0e50"
     },
     "video.vtt": {
      "path": "data/w22-video.vtt.enc",
      "bytes": 3698,
-     "sha256": "8416836a2fdf8011"
+     "sha256": "f18f803890db1809"
     },
     "poster.jpg": {
      "path": "data/w22-poster.jpg.enc",
      "bytes": 157450,
-     "sha256": "2efb13eed80084cc"
+     "sha256": "25458bf887274776"
     }
    }
   },
@@ -908,38 +908,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w23-lesson.md.enc",
-     "bytes": 17690,
-     "sha256": "c8a7b324bfdb09f5"
+     "bytes": 19175,
+     "sha256": "27f045367e80049e"
     },
     "narration.md": {
      "path": "data/w23-narration.md.enc",
      "bytes": 2998,
-     "sha256": "d99c800d413f0e37"
+     "sha256": "aba2e64c77c79bb8"
     },
     "lab.json": {
      "path": "data/w23-lab.json.enc",
      "bytes": 25218,
-     "sha256": "32546d959c15a4bc"
+     "sha256": "13614c29529f39ee"
     },
     "audio.mp3": {
      "path": "data/w23-audio.mp3.enc",
      "bytes": 766514,
-     "sha256": "c70e66d230401555"
+     "sha256": "d623da36d9f5428e"
     },
     "video.mp4": {
      "path": "data/w23-video.mp4.enc",
      "bytes": 1271755,
-     "sha256": "0b2d708aaa4c693b"
+     "sha256": "dc23676cf78542a1"
     },
     "video.vtt": {
      "path": "data/w23-video.vtt.enc",
      "bytes": 4276,
-     "sha256": "6a2e4ee8a286e229"
+     "sha256": "dea1f632e31f09b5"
     },
     "poster.jpg": {
      "path": "data/w23-poster.jpg.enc",
      "bytes": 155016,
-     "sha256": "1cde375c75c3145a"
+     "sha256": "99e89f7dc1c4cbde"
     }
    }
   },
@@ -949,38 +949,38 @@
    "files": {
     "lesson.md": {
      "path": "data/w24-lesson.md.enc",
-     "bytes": 18485,
-     "sha256": "226b384fa98bc49e"
+     "bytes": 20031,
+     "sha256": "2a69713f14b4e939"
     },
     "narration.md": {
      "path": "data/w24-narration.md.enc",
      "bytes": 2620,
-     "sha256": "13ba7b7b290c0291"
+     "sha256": "970f0c67e88a6db0"
     },
     "lab.json": {
      "path": "data/w24-lab.json.enc",
      "bytes": 24434,
-     "sha256": "d0d5c4a668836d22"
+     "sha256": "58e9671bf8a3d21b"
     },
     "audio.mp3": {
      "path": "data/w24-audio.mp3.enc",
      "bytes": 682120,
-     "sha256": "e4d1ef16239da9e9"
+     "sha256": "41345f74c87e9e51"
     },
     "video.mp4": {
      "path": "data/w24-video.mp4.enc",
      "bytes": 1113405,
-     "sha256": "a2859a3ab7cdbb8f"
+     "sha256": "092e8e3554099010"
     },
     "video.vtt": {
      "path": "data/w24-video.vtt.enc",
      "bytes": 3830,
-     "sha256": "75f4c4fca59541d6"
+     "sha256": "eaae22d4084374c0"
     },
     "poster.jpg": {
      "path": "data/w24-poster.jpg.enc",
      "bytes": 159516,
-     "sha256": "47b63ff31a87e514"
+     "sha256": "4026ee727e648a9b"
     }
    }
   }
@@ -988,6 +988,6 @@
  "kdf": {
   "name": "PBKDF2-SHA256",
   "iterations": 300000,
-  "salt": "ObDzkzin3YwoAhxcJEXXsw=="
+  "salt": "AchdtJQyzZC00XfOm7+54A=="
  }
 }
