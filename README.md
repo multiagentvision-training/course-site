@@ -13,7 +13,7 @@
 | Мастерская | [openvision-platform](https://github.com/multiagentvision-training/openvision-platform) | Вы клонируете и пишете код |
 | Энциклопедия | [openvision-handbook](https://github.com/multiagentvision-training/openvision-handbook) | Вы понимаете слова до кнопок |
 
-Репозиторий **приватный**. 404 на GitHub = нет приглашения в org `multiagentvision-training`.
+Репозиторий **публичный**: в git лежит только шифр. Уроки без кода доступа не читаются. Учебник и мастерская по-прежнему приватные.
 
 Живая страница класса: [GitHub Pages](https://multiagentvision-training.github.io/course-site/). Код доступа выдаёт курс. **Код не кладут в git и не присылают в этот README.**
 
