@@ -287,33 +287,40 @@
     const submit = async () => {
       go.disabled = true;
       document.getElementById('err').textContent = 'Проверяю…';
-      const m = await loadManifest();
-      const Lab = window.MvtLab;
-      const studentDerived = await deriveKey(input.value, m.kdf.salt, m.kdf.iterations);
-      if (await verifyBlob(studentDerived, 'data/verifier.bin', 'verifier', 'multiagentvision-training-ok')) {
-        contentKey = await unwrapContentKey(studentDerived, m.contentKey.student);
-        teacherKey = null;
-        Lab.setCapability('student');
-        Lab.setTeacherUnlocked(false);
-        location.hash = '#/';
-        route();
-        return;
-      }
-      if (m.teacherKdf && m.contentKey && m.contentKey.teacher) {
-        const teacherDerived = await deriveKey(input.value, m.teacherKdf.salt, m.teacherKdf.iterations);
-        if (await verifyBlob(teacherDerived, 'data/teacher-verifier.bin', 'teacher-verifier', 'multiagentvision-training-teacher-ok')) {
-          contentKey = await unwrapContentKey(teacherDerived, m.contentKey.teacher);
-          teacherKey = teacherDerived;
-          Lab.setCapability('teacher');
-          Lab.setTeacherUnlocked(true);
+      try {
+        const m = await loadManifest();
+        const Lab = window.MvtLab;
+        const code = (input.value || '').trim();
+        const studentDerived = await deriveKey(code, m.kdf.salt, m.kdf.iterations);
+        if (await verifyBlob(studentDerived, 'data/verifier.bin', 'verifier', 'multiagentvision-training-ok')) {
+          contentKey = await unwrapContentKey(studentDerived, m.contentKey.student);
+          teacherKey = null;
+          Lab.setCapability('student');
+          Lab.setTeacherUnlocked(false);
           location.hash = '#/';
           route();
           return;
         }
+        if (m.teacherKdf && m.contentKey && m.contentKey.teacher) {
+          const teacherDerived = await deriveKey(code, m.teacherKdf.salt, m.teacherKdf.iterations);
+          if (await verifyBlob(teacherDerived, 'data/teacher-verifier.bin', 'teacher-verifier', 'multiagentvision-training-teacher-ok')) {
+            contentKey = await unwrapContentKey(teacherDerived, m.contentKey.teacher);
+            teacherKey = teacherDerived;
+            Lab.setCapability('teacher');
+            Lab.setTeacherUnlocked(true);
+            location.hash = '#/';
+            route();
+            return;
+          }
+        }
+        clearSession();
+        go.disabled = false;
+        document.getElementById('err').textContent = 'Код не подошёл. Если класс только что обновили — жёсткое обновление страницы (Cmd+Shift+R), затем тот же код из .env.';
+      } catch (err) {
+        clearSession();
+        go.disabled = false;
+        document.getElementById('err').textContent = 'Код не подошёл. Сделайте жёсткое обновление страницы (Cmd+Shift+R) и введите код ещё раз.';
       }
-      clearSession();
-      go.disabled = false;
-      document.getElementById('err').textContent = 'Код не подошёл. Проверьте раскладку и попробуйте ещё раз.';
     };
     go.onclick = submit;
     input.onkeydown = (e) => { if (e.key === 'Enter') submit(); };
