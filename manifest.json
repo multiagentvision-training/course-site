@@ -7,37 +7,42 @@
     "lesson.md": {
      "path": "data/w01-lesson.md.enc",
      "bytes": 36421,
-     "sha256": "93093759d0abdaed"
+     "sha256": "7312e661b6dd9736"
     },
     "narration.md": {
      "path": "data/w01-narration.md.enc",
      "bytes": 3956,
-     "sha256": "21594ff2d43692d7"
+     "sha256": "d3304241ace32af2"
     },
     "lab.json": {
      "path": "data/w01-lab.json.enc",
+     "bytes": 22313,
+     "sha256": "614e7395f4a34140"
+    },
+    "lab.teacher.json": {
+     "path": "data/w01-lab.teacher.json.enc",
      "bytes": 38344,
-     "sha256": "08323a9343c4b5b9"
+     "sha256": "fc1684d98f13c201"
     },
     "audio.mp3": {
      "path": "data/w01-audio.mp3.enc",
      "bytes": 1672217,
-     "sha256": "8ad3e26f5f983f3e"
+     "sha256": "77fed4942bb388a7"
     },
     "video.mp4": {
      "path": "data/w01-video.mp4.enc",
      "bytes": 2793881,
-     "sha256": "a63d04c0eda1335d"
+     "sha256": "37cd8e13b27ba2c2"
     },
     "video.vtt": {
      "path": "data/w01-video.vtt.enc",
      "bytes": 8863,
-     "sha256": "77234847692d99c7"
+     "sha256": "197e24ce2492c0db"
     },
     "poster.jpg": {
      "path": "data/w01-poster.jpg.enc",
      "bytes": 137661,
-     "sha256": "2750f0d69769c8ea"
+     "sha256": "1a2de1461ebb7a03"
     }
    }
   },
@@ -48,37 +53,42 @@
     "lesson.md": {
      "path": "data/w02-lesson.md.enc",
      "bytes": 60760,
-     "sha256": "7180542a8e1914c6"
+     "sha256": "4e2f00e4fd6353db"
     },
     "narration.md": {
      "path": "data/w02-narration.md.enc",
      "bytes": 7082,
-     "sha256": "812d419291504951"
+     "sha256": "76f289c3b3c8eb41"
     },
     "lab.json": {
      "path": "data/w02-lab.json.enc",
+     "bytes": 22695,
+     "sha256": "e90745f1bbb46021"
+    },
+    "lab.teacher.json": {
+     "path": "data/w02-lab.teacher.json.enc",
      "bytes": 36917,
-     "sha256": "5f31981d80c61364"
+     "sha256": "fcce857d0c842527"
     },
     "audio.mp3": {
      "path": "data/w02-audio.mp3.enc",
      "bytes": 1633046,
-     "sha256": "2cc962241ab0a36e"
+     "sha256": "fd23b96eed4bc3cb"
     },
     "video.mp4": {
      "path": "data/w02-video.mp4.enc",
      "bytes": 2856024,
-     "sha256": "1e3bfc78c61350dc"
+     "sha256": "f189631ab2345d44"
     },
     "video.vtt": {
      "path": "data/w02-video.vtt.enc",
      "bytes": 9006,
-     "sha256": "73debf7cf6869ae7"
+     "sha256": "ac9b08918bed7a33"
     },
     "poster.jpg": {
      "path": "data/w02-poster.jpg.enc",
      "bytes": 156476,
-     "sha256": "40c8fb6eb05708b7"
+     "sha256": "519978863aa51e68"
     }
    }
   },
@@ -89,37 +99,42 @@
     "lesson.md": {
      "path": "data/w03-lesson.md.enc",
      "bytes": 37310,
-     "sha256": "f825f04f6fd25f7d"
+     "sha256": "ef5bc81a1a472654"
     },
     "narration.md": {
      "path": "data/w03-narration.md.enc",
      "bytes": 5366,
-     "sha256": "305bb8a5644432ce"
+     "sha256": "ae924cd17c4b7f22"
     },
     "lab.json": {
      "path": "data/w03-lab.json.enc",
+     "bytes": 21205,
+     "sha256": "42b6b822a29d2fce"
+    },
+    "lab.teacher.json": {
+     "path": "data/w03-lab.teacher.json.enc",
      "bytes": 34303,
-     "sha256": "101dc4056406ac83"
+     "sha256": "77ed320a31b03c99"
     },
     "audio.mp3": {
      "path": "data/w03-audio.mp3.enc",
      "bytes": 1291789,
-     "sha256": "74912769c92d0857"
+     "sha256": "2132d4de6902e105"
     },
     "video.mp4": {
      "path": "data/w03-video.mp4.enc",
      "bytes": 2173712,
-     "sha256": "83a4f096ea54632e"
+     "sha256": "a172ea495d6f071f"
     },
     "video.vtt": {
      "path": "data/w03-video.vtt.enc",
      "bytes": 7119,
-     "sha256": "64bae40fc29415e5"
+     "sha256": "4d5589e73ff2381f"
     },
     "poster.jpg": {
      "path": "data/w03-poster.jpg.enc",
      "bytes": 134145,
-     "sha256": "382ea59aff0b92a0"
+     "sha256": "b7ab63913d5e6670"
     }
    }
   },
@@ -130,37 +145,42 @@
     "lesson.md": {
      "path": "data/w04-lesson.md.enc",
      "bytes": 33802,
-     "sha256": "be1a87610b3ffd6e"
+     "sha256": "1682a91eae58316d"
     },
     "narration.md": {
      "path": "data/w04-narration.md.enc",
      "bytes": 4599,
-     "sha256": "508fdd475e4e4019"
+     "sha256": "290cc8f79c046077"
     },
     "lab.json": {
      "path": "data/w04-lab.json.enc",
+     "bytes": 19282,
+     "sha256": "5e81f70c3354b426"
+    },
+    "lab.teacher.json": {
+     "path": "data/w04-lab.teacher.json.enc",
      "bytes": 31332,
-     "sha256": "c26c591512cca230"
+     "sha256": "2d8b15aa1a57e107"
     },
     "audio.mp3": {
      "path": "data/w04-audio.mp3.enc",
      "bytes": 1155424,
-     "sha256": "67f7248528e3fa3f"
+     "sha256": "378433f7d5bd6737"
     },
     "video.mp4": {
      "path": "data/w04-video.mp4.enc",
      "bytes": 1913329,
-     "sha256": "8654f8da746aba9c"
+     "sha256": "83af9e2ead349be7"
     },
     "video.vtt": {
      "path": "data/w04-video.vtt.enc",
      "bytes": 6352,
-     "sha256": "47c5b6351a631118"
+     "sha256": "35ab73e89f7a2914"
     },
     "poster.jpg": {
      "path": "data/w04-poster.jpg.enc",
      "bytes": 141505,
-     "sha256": "af06aa48144a9b33"
+     "sha256": "04bcceda26f357aa"
     }
    }
   },
@@ -171,37 +191,42 @@
     "lesson.md": {
      "path": "data/w05-lesson.md.enc",
      "bytes": 34464,
-     "sha256": "4e5cd72f60f54167"
+     "sha256": "22c003d5ea12c86e"
     },
     "narration.md": {
      "path": "data/w05-narration.md.enc",
      "bytes": 4305,
-     "sha256": "541651163f2eae6d"
+     "sha256": "ba1961be90cf828f"
     },
     "lab.json": {
      "path": "data/w05-lab.json.enc",
+     "bytes": 21207,
+     "sha256": "4dd7bf91de18ab27"
+    },
+    "lab.teacher.json": {
+     "path": "data/w05-lab.teacher.json.enc",
      "bytes": 34018,
-     "sha256": "2b75546bcc7c57aa"
+     "sha256": "688913f1bd60c691"
     },
     "audio.mp3": {
      "path": "data/w05-audio.mp3.enc",
      "bytes": 1097401,
-     "sha256": "035c7eca9cd6c1a5"
+     "sha256": "f12416284913a5ef"
     },
     "video.mp4": {
      "path": "data/w05-video.mp4.enc",
      "bytes": 1798015,
-     "sha256": "3407c8b3d877c0ab"
+     "sha256": "0f716f4584fb50a6"
     },
     "video.vtt": {
      "path": "data/w05-video.vtt.enc",
      "bytes": 6059,
-     "sha256": "e326c29c4cdbe135"
+     "sha256": "e595dacca3756087"
     },
     "poster.jpg": {
      "path": "data/w05-poster.jpg.enc",
      "bytes": 132127,
-     "sha256": "8bf4d55e2d181b1c"
+     "sha256": "a2a4dc8fa83f94d7"
     }
    }
   },
@@ -212,37 +237,42 @@
     "lesson.md": {
      "path": "data/w06-lesson.md.enc",
      "bytes": 28819,
-     "sha256": "5489d1d6c5666c09"
+     "sha256": "d3a439802cacf17d"
     },
     "narration.md": {
      "path": "data/w06-narration.md.enc",
      "bytes": 4044,
-     "sha256": "f91094f3c07ea078"
+     "sha256": "88c91a37ffc08e50"
     },
     "lab.json": {
      "path": "data/w06-lab.json.enc",
+     "bytes": 18847,
+     "sha256": "a0617c922652097a"
+    },
+    "lab.teacher.json": {
+     "path": "data/w06-lab.teacher.json.enc",
      "bytes": 30282,
-     "sha256": "02d3b5b1f008a0f5"
+     "sha256": "ac5e91308502e2de"
     },
     "audio.mp3": {
      "path": "data/w06-audio.mp3.enc",
      "bytes": 1063821,
-     "sha256": "273ce774806a1a3d"
+     "sha256": "09480fd41977b553"
     },
     "video.mp4": {
      "path": "data/w06-video.mp4.enc",
      "bytes": 1714307,
-     "sha256": "36d7223e6dc11372"
+     "sha256": "64253fb7318fecbb"
     },
     "video.vtt": {
      "path": "data/w06-video.vtt.enc",
      "bytes": 6002,
-     "sha256": "657e2a70bc0e3cb2"
+     "sha256": "cb52c6e3c346e221"
     },
     "poster.jpg": {
      "path": "data/w06-poster.jpg.enc",
      "bytes": 120657,
-     "sha256": "50910617e5c16c33"
+     "sha256": "6eb84e6b448f9e73"
     }
    }
   },
@@ -253,37 +283,42 @@
     "lesson.md": {
      "path": "data/w07-lesson.md.enc",
      "bytes": 26062,
-     "sha256": "ca3f7a05e31be6e2"
+     "sha256": "32709757ab4cf611"
     },
     "narration.md": {
      "path": "data/w07-narration.md.enc",
      "bytes": 3743,
-     "sha256": "67f3a4dd3b26fa55"
+     "sha256": "cf08c285bc4e2447"
     },
     "lab.json": {
      "path": "data/w07-lab.json.enc",
+     "bytes": 17359,
+     "sha256": "08e181a9a812405c"
+    },
+    "lab.teacher.json": {
+     "path": "data/w07-lab.teacher.json.enc",
      "bytes": 28383,
-     "sha256": "03178b89cbacde42"
+     "sha256": "6ff0d1d9fb7fc90b"
     },
     "audio.mp3": {
      "path": "data/w07-audio.mp3.enc",
      "bytes": 990676,
-     "sha256": "8ddde42def683daf"
+     "sha256": "5c2bf5eabbb93aac"
     },
     "video.mp4": {
      "path": "data/w07-video.mp4.enc",
      "bytes": 1562188,
-     "sha256": "dea9ef3ddcae267c"
+     "sha256": "90c71f23262f96e4"
     },
     "video.vtt": {
      "path": "data/w07-video.vtt.enc",
      "bytes": 5633,
-     "sha256": "48264888be6c4f57"
+     "sha256": "00a9bd64912701d2"
     },
     "poster.jpg": {
      "path": "data/w07-poster.jpg.enc",
      "bytes": 119107,
-     "sha256": "b6fb4b84f57a15d6"
+     "sha256": "27aad74f807e3129"
     }
    }
   },
@@ -294,37 +329,42 @@
     "lesson.md": {
      "path": "data/w08-lesson.md.enc",
      "bytes": 31944,
-     "sha256": "9cf0306cb815237f"
+     "sha256": "03608f3673bded46"
     },
     "narration.md": {
      "path": "data/w08-narration.md.enc",
      "bytes": 4301,
-     "sha256": "5b09bc2247bfeb60"
+     "sha256": "f1ece9167a9b338e"
     },
     "lab.json": {
      "path": "data/w08-lab.json.enc",
+     "bytes": 19503,
+     "sha256": "073dc287f994d24a"
+    },
+    "lab.teacher.json": {
+     "path": "data/w08-lab.teacher.json.enc",
      "bytes": 32833,
-     "sha256": "da81f2a8a6b62643"
+     "sha256": "2000daec4f7935f3"
     },
     "audio.mp3": {
      "path": "data/w08-audio.mp3.enc",
      "bytes": 1082814,
-     "sha256": "eb64169865c8a57e"
+     "sha256": "8ca466eec8d199b7"
     },
     "video.mp4": {
      "path": "data/w08-video.mp4.enc",
      "bytes": 1759950,
-     "sha256": "2a38fa5f078aff58"
+     "sha256": "fbfb3321ed82540e"
     },
     "video.vtt": {
      "path": "data/w08-video.vtt.enc",
      "bytes": 5953,
-     "sha256": "cfe6b26e6f917cd9"
+     "sha256": "ecd759e24460c163"
     },
     "poster.jpg": {
      "path": "data/w08-poster.jpg.enc",
      "bytes": 134255,
-     "sha256": "3775d9eb8fffee48"
+     "sha256": "1e395bec8c0344f8"
     }
    }
   },
@@ -335,37 +375,42 @@
     "lesson.md": {
      "path": "data/w09-lesson.md.enc",
      "bytes": 27688,
-     "sha256": "0296b6bd386008d7"
+     "sha256": "c2c24239b3d2f249"
     },
     "narration.md": {
      "path": "data/w09-narration.md.enc",
      "bytes": 4260,
-     "sha256": "05b24253a42fee2f"
+     "sha256": "3bf8c27162536537"
     },
     "lab.json": {
      "path": "data/w09-lab.json.enc",
+     "bytes": 17805,
+     "sha256": "e34e16f84e49c04d"
+    },
+    "lab.teacher.json": {
+     "path": "data/w09-lab.teacher.json.enc",
      "bytes": 29519,
-     "sha256": "9bcfeb77ae5fe504"
+     "sha256": "a13018949c8af3da"
     },
     "audio.mp3": {
      "path": "data/w09-audio.mp3.enc",
      "bytes": 1071586,
-     "sha256": "361740d940df68b1"
+     "sha256": "5a3873e181712aef"
     },
     "video.mp4": {
      "path": "data/w09-video.mp4.enc",
      "bytes": 1784843,
-     "sha256": "87817c37dbd82ab2"
+     "sha256": "15658771948d4088"
     },
     "video.vtt": {
      "path": "data/w09-video.vtt.enc",
      "bytes": 5878,
-     "sha256": "167df4519917224a"
+     "sha256": "530bc88de4b65f9f"
     },
     "poster.jpg": {
      "path": "data/w09-poster.jpg.enc",
      "bytes": 143771,
-     "sha256": "b64b8c1a5c9f2fca"
+     "sha256": "2adb4d14cf75e2fe"
     }
    }
   },
@@ -376,37 +421,42 @@
     "lesson.md": {
      "path": "data/w10-lesson.md.enc",
      "bytes": 27739,
-     "sha256": "50db13b086d3d8dd"
+     "sha256": "5639e86f049cb5e6"
     },
     "narration.md": {
      "path": "data/w10-narration.md.enc",
      "bytes": 4045,
-     "sha256": "fab0824d029810bb"
+     "sha256": "1a25fb7b9dedb534"
     },
     "lab.json": {
      "path": "data/w10-lab.json.enc",
+     "bytes": 16748,
+     "sha256": "5429c79bc96035a1"
+    },
+    "lab.teacher.json": {
+     "path": "data/w10-lab.teacher.json.enc",
      "bytes": 27986,
-     "sha256": "ffa4776e1dc1d410"
+     "sha256": "4571ae0eb6ab4da9"
     },
     "audio.mp3": {
      "path": "data/w10-audio.mp3.enc",
      "bytes": 1011974,
-     "sha256": "7988810c6f689295"
+     "sha256": "35a9ffe8e0e0eb24"
     },
     "video.mp4": {
      "path": "data/w10-video.mp4.enc",
      "bytes": 1642789,
-     "sha256": "eb853bbb3ca2c577"
+     "sha256": "0076788d5bf494c6"
     },
     "video.vtt": {
      "path": "data/w10-video.vtt.enc",
      "bytes": 5595,
-     "sha256": "c8785ba9535df5bf"
+     "sha256": "14719fdb693c3c0d"
     },
     "poster.jpg": {
      "path": "data/w10-poster.jpg.enc",
      "bytes": 124359,
-     "sha256": "44b455e6f93ee36b"
+     "sha256": "27b6dfe3e5a69ed5"
     }
    }
   },
@@ -417,37 +467,42 @@
     "lesson.md": {
      "path": "data/w11-lesson.md.enc",
      "bytes": 37903,
-     "sha256": "f97bf9b9f4479dff"
+     "sha256": "baafebdb707b0e46"
     },
     "narration.md": {
      "path": "data/w11-narration.md.enc",
      "bytes": 5319,
-     "sha256": "8354bdbf51f89011"
+     "sha256": "e692a9784ff9a4fc"
     },
     "lab.json": {
      "path": "data/w11-lab.json.enc",
+     "bytes": 24313,
+     "sha256": "1821d0a06c81def0"
+    },
+    "lab.teacher.json": {
+     "path": "data/w11-lab.teacher.json.enc",
      "bytes": 40888,
-     "sha256": "9f53cbcfd549eb5d"
+     "sha256": "0e45debe180ae710"
     },
     "audio.mp3": {
      "path": "data/w11-audio.mp3.enc",
      "bytes": 1304474,
-     "sha256": "fc3d145c260d15ff"
+     "sha256": "9c09a04176729961"
     },
     "video.mp4": {
      "path": "data/w11-video.mp4.enc",
      "bytes": 2203633,
-     "sha256": "18060273ad4003ed"
+     "sha256": "3d7f0370e48ce400"
     },
     "video.vtt": {
      "path": "data/w11-video.vtt.enc",
      "bytes": 7141,
-     "sha256": "0796d7d80ec6189f"
+     "sha256": "8cf14f660d79dd2b"
     },
     "poster.jpg": {
      "path": "data/w11-poster.jpg.enc",
      "bytes": 174347,
-     "sha256": "baa638f848f36bdd"
+     "sha256": "40b534fd2e661f61"
     }
    }
   },
@@ -458,37 +513,42 @@
     "lesson.md": {
      "path": "data/w12-lesson.md.enc",
      "bytes": 31744,
-     "sha256": "c147247bb9f179f9"
+     "sha256": "78d95838106007ad"
     },
     "narration.md": {
      "path": "data/w12-narration.md.enc",
      "bytes": 5393,
-     "sha256": "337f7e33c93677f8"
+     "sha256": "f00b80580d09842b"
     },
     "lab.json": {
      "path": "data/w12-lab.json.enc",
+     "bytes": 22520,
+     "sha256": "9d1b85a1b7a1d1c2"
+    },
+    "lab.teacher.json": {
+     "path": "data/w12-lab.teacher.json.enc",
      "bytes": 36650,
-     "sha256": "e243bd26b51c73cb"
+     "sha256": "2cea3f0dbec0c6fa"
     },
     "audio.mp3": {
      "path": "data/w12-audio.mp3.enc",
      "bytes": 1310110,
-     "sha256": "1c296ededfd494b6"
+     "sha256": "7d96b58f9fc30cf0"
     },
     "video.mp4": {
      "path": "data/w12-video.mp4.enc",
      "bytes": 2235830,
-     "sha256": "ce49b11f3870d805"
+     "sha256": "6ce7cf9e16849d20"
     },
     "video.vtt": {
      "path": "data/w12-video.vtt.enc",
      "bytes": 7146,
-     "sha256": "17d03065e1b6b453"
+     "sha256": "37bb98e30b853163"
     },
     "poster.jpg": {
      "path": "data/w12-poster.jpg.enc",
      "bytes": 167989,
-     "sha256": "a035f532eebbfd61"
+     "sha256": "bcc412dd2482d869"
     }
    }
   },
@@ -499,37 +559,42 @@
     "lesson.md": {
      "path": "data/w13-lesson.md.enc",
      "bytes": 28479,
-     "sha256": "13fc3a25311f2a78"
+     "sha256": "9d7d6eecc7230460"
     },
     "narration.md": {
      "path": "data/w13-narration.md.enc",
      "bytes": 5018,
-     "sha256": "e4e9978bb56f1c15"
+     "sha256": "3aca3e29b796e3b4"
     },
     "lab.json": {
      "path": "data/w13-lab.json.enc",
+     "bytes": 22470,
+     "sha256": "aba3a296dc0f50c7"
+    },
+    "lab.teacher.json": {
+     "path": "data/w13-lab.teacher.json.enc",
      "bytes": 36259,
-     "sha256": "ec8581275c68f97a"
+     "sha256": "c4e6a776e6c9b704"
     },
     "audio.mp3": {
      "path": "data/w13-audio.mp3.enc",
      "bytes": 1234354,
-     "sha256": "67cd8f8af55bb2cd"
+     "sha256": "b4157da6647572f0"
     },
     "video.mp4": {
      "path": "data/w13-video.mp4.enc",
      "bytes": 2109739,
-     "sha256": "30deba2437df598b"
+     "sha256": "490cfb2b86e4f731"
     },
     "video.vtt": {
      "path": "data/w13-video.vtt.enc",
      "bytes": 6703,
-     "sha256": "e7c1337bf314a365"
+     "sha256": "6c222a751cb182b7"
     },
     "poster.jpg": {
      "path": "data/w13-poster.jpg.enc",
      "bytes": 153883,
-     "sha256": "7c0baca450fb8ba7"
+     "sha256": "42a4945df63232b0"
     }
    }
   },
@@ -540,37 +605,42 @@
     "lesson.md": {
      "path": "data/w14-lesson.md.enc",
      "bytes": 28618,
-     "sha256": "96f0d6b43604eda4"
+     "sha256": "ddb03b7e69688f90"
     },
     "narration.md": {
      "path": "data/w14-narration.md.enc",
      "bytes": 4125,
-     "sha256": "1bf92c5ddfd863d6"
+     "sha256": "227feffa11ade188"
     },
     "lab.json": {
      "path": "data/w14-lab.json.enc",
+     "bytes": 21585,
+     "sha256": "0899bd63dbd4d3a3"
+    },
+    "lab.teacher.json": {
+     "path": "data/w14-lab.teacher.json.enc",
      "bytes": 35274,
-     "sha256": "fb08a80004abeffa"
+     "sha256": "a79dacc78d82fe61"
     },
     "audio.mp3": {
      "path": "data/w14-audio.mp3.enc",
      "bytes": 1013467,
-     "sha256": "1ff8abcf249ef0fb"
+     "sha256": "9430387420436886"
     },
     "video.mp4": {
      "path": "data/w14-video.mp4.enc",
      "bytes": 1694060,
-     "sha256": "b7178a37f269a03e"
+     "sha256": "ab16892a0deb22a0"
     },
     "video.vtt": {
      "path": "data/w14-video.vtt.enc",
      "bytes": 5539,
-     "sha256": "1531af5a2d17750e"
+     "sha256": "d5b0d6fef1b76b2f"
     },
     "poster.jpg": {
      "path": "data/w14-poster.jpg.enc",
      "bytes": 142862,
-     "sha256": "ecf76f6682a818cc"
+     "sha256": "b2cae7d1b881012a"
     }
    }
   },
@@ -581,37 +651,42 @@
     "lesson.md": {
      "path": "data/w15-lesson.md.enc",
      "bytes": 26048,
-     "sha256": "0e39fa4e5485a448"
+     "sha256": "a44eaa542682daf3"
     },
     "narration.md": {
      "path": "data/w15-narration.md.enc",
      "bytes": 3900,
-     "sha256": "be47e542f830ceda"
+     "sha256": "7732f419ee9282b3"
     },
     "lab.json": {
      "path": "data/w15-lab.json.enc",
+     "bytes": 18124,
+     "sha256": "f88145ba965638dd"
+    },
+    "lab.teacher.json": {
+     "path": "data/w15-lab.teacher.json.enc",
      "bytes": 29254,
-     "sha256": "b02e95caf790fe9f"
+     "sha256": "7b04a61447959142"
     },
     "audio.mp3": {
      "path": "data/w15-audio.mp3.enc",
      "bytes": 969255,
-     "sha256": "1be5543a432608c5"
+     "sha256": "b36c0e846025da03"
     },
     "video.mp4": {
      "path": "data/w15-video.mp4.enc",
      "bytes": 1608065,
-     "sha256": "285f7bf236307f3a"
+     "sha256": "1401fb412b0805b7"
     },
     "video.vtt": {
      "path": "data/w15-video.vtt.enc",
      "bytes": 5280,
-     "sha256": "21a0bf02517957f0"
+     "sha256": "2755a4aa798d9f72"
     },
     "poster.jpg": {
      "path": "data/w15-poster.jpg.enc",
      "bytes": 132111,
-     "sha256": "ce8325442d764415"
+     "sha256": "63adea52e21fecc1"
     }
    }
   },
@@ -622,37 +697,42 @@
     "lesson.md": {
      "path": "data/w16-lesson.md.enc",
      "bytes": 25882,
-     "sha256": "d057f4213fc55586"
+     "sha256": "cb20ec0d63833a40"
     },
     "narration.md": {
      "path": "data/w16-narration.md.enc",
      "bytes": 4062,
-     "sha256": "d209f431a42d81f2"
+     "sha256": "b4acdfa64f512e4d"
     },
     "lab.json": {
      "path": "data/w16-lab.json.enc",
+     "bytes": 17569,
+     "sha256": "b3a265309dac888e"
+    },
+    "lab.teacher.json": {
+     "path": "data/w16-lab.teacher.json.enc",
      "bytes": 28251,
-     "sha256": "1f274aef703d71c4"
+     "sha256": "311c08befac944ce"
     },
     "audio.mp3": {
      "path": "data/w16-audio.mp3.enc",
      "bytes": 1003827,
-     "sha256": "78a23fb68465e9fb"
+     "sha256": "fd8acecf2e30d9c2"
     },
     "video.mp4": {
      "path": "data/w16-video.mp4.enc",
      "bytes": 1670317,
-     "sha256": "9fbf02195931b104"
+     "sha256": "062e05d794c72077"
     },
     "video.vtt": {
      "path": "data/w16-video.vtt.enc",
      "bytes": 5510,
-     "sha256": "0e8ed2a38ade936c"
+     "sha256": "5fcae3856fd8e43c"
     },
     "poster.jpg": {
      "path": "data/w16-poster.jpg.enc",
      "bytes": 119329,
-     "sha256": "1902fc09da264f4a"
+     "sha256": "f5e6cfeadefc258c"
     }
    }
   },
@@ -663,37 +743,42 @@
     "lesson.md": {
      "path": "data/w17-lesson.md.enc",
      "bytes": 28587,
-     "sha256": "6ea541a1f58bfbff"
+     "sha256": "e3962a5214348aab"
     },
     "narration.md": {
      "path": "data/w17-narration.md.enc",
      "bytes": 3863,
-     "sha256": "d690b822face050b"
+     "sha256": "93cc6c1f2fa9ff34"
     },
     "lab.json": {
      "path": "data/w17-lab.json.enc",
+     "bytes": 20072,
+     "sha256": "7881a896160284eb"
+    },
+    "lab.teacher.json": {
+     "path": "data/w17-lab.teacher.json.enc",
      "bytes": 33485,
-     "sha256": "38ac797a40fdb974"
+     "sha256": "ab881eef9ebfdad3"
     },
     "audio.mp3": {
      "path": "data/w17-audio.mp3.enc",
      "bytes": 1005951,
-     "sha256": "f0e435df716e4ed2"
+     "sha256": "aa2bb87efd56eb51"
     },
     "video.mp4": {
      "path": "data/w17-video.mp4.enc",
      "bytes": 1684080,
-     "sha256": "f692091199915e06"
+     "sha256": "2ce887e5a8105913"
     },
     "video.vtt": {
      "path": "data/w17-video.vtt.enc",
      "bytes": 5583,
-     "sha256": "8df4df30c38765c0"
+     "sha256": "0413dcb833af5172"
     },
     "poster.jpg": {
      "path": "data/w17-poster.jpg.enc",
      "bytes": 136493,
-     "sha256": "2cc0d69286fb5042"
+     "sha256": "7990e5531788fe4c"
     }
    }
   },
@@ -704,37 +789,42 @@
     "lesson.md": {
      "path": "data/w18-lesson.md.enc",
      "bytes": 23733,
-     "sha256": "f86eebb63ab5e717"
+     "sha256": "4fee01accd1c209b"
     },
     "narration.md": {
      "path": "data/w18-narration.md.enc",
      "bytes": 2941,
-     "sha256": "39e22a302ee8d1c6"
+     "sha256": "aadb7601f3fb250c"
     },
     "lab.json": {
      "path": "data/w18-lab.json.enc",
+     "bytes": 17113,
+     "sha256": "1ca30fdd7caec21b"
+    },
+    "lab.teacher.json": {
+     "path": "data/w18-lab.teacher.json.enc",
      "bytes": 28637,
-     "sha256": "312592da54b028ee"
+     "sha256": "c81e27c3e18238ba"
     },
     "audio.mp3": {
      "path": "data/w18-audio.mp3.enc",
      "bytes": 790552,
-     "sha256": "b19422a97f52f55f"
+     "sha256": "9269ddb326ef6d09"
     },
     "video.mp4": {
      "path": "data/w18-video.mp4.enc",
      "bytes": 1305473,
-     "sha256": "87458c64897f559b"
+     "sha256": "94c4892f5c6a8b94"
     },
     "video.vtt": {
      "path": "data/w18-video.vtt.enc",
      "bytes": 4423,
-     "sha256": "30c5cc8cd88235ee"
+     "sha256": "88bd2c67070a765a"
     },
     "poster.jpg": {
      "path": "data/w18-poster.jpg.enc",
      "bytes": 150799,
-     "sha256": "d554bdc9a13c09d5"
+     "sha256": "65c5b7134d029ef4"
     }
    }
   },
@@ -745,37 +835,42 @@
     "lesson.md": {
      "path": "data/w19-lesson.md.enc",
      "bytes": 19926,
-     "sha256": "fec9827a5e74ea0e"
+     "sha256": "6506559578349d42"
     },
     "narration.md": {
      "path": "data/w19-narration.md.enc",
      "bytes": 3118,
-     "sha256": "2869c781104f2587"
+     "sha256": "e914ef1ffc2cf4b9"
     },
     "lab.json": {
      "path": "data/w19-lab.json.enc",
+     "bytes": 15647,
+     "sha256": "8ae6224c1e590b60"
+    },
+    "lab.teacher.json": {
+     "path": "data/w19-lab.teacher.json.enc",
      "bytes": 25927,
-     "sha256": "6cad3f14215923a5"
+     "sha256": "1aab4804429137a2"
     },
     "audio.mp3": {
      "path": "data/w19-audio.mp3.enc",
      "bytes": 821389,
-     "sha256": "35eaa4f237050a99"
+     "sha256": "59e0d0c67a3dd457"
     },
     "video.mp4": {
      "path": "data/w19-video.mp4.enc",
      "bytes": 1332074,
-     "sha256": "65b9439a57dc8ebf"
+     "sha256": "a925f835d5c60f94"
     },
     "video.vtt": {
      "path": "data/w19-video.vtt.enc",
      "bytes": 4600,
-     "sha256": "9559b7b67289309b"
+     "sha256": "1171bcd52a7d433e"
     },
     "poster.jpg": {
      "path": "data/w19-poster.jpg.enc",
      "bytes": 134851,
-     "sha256": "c620854b2340fe9c"
+     "sha256": "3a3d2ff99a6acd2b"
     }
    }
   },
@@ -786,37 +881,42 @@
     "lesson.md": {
      "path": "data/w20-lesson.md.enc",
      "bytes": 19561,
-     "sha256": "a530f0635b63e8d4"
+     "sha256": "3c24860aed797707"
     },
     "narration.md": {
      "path": "data/w20-narration.md.enc",
      "bytes": 2570,
-     "sha256": "efb6745ed5841bbd"
+     "sha256": "c818e6466d257cd0"
     },
     "lab.json": {
      "path": "data/w20-lab.json.enc",
+     "bytes": 15611,
+     "sha256": "2f9e38e6d748e65a"
+    },
+    "lab.teacher.json": {
+     "path": "data/w20-lab.teacher.json.enc",
      "bytes": 25876,
-     "sha256": "208fe9dae522ae8a"
+     "sha256": "08ff448efc209a53"
     },
     "audio.mp3": {
      "path": "data/w20-audio.mp3.enc",
      "bytes": 681423,
-     "sha256": "c6a7960e5fe53d0f"
+     "sha256": "2088a315f73127a9"
     },
     "video.mp4": {
      "path": "data/w20-video.mp4.enc",
      "bytes": 1116389,
-     "sha256": "a97c6248aa10335a"
+     "sha256": "37b2c36f9932ebb0"
     },
     "video.vtt": {
      "path": "data/w20-video.vtt.enc",
      "bytes": 3815,
-     "sha256": "54e292c51076d4f1"
+     "sha256": "6e0e62cc11b88a6e"
     },
     "poster.jpg": {
      "path": "data/w20-poster.jpg.enc",
      "bytes": 156308,
-     "sha256": "cfe2944cf624edc9"
+     "sha256": "c19c548eba38039a"
     }
    }
   },
@@ -827,37 +927,42 @@
     "lesson.md": {
      "path": "data/w21-lesson.md.enc",
      "bytes": 19115,
-     "sha256": "90ce7c22434b4bc8"
+     "sha256": "f231a885e26e9be1"
     },
     "narration.md": {
      "path": "data/w21-narration.md.enc",
      "bytes": 2527,
-     "sha256": "ecf40d61d3e6ceaa"
+     "sha256": "f2f81ec1a54c50d6"
     },
     "lab.json": {
      "path": "data/w21-lab.json.enc",
+     "bytes": 14072,
+     "sha256": "11f8436fc4943909"
+    },
+    "lab.teacher.json": {
+     "path": "data/w21-lab.teacher.json.enc",
      "bytes": 24631,
-     "sha256": "740b1af300f0ff48"
+     "sha256": "abc3366baa8e18be"
     },
     "audio.mp3": {
      "path": "data/w21-audio.mp3.enc",
      "bytes": 680393,
-     "sha256": "e24c2f640954c335"
+     "sha256": "fdb55b81578e72a0"
     },
     "video.mp4": {
      "path": "data/w21-video.mp4.enc",
      "bytes": 1105779,
-     "sha256": "8a79284a8d04bf94"
+     "sha256": "49c48a28bf9dbae8"
     },
     "video.vtt": {
      "path": "data/w21-video.vtt.enc",
      "bytes": 3771,
-     "sha256": "29174673bd7ec761"
+     "sha256": "5bc591b4efb139c1"
     },
     "poster.jpg": {
      "path": "data/w21-poster.jpg.enc",
      "bytes": 135515,
-     "sha256": "b3aa98683d826f3c"
+     "sha256": "c51327522c77bb41"
     }
    }
   },
@@ -868,37 +973,42 @@
     "lesson.md": {
      "path": "data/w22-lesson.md.enc",
      "bytes": 18158,
-     "sha256": "9f5f9883f45392ac"
+     "sha256": "5986eec163c8b876"
     },
     "narration.md": {
      "path": "data/w22-narration.md.enc",
      "bytes": 2420,
-     "sha256": "bdaf1e1675c06ade"
+     "sha256": "168167f6a2fb8717"
     },
     "lab.json": {
      "path": "data/w22-lab.json.enc",
+     "bytes": 13543,
+     "sha256": "f75f9e614fa06a09"
+    },
+    "lab.teacher.json": {
+     "path": "data/w22-lab.teacher.json.enc",
      "bytes": 23755,
-     "sha256": "19430b2be1eb208d"
+     "sha256": "a446328513ec030b"
     },
     "audio.mp3": {
      "path": "data/w22-audio.mp3.enc",
      "bytes": 665145,
-     "sha256": "c3f8c3828304c206"
+     "sha256": "e3d191e1ba5bbf0d"
     },
     "video.mp4": {
      "path": "data/w22-video.mp4.enc",
      "bytes": 1080598,
-     "sha256": "bb69f116a1cc0e50"
+     "sha256": "9fd3cdcb40661cbe"
     },
     "video.vtt": {
      "path": "data/w22-video.vtt.enc",
      "bytes": 3698,
-     "sha256": "f18f803890db1809"
+     "sha256": "7105b1a4aba51577"
     },
     "poster.jpg": {
      "path": "data/w22-poster.jpg.enc",
      "bytes": 157450,
-     "sha256": "25458bf887274776"
+     "sha256": "e5a3b7611e73d0c4"
     }
    }
   },
@@ -909,37 +1019,42 @@
     "lesson.md": {
      "path": "data/w23-lesson.md.enc",
      "bytes": 19175,
-     "sha256": "27f045367e80049e"
+     "sha256": "7e210a8cd2bcb6b1"
     },
     "narration.md": {
      "path": "data/w23-narration.md.enc",
      "bytes": 2998,
-     "sha256": "aba2e64c77c79bb8"
+     "sha256": "4cae85b3cf10d668"
     },
     "lab.json": {
      "path": "data/w23-lab.json.enc",
+     "bytes": 14603,
+     "sha256": "59302f4ceb1d59e1"
+    },
+    "lab.teacher.json": {
+     "path": "data/w23-lab.teacher.json.enc",
      "bytes": 25218,
-     "sha256": "13614c29529f39ee"
+     "sha256": "fdcb1bef598bd228"
     },
     "audio.mp3": {
      "path": "data/w23-audio.mp3.enc",
      "bytes": 766514,
-     "sha256": "d623da36d9f5428e"
+     "sha256": "feabec610f74e842"
     },
     "video.mp4": {
      "path": "data/w23-video.mp4.enc",
      "bytes": 1271755,
-     "sha256": "dc23676cf78542a1"
+     "sha256": "a5fc6892d122df70"
     },
     "video.vtt": {
      "path": "data/w23-video.vtt.enc",
      "bytes": 4276,
-     "sha256": "dea1f632e31f09b5"
+     "sha256": "ed4a4c9a05d6821f"
     },
     "poster.jpg": {
      "path": "data/w23-poster.jpg.enc",
      "bytes": 155016,
-     "sha256": "99e89f7dc1c4cbde"
+     "sha256": "06431a6c3b4ddcb7"
     }
    }
   },
@@ -950,44 +1065,1773 @@
     "lesson.md": {
      "path": "data/w24-lesson.md.enc",
      "bytes": 20031,
-     "sha256": "2a69713f14b4e939"
+     "sha256": "07a3ab6892d56188"
     },
     "narration.md": {
      "path": "data/w24-narration.md.enc",
      "bytes": 2620,
-     "sha256": "970f0c67e88a6db0"
+     "sha256": "f7fbe4f2a2e1a5e4"
     },
     "lab.json": {
      "path": "data/w24-lab.json.enc",
+     "bytes": 14052,
+     "sha256": "3f727e10f2e07a37"
+    },
+    "lab.teacher.json": {
+     "path": "data/w24-lab.teacher.json.enc",
      "bytes": 24434,
-     "sha256": "58e9671bf8a3d21b"
+     "sha256": "f6b21eb7b55ebdf9"
     },
     "audio.mp3": {
      "path": "data/w24-audio.mp3.enc",
      "bytes": 682120,
-     "sha256": "41345f74c87e9e51"
+     "sha256": "168ca4be19d126f3"
     },
     "video.mp4": {
      "path": "data/w24-video.mp4.enc",
      "bytes": 1113405,
-     "sha256": "092e8e3554099010"
+     "sha256": "3477dcd1688e27dd"
     },
     "video.vtt": {
      "path": "data/w24-video.vtt.enc",
      "bytes": 3830,
-     "sha256": "eaae22d4084374c0"
+     "sha256": "dd50f752f113392b"
     },
     "poster.jpg": {
      "path": "data/w24-poster.jpg.enc",
      "bytes": 159516,
-     "sha256": "4026ee727e648a9b"
+     "sha256": "42fe22f650c9169d"
     }
    }
   }
  ],
+ "courses": [
+  {
+   "slug": "jira-automation",
+   "title": "Jira Automation",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 596,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-jira-automation-lesson.md.enc",
+     "bytes": 3552,
+     "sha256": "1e031b4859d0b639"
+    },
+    "lab.json": {
+     "path": "data/topic-jira-automation-lab.json.enc",
+     "bytes": 677921,
+     "sha256": "ee5d3e0b78761ae3"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-jira-automation-lab.teacher.json.enc",
+     "bytes": 977879,
+     "sha256": "98607c7e0b7da764"
+    },
+    "course.json": {
+     "path": "data/topic-jira-automation-course.json.enc",
+     "bytes": 612,
+     "sha256": "485724429745e70e"
+    }
+   }
+  },
+  {
+   "slug": "confluence",
+   "title": "Confluence",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 554,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-confluence-lesson.md.enc",
+     "bytes": 4196,
+     "sha256": "2c18e52a46851843"
+    },
+    "lab.json": {
+     "path": "data/topic-confluence-lab.json.enc",
+     "bytes": 683878,
+     "sha256": "5f03fa032f6894c5"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-confluence-lab.teacher.json.enc",
+     "bytes": 980471,
+     "sha256": "33bd62059aa9f090"
+    },
+    "course.json": {
+     "path": "data/topic-confluence-course.json.enc",
+     "bytes": 999,
+     "sha256": "c7d6964accead23e"
+    }
+   }
+  },
+  {
+   "slug": "confluence-automation",
+   "title": "Confluence Automation",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 572,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-confluence-automation-lesson.md.enc",
+     "bytes": 3525,
+     "sha256": "963b4ae6d8f93d42"
+    },
+    "lab.json": {
+     "path": "data/topic-confluence-automation-lab.json.enc",
+     "bytes": 650642,
+     "sha256": "c9065198e43e7663"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-confluence-automation-lab.teacher.json.enc",
+     "bytes": 924065,
+     "sha256": "a56c870c2e755679"
+    },
+    "course.json": {
+     "path": "data/topic-confluence-automation-course.json.enc",
+     "bytes": 618,
+     "sha256": "c7c55e4c0b52533a"
+    }
+   }
+  },
+  {
+   "slug": "git-flow",
+   "title": "Git Flow",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 629,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-git-flow-lesson.md.enc",
+     "bytes": 3401,
+     "sha256": "49ac95783da96ff6"
+    },
+    "lab.json": {
+     "path": "data/topic-git-flow-lab.json.enc",
+     "bytes": 717066,
+     "sha256": "137ccd59839e14b9"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-git-flow-lab.teacher.json.enc",
+     "bytes": 1005623,
+     "sha256": "540431e945d3acb1"
+    },
+    "course.json": {
+     "path": "data/topic-git-flow-course.json.enc",
+     "bytes": 600,
+     "sha256": "8e66f7f69a334770"
+    }
+   }
+  },
+  {
+   "slug": "github",
+   "title": "GitHub",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 700,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-github-lesson.md.enc",
+     "bytes": 3751,
+     "sha256": "7c6579db256d6d25"
+    },
+    "lab.json": {
+     "path": "data/topic-github-lab.json.enc",
+     "bytes": 771287,
+     "sha256": "177dd8c048196275"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-github-lab.teacher.json.enc",
+     "bytes": 1095869,
+     "sha256": "fdfebc314253058a"
+    },
+    "course.json": {
+     "path": "data/topic-github-course.json.enc",
+     "bytes": 719,
+     "sha256": "a508e28281f42f54"
+    }
+   }
+  },
+  {
+   "slug": "github-pr",
+   "title": "PR",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 441,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-github-pr-lesson.md.enc",
+     "bytes": 3367,
+     "sha256": "d534dc69f1b55921"
+    },
+    "lab.json": {
+     "path": "data/topic-github-pr-lab.json.enc",
+     "bytes": 470516,
+     "sha256": "4fb6565a0220decc"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-github-pr-lab.teacher.json.enc",
+     "bytes": 672399,
+     "sha256": "8e924a06fb1887e1"
+    },
+    "course.json": {
+     "path": "data/topic-github-pr-course.json.enc",
+     "bytes": 584,
+     "sha256": "9ca0e9d176aaddc3"
+    }
+   }
+  },
+  {
+   "slug": "wsl",
+   "title": "WSL",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 474,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-wsl-lesson.md.enc",
+     "bytes": 3493,
+     "sha256": "3d2a65dde094f0e6"
+    },
+    "lab.json": {
+     "path": "data/topic-wsl-lab.json.enc",
+     "bytes": 545571,
+     "sha256": "675a41752943f611"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-wsl-lab.teacher.json.enc",
+     "bytes": 778950,
+     "sha256": "5c799746fdc9a4ad"
+    },
+    "course.json": {
+     "path": "data/topic-wsl-course.json.enc",
+     "bytes": 537,
+     "sha256": "baedf8f4f5dc93f7"
+    }
+   }
+  },
+  {
+   "slug": "cursor-ai-tools",
+   "title": "Cursor, AI Tools Practice",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 553,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-cursor-ai-tools-lesson.md.enc",
+     "bytes": 3507,
+     "sha256": "bb73482b83d05a16"
+    },
+    "lab.json": {
+     "path": "data/topic-cursor-ai-tools-lab.json.enc",
+     "bytes": 633571,
+     "sha256": "75f76c3ff637cb93"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-cursor-ai-tools-lab.teacher.json.enc",
+     "bytes": 882278,
+     "sha256": "9ce783f7d0439808"
+    },
+    "course.json": {
+     "path": "data/topic-cursor-ai-tools-course.json.enc",
+     "bytes": 558,
+     "sha256": "4b5a635d26ede1c4"
+    }
+   }
+  },
+  {
+   "slug": "claude",
+   "title": "Claude Code",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 612,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-claude-lesson.md.enc",
+     "bytes": 4197,
+     "sha256": "3b62a6dc8a79301b"
+    },
+    "lab.json": {
+     "path": "data/topic-claude-lab.json.enc",
+     "bytes": 712886,
+     "sha256": "1bdc341e66a0083a"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-claude-lab.teacher.json.enc",
+     "bytes": 1008230,
+     "sha256": "732cc8c9a1a42cd8"
+    },
+    "course.json": {
+     "path": "data/topic-claude-course.json.enc",
+     "bytes": 1036,
+     "sha256": "64c87410a83001d8"
+    }
+   }
+  },
+  {
+   "slug": "antigravity",
+   "title": "Google Antigravity",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 566,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-antigravity-lesson.md.enc",
+     "bytes": 4363,
+     "sha256": "877c625e0869ca7e"
+    },
+    "lab.json": {
+     "path": "data/topic-antigravity-lab.json.enc",
+     "bytes": 682468,
+     "sha256": "76ff5850317cbfc9"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-antigravity-lab.teacher.json.enc",
+     "bytes": 961677,
+     "sha256": "4f7c53fe1231ea08"
+    },
+    "course.json": {
+     "path": "data/topic-antigravity-course.json.enc",
+     "bytes": 1130,
+     "sha256": "ff81d51ebdb1a00c"
+    }
+   }
+  },
+  {
+   "slug": "vscode",
+   "title": "Visual Studio Code",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 671,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-vscode-lesson.md.enc",
+     "bytes": 4146,
+     "sha256": "9eada0ddf5ee1c43"
+    },
+    "lab.json": {
+     "path": "data/topic-vscode-lab.json.enc",
+     "bytes": 798586,
+     "sha256": "a23e53d02523dcd0"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-vscode-lab.teacher.json.enc",
+     "bytes": 1124840,
+     "sha256": "3882125b18e2cc13"
+    },
+    "course.json": {
+     "path": "data/topic-vscode-course.json.enc",
+     "bytes": 1169,
+     "sha256": "975aed04e4aaa5ba"
+    }
+   }
+  },
+  {
+   "slug": "jetbrains",
+   "title": "IntelliJ IDEA и JetBrains",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 567,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-jetbrains-lesson.md.enc",
+     "bytes": 4255,
+     "sha256": "e7d398c52fa2d8f0"
+    },
+    "lab.json": {
+     "path": "data/topic-jetbrains-lab.json.enc",
+     "bytes": 658433,
+     "sha256": "160c1e1becafce1d"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-jetbrains-lab.teacher.json.enc",
+     "bytes": 937441,
+     "sha256": "07625880dfe1c0d1"
+    },
+    "course.json": {
+     "path": "data/topic-jetbrains-course.json.enc",
+     "bytes": 1212,
+     "sha256": "3149306835de3f96"
+    }
+   }
+  },
+  {
+   "slug": "cursor-debug",
+   "title": "Cursor Debug",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-cursor-debug-lesson.md.enc",
+     "bytes": 3560,
+     "sha256": "12d28754f074e86a"
+    },
+    "lab.json": {
+     "path": "data/topic-cursor-debug-lab.json.enc",
+     "bytes": 596197,
+     "sha256": "b385afecfd69c3ea"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-cursor-debug-lab.teacher.json.enc",
+     "bytes": 831652,
+     "sha256": "8bb49c2be433ddab"
+    },
+    "course.json": {
+     "path": "data/topic-cursor-debug-course.json.enc",
+     "bytes": 562,
+     "sha256": "3330a44e37c076f1"
+    }
+   }
+  },
+  {
+   "slug": "cursor-rules-ui",
+   "title": "Cursor Rules и UI/UX",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 518,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-cursor-rules-ui-lesson.md.enc",
+     "bytes": 3660,
+     "sha256": "42b3e2d633224509"
+    },
+    "lab.json": {
+     "path": "data/topic-cursor-rules-ui-lab.json.enc",
+     "bytes": 596286,
+     "sha256": "d0e88e7d7859fe66"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-cursor-rules-ui-lab.teacher.json.enc",
+     "bytes": 837847,
+     "sha256": "815801b23bee0c75"
+    },
+    "course.json": {
+     "path": "data/topic-cursor-rules-ui-course.json.enc",
+     "bytes": 621,
+     "sha256": "cfe46ccdadc22bcf"
+    }
+   }
+  },
+  {
+   "slug": "docker",
+   "title": "Docker",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 568,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-docker-lesson.md.enc",
+     "bytes": 4063,
+     "sha256": "5fa7efef7d3a1a86"
+    },
+    "lab.json": {
+     "path": "data/topic-docker-lab.json.enc",
+     "bytes": 630085,
+     "sha256": "81f6fcd020ef00cc"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-docker-lab.teacher.json.enc",
+     "bytes": 896623,
+     "sha256": "710693d6d162de6b"
+    },
+    "course.json": {
+     "path": "data/topic-docker-course.json.enc",
+     "bytes": 610,
+     "sha256": "8701444515f8bb9d"
+    }
+   }
+  },
+  {
+   "slug": "docker-troubleshooting",
+   "title": "Docker Troubleshooting",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 592,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-docker-troubleshooting-lesson.md.enc",
+     "bytes": 3763,
+     "sha256": "802cececadcbfe83"
+    },
+    "lab.json": {
+     "path": "data/topic-docker-troubleshooting-lab.json.enc",
+     "bytes": 716732,
+     "sha256": "a3d97a4d03891c38"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-docker-troubleshooting-lab.teacher.json.enc",
+     "bytes": 1004309,
+     "sha256": "372fd4a57aee47d2"
+    },
+    "course.json": {
+     "path": "data/topic-docker-troubleshooting-course.json.enc",
+     "bytes": 651,
+     "sha256": "772e7ea6d86cff51"
+    }
+   }
+  },
+  {
+   "slug": "github-actions",
+   "title": "GitHub Actions / CI/CD",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 455,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-github-actions-lesson.md.enc",
+     "bytes": 3304,
+     "sha256": "eaa70de123e0cde1"
+    },
+    "lab.json": {
+     "path": "data/topic-github-actions-lab.json.enc",
+     "bytes": 499092,
+     "sha256": "39eee462bb6d6c07"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-github-actions-lab.teacher.json.enc",
+     "bytes": 706600,
+     "sha256": "464dd5c48a5711c7"
+    },
+    "course.json": {
+     "path": "data/topic-github-actions-course.json.enc",
+     "bytes": 566,
+     "sha256": "e8244ccc01b25974"
+    }
+   }
+  },
+  {
+   "slug": "junior-workflow",
+   "title": "От задачи до merge",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 853,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-junior-workflow-lesson.md.enc",
+     "bytes": 4942,
+     "sha256": "ca77a91c3c0929c4"
+    },
+    "lab.json": {
+     "path": "data/topic-junior-workflow-lab.json.enc",
+     "bytes": 1042086,
+     "sha256": "c8d118a31e0964bf"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-junior-workflow-lab.teacher.json.enc",
+     "bytes": 1474778,
+     "sha256": "a665c55f5f0e6e0b"
+    },
+    "course.json": {
+     "path": "data/topic-junior-workflow-course.json.enc",
+     "bytes": 1408,
+     "sha256": "c7d84aa161e0ee43"
+    }
+   }
+  },
+  {
+   "slug": "jenkins",
+   "title": "Jenkins",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 536,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-jenkins-lesson.md.enc",
+     "bytes": 3477,
+     "sha256": "9fbf343c1b1143bb"
+    },
+    "lab.json": {
+     "path": "data/topic-jenkins-lab.json.enc",
+     "bytes": 575791,
+     "sha256": "1ea995acfb399048"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-jenkins-lab.teacher.json.enc",
+     "bytes": 818003,
+     "sha256": "ffe8be62a496ee88"
+    },
+    "course.json": {
+     "path": "data/topic-jenkins-course.json.enc",
+     "bytes": 599,
+     "sha256": "b8f60bc33d97a073"
+    }
+   }
+  },
+  {
+   "slug": "kubernetes",
+   "title": "K8s General",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 516,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-kubernetes-lesson.md.enc",
+     "bytes": 3563,
+     "sha256": "683999057d43450e"
+    },
+    "lab.json": {
+     "path": "data/topic-kubernetes-lab.json.enc",
+     "bytes": 550374,
+     "sha256": "f0eb3555ce9c25ee"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-kubernetes-lab.teacher.json.enc",
+     "bytes": 789249,
+     "sha256": "b7b1309570019208"
+    },
+    "course.json": {
+     "path": "data/topic-kubernetes-course.json.enc",
+     "bytes": 590,
+     "sha256": "e482ecc48df2d185"
+    }
+   }
+  },
+  {
+   "slug": "software-qa",
+   "title": "QA",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 699,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-software-qa-lesson.md.enc",
+     "bytes": 5138,
+     "sha256": "f02364d8bcd097b8"
+    },
+    "lab.json": {
+     "path": "data/topic-software-qa-lab.json.enc",
+     "bytes": 1006906,
+     "sha256": "de05845971d7e121"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-software-qa-lab.teacher.json.enc",
+     "bytes": 1406115,
+     "sha256": "3e322059d979c72c"
+    },
+    "course.json": {
+     "path": "data/topic-software-qa-course.json.enc",
+     "bytes": 1207,
+     "sha256": "a799103cecc9d4f8"
+    }
+   }
+  },
+  {
+   "slug": "proxmox",
+   "title": "Proxmox",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 506,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-proxmox-lesson.md.enc",
+     "bytes": 3444,
+     "sha256": "174bec0e06bf3ae9"
+    },
+    "lab.json": {
+     "path": "data/topic-proxmox-lab.json.enc",
+     "bytes": 512178,
+     "sha256": "db19e952a7ebc565"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-proxmox-lab.teacher.json.enc",
+     "bytes": 734348,
+     "sha256": "9bc5f07dfe5da29e"
+    },
+    "course.json": {
+     "path": "data/topic-proxmox-course.json.enc",
+     "bytes": 543,
+     "sha256": "6ba77569a4c847f0"
+    }
+   }
+  },
+  {
+   "slug": "prometheus-grafana",
+   "title": "Prometheus, Grafana",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 510,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-prometheus-grafana-lesson.md.enc",
+     "bytes": 3519,
+     "sha256": "305424652137c722"
+    },
+    "lab.json": {
+     "path": "data/topic-prometheus-grafana-lab.json.enc",
+     "bytes": 557280,
+     "sha256": "dbb719c6af0ca610"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-prometheus-grafana-lab.teacher.json.enc",
+     "bytes": 799720,
+     "sha256": "1faae1621929a13f"
+    },
+    "course.json": {
+     "path": "data/topic-prometheus-grafana-course.json.enc",
+     "bytes": 620,
+     "sha256": "69ad43d14d5f1f43"
+    }
+   }
+  },
+  {
+   "slug": "figma",
+   "title": "Figma, макеты и дизайн",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 503,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-figma-lesson.md.enc",
+     "bytes": 3471,
+     "sha256": "ed1f2226be30d130"
+    },
+    "lab.json": {
+     "path": "data/topic-figma-lab.json.enc",
+     "bytes": 537944,
+     "sha256": "3f64a50601ffc12c"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-figma-lab.teacher.json.enc",
+     "bytes": 757762,
+     "sha256": "574f398df2374d76"
+    },
+    "course.json": {
+     "path": "data/topic-figma-course.json.enc",
+     "bytes": 563,
+     "sha256": "1c19cc8bce56ec82"
+    }
+   }
+  },
+  {
+   "slug": "elasticsearch",
+   "title": "Elasticsearch",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-elasticsearch-lesson.md.enc",
+     "bytes": 3818,
+     "sha256": "f74655d467ce3ee5"
+    },
+    "lab.json": {
+     "path": "data/topic-elasticsearch-lab.json.enc",
+     "bytes": 560317,
+     "sha256": "7abed1952f6d0291"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-elasticsearch-lab.teacher.json.enc",
+     "bytes": 791869,
+     "sha256": "5a69016905acb262"
+    },
+    "course.json": {
+     "path": "data/topic-elasticsearch-course.json.enc",
+     "bytes": 584,
+     "sha256": "29906a8e403b8503"
+    }
+   }
+  },
+  {
+   "slug": "kibana",
+   "title": "Kibana",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-kibana-lesson.md.enc",
+     "bytes": 3534,
+     "sha256": "42c19814c17f5307"
+    },
+    "lab.json": {
+     "path": "data/topic-kibana-lab.json.enc",
+     "bytes": 540752,
+     "sha256": "1a482479900fed5e"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-kibana-lab.teacher.json.enc",
+     "bytes": 768541,
+     "sha256": "ba93bb3ecfbae198"
+    },
+    "course.json": {
+     "path": "data/topic-kibana-course.json.enc",
+     "bytes": 541,
+     "sha256": "70151ab93e286e77"
+    }
+   }
+  },
+  {
+   "slug": "sql",
+   "title": "SQL",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 532,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-sql-lesson.md.enc",
+     "bytes": 3590,
+     "sha256": "d415c6a774ba26e2"
+    },
+    "lab.json": {
+     "path": "data/topic-sql-lab.json.enc",
+     "bytes": 531477,
+     "sha256": "1719572229222268"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-sql-lab.teacher.json.enc",
+     "bytes": 769909,
+     "sha256": "739c481246dcbeee"
+    },
+    "course.json": {
+     "path": "data/topic-sql-course.json.enc",
+     "bytes": 558,
+     "sha256": "0c2a34b27a53ceb9"
+    }
+   }
+  },
+  {
+   "slug": "postgresql",
+   "title": "PostgreSQL",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 621,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-postgresql-lesson.md.enc",
+     "bytes": 3547,
+     "sha256": "4854537078a5ae1b"
+    },
+    "lab.json": {
+     "path": "data/topic-postgresql-lab.json.enc",
+     "bytes": 637468,
+     "sha256": "e5d46f74a94009e3"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-postgresql-lab.teacher.json.enc",
+     "bytes": 915334,
+     "sha256": "6365e4742f0847a3"
+    },
+    "course.json": {
+     "path": "data/topic-postgresql-course.json.enc",
+     "bytes": 608,
+     "sha256": "92f150278f12d963"
+    }
+   }
+  },
+  {
+   "slug": "mongodb",
+   "title": "MongoDB",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 609,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-mongodb-lesson.md.enc",
+     "bytes": 3518,
+     "sha256": "8312ad3d235a223b"
+    },
+    "lab.json": {
+     "path": "data/topic-mongodb-lab.json.enc",
+     "bytes": 640963,
+     "sha256": "3da0a3b742fe1412"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-mongodb-lab.teacher.json.enc",
+     "bytes": 916306,
+     "sha256": "0b6dd4bb0da7450d"
+    },
+    "course.json": {
+     "path": "data/topic-mongodb-course.json.enc",
+     "bytes": 594,
+     "sha256": "494ead6e799a30fd"
+    }
+   }
+  },
+  {
+   "slug": "redis",
+   "title": "Redis",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 593,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-redis-lesson.md.enc",
+     "bytes": 3428,
+     "sha256": "95170602009f8ecb"
+    },
+    "lab.json": {
+     "path": "data/topic-redis-lab.json.enc",
+     "bytes": 604816,
+     "sha256": "fef4eefc6a8bdc76"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-redis-lab.teacher.json.enc",
+     "bytes": 862864,
+     "sha256": "6eca864b47cbe3f7"
+    },
+    "course.json": {
+     "path": "data/topic-redis-course.json.enc",
+     "bytes": 557,
+     "sha256": "81127d9bb106ca2f"
+    }
+   }
+  },
+  {
+   "slug": "s3-minio",
+   "title": "S3 / MinIO",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 579,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-s3-minio-lesson.md.enc",
+     "bytes": 3518,
+     "sha256": "36072b5969135c88"
+    },
+    "lab.json": {
+     "path": "data/topic-s3-minio-lab.json.enc",
+     "bytes": 577309,
+     "sha256": "7afefc1755367bad"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-s3-minio-lab.teacher.json.enc",
+     "bytes": 836885,
+     "sha256": "ec7b47ff626068a3"
+    },
+    "course.json": {
+     "path": "data/topic-s3-minio-course.json.enc",
+     "bytes": 556,
+     "sha256": "f6c1d5578ca636a1"
+    }
+   }
+  },
+  {
+   "slug": "rabbitmq",
+   "title": "RabbitMQ",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 581,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-rabbitmq-lesson.md.enc",
+     "bytes": 3501,
+     "sha256": "a0c7075b21ab25d3"
+    },
+    "lab.json": {
+     "path": "data/topic-rabbitmq-lab.json.enc",
+     "bytes": 619201,
+     "sha256": "473fa7a1e3357008"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-rabbitmq-lab.teacher.json.enc",
+     "bytes": 883174,
+     "sha256": "52adb996586db556"
+    },
+    "course.json": {
+     "path": "data/topic-rabbitmq-course.json.enc",
+     "bytes": 525,
+     "sha256": "82f9e3615dc588a1"
+    }
+   }
+  },
+  {
+   "slug": "websocket",
+   "title": "WebSocket",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-websocket-lesson.md.enc",
+     "bytes": 3634,
+     "sha256": "565598b2ed95cc99"
+    },
+    "lab.json": {
+     "path": "data/topic-websocket-lab.json.enc",
+     "bytes": 548550,
+     "sha256": "7419ffa8029d0999"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-websocket-lab.teacher.json.enc",
+     "bytes": 793084,
+     "sha256": "7b00ab7ec0ee544b"
+    },
+    "course.json": {
+     "path": "data/topic-websocket-course.json.enc",
+     "bytes": 562,
+     "sha256": "886fc9e924c5b62b"
+    }
+   }
+  },
+  {
+   "slug": "microservices-contracts",
+   "title": "Микросервисы и контракты",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-microservices-contracts-lesson.md.enc",
+     "bytes": 3679,
+     "sha256": "726f8f6c6e8f253f"
+    },
+    "lab.json": {
+     "path": "data/topic-microservices-contracts-lab.json.enc",
+     "bytes": 548559,
+     "sha256": "56f6ff3ac01eead4"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-microservices-contracts-lab.teacher.json.enc",
+     "bytes": 778919,
+     "sha256": "dd7e219a4d41f791"
+    },
+    "course.json": {
+     "path": "data/topic-microservices-contracts-course.json.enc",
+     "bytes": 602,
+     "sha256": "cb4351f3dced7254"
+    }
+   }
+  },
+  {
+   "slug": "redux",
+   "title": "Redux",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 511,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-redux-lesson.md.enc",
+     "bytes": 3422,
+     "sha256": "49da7312f956e6b7"
+    },
+    "lab.json": {
+     "path": "data/topic-redux-lab.json.enc",
+     "bytes": 542626,
+     "sha256": "ceccccae70425d96"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-redux-lab.teacher.json.enc",
+     "bytes": 763669,
+     "sha256": "a5d400de317971cd"
+    },
+    "course.json": {
+     "path": "data/topic-redux-course.json.enc",
+     "bytes": 617,
+     "sha256": "be0a6cac1c036d8d"
+    }
+   }
+  },
+  {
+   "slug": "playwright",
+   "title": "Playwright",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 515,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-playwright-lesson.md.enc",
+     "bytes": 3392,
+     "sha256": "81168ad97cb95b17"
+    },
+    "lab.json": {
+     "path": "data/topic-playwright-lab.json.enc",
+     "bytes": 557484,
+     "sha256": "7b0800f575f5aafe"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-playwright-lab.teacher.json.enc",
+     "bytes": 792098,
+     "sha256": "d145e18e31cf76fc"
+    },
+    "course.json": {
+     "path": "data/topic-playwright-course.json.enc",
+     "bytes": 531,
+     "sha256": "e39864beba378675"
+    }
+   }
+  },
+  {
+   "slug": "ui-ux",
+   "title": "UI/UX",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 517,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-ui-ux-lesson.md.enc",
+     "bytes": 3589,
+     "sha256": "bd9ca82941b87b4c"
+    },
+    "lab.json": {
+     "path": "data/topic-ui-ux-lab.json.enc",
+     "bytes": 569302,
+     "sha256": "116bddb321161885"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-ui-ux-lab.teacher.json.enc",
+     "bytes": 807486,
+     "sha256": "7bde2f275bc44d43"
+    },
+    "course.json": {
+     "path": "data/topic-ui-ux-course.json.enc",
+     "bytes": 653,
+     "sha256": "0087162b5cea11e4"
+    }
+   }
+  },
+  {
+   "slug": "cvat",
+   "title": "CVAT",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-cvat-lesson.md.enc",
+     "bytes": 3362,
+     "sha256": "767a4677022cbf5b"
+    },
+    "lab.json": {
+     "path": "data/topic-cvat-lab.json.enc",
+     "bytes": 538088,
+     "sha256": "8139d8bcaae30b16"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-cvat-lab.teacher.json.enc",
+     "bytes": 761682,
+     "sha256": "a63106bd0e7f487f"
+    },
+    "course.json": {
+     "path": "data/topic-cvat-course.json.enc",
+     "bytes": 513,
+     "sha256": "4cc9f759ff29eeb0"
+    }
+   }
+  },
+  {
+   "slug": "yolo",
+   "title": "YOLO",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 745,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-yolo-lesson.md.enc",
+     "bytes": 4015,
+     "sha256": "2905e433cd591250"
+    },
+    "lab.json": {
+     "path": "data/topic-yolo-lab.json.enc",
+     "bytes": 809818,
+     "sha256": "329ab6d7302f7875"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-yolo-lab.teacher.json.enc",
+     "bytes": 1147671,
+     "sha256": "e9573229b75ead5c"
+    },
+    "course.json": {
+     "path": "data/topic-yolo-course.json.enc",
+     "bytes": 910,
+     "sha256": "d6888b7e163251e7"
+    }
+   }
+  },
+  {
+   "slug": "recognition-cv",
+   "title": "Recognition CV",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-recognition-cv-lesson.md.enc",
+     "bytes": 3728,
+     "sha256": "de1ab296fbda3f95"
+    },
+    "lab.json": {
+     "path": "data/topic-recognition-cv-lab.json.enc",
+     "bytes": 543258,
+     "sha256": "eaa823a862bb3a8c"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-recognition-cv-lab.teacher.json.enc",
+     "bytes": 770288,
+     "sha256": "e96bcf2d6e34a0b6"
+    },
+    "course.json": {
+     "path": "data/topic-recognition-cv-course.json.enc",
+     "bytes": 631,
+     "sha256": "f41a47aa2c03b9b7"
+    }
+   }
+  },
+  {
+   "slug": "clearml-training",
+   "title": "ClearML Training",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 525,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-clearml-training-lesson.md.enc",
+     "bytes": 3509,
+     "sha256": "5b76feb3b1b51f2c"
+    },
+    "lab.json": {
+     "path": "data/topic-clearml-training-lab.json.enc",
+     "bytes": 557114,
+     "sha256": "e823b9a6dbd58e37"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-clearml-training-lab.teacher.json.enc",
+     "bytes": 783578,
+     "sha256": "cf6cb1a9173cc9d9"
+    },
+    "course.json": {
+     "path": "data/topic-clearml-training-course.json.enc",
+     "bytes": 566,
+     "sha256": "3db4c90e71f65250"
+    }
+   }
+  },
+  {
+   "slug": "optuna",
+   "title": "Optuna",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 510,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-optuna-lesson.md.enc",
+     "bytes": 3508,
+     "sha256": "d8aa8832b240b567"
+    },
+    "lab.json": {
+     "path": "data/topic-optuna-lab.json.enc",
+     "bytes": 533023,
+     "sha256": "54ed5b131a2852ea"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-optuna-lab.teacher.json.enc",
+     "bytes": 767222,
+     "sha256": "480cfa33aa54af36"
+    },
+    "course.json": {
+     "path": "data/topic-optuna-course.json.enc",
+     "bytes": 552,
+     "sha256": "de2a9770a4470534"
+    }
+   }
+  },
+  {
+   "slug": "mcp",
+   "title": "MCP",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 502,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-mcp-lesson.md.enc",
+     "bytes": 3440,
+     "sha256": "c024756dc928396f"
+    },
+    "lab.json": {
+     "path": "data/topic-mcp-lab.json.enc",
+     "bytes": 544120,
+     "sha256": "0273d89a260a2288"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-mcp-lab.teacher.json.enc",
+     "bytes": 772527,
+     "sha256": "017c7b72d09915a2"
+    },
+    "course.json": {
+     "path": "data/topic-mcp-course.json.enc",
+     "bytes": 551,
+     "sha256": "42ebfa8b977dd7a4"
+    }
+   }
+  },
+  {
+   "slug": "unreal-engine",
+   "title": "Unreal Engine",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 511,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-unreal-engine-lesson.md.enc",
+     "bytes": 3677,
+     "sha256": "e457f8b8a2b66760"
+    },
+    "lab.json": {
+     "path": "data/topic-unreal-engine-lab.json.enc",
+     "bytes": 533214,
+     "sha256": "c68d8d90a3f3b8c6"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-unreal-engine-lab.teacher.json.enc",
+     "bytes": 771997,
+     "sha256": "d80b5c1ac231bd06"
+    },
+    "course.json": {
+     "path": "data/topic-unreal-engine-course.json.enc",
+     "bytes": 607,
+     "sha256": "433bcbfa45899ffd"
+    }
+   }
+  },
+  {
+   "slug": "bot-creation",
+   "title": "Bot Creation",
+   "kind": "technology",
+   "kindLabel": "Технология",
+   "quizCount": 504,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-bot-creation-lesson.md.enc",
+     "bytes": 3634,
+     "sha256": "af44db1d01f2683d"
+    },
+    "lab.json": {
+     "path": "data/topic-bot-creation-lab.json.enc",
+     "bytes": 512428,
+     "sha256": "d9ecd2b4ccdad8e8"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-bot-creation-lab.teacher.json.enc",
+     "bytes": 731692,
+     "sha256": "f817fce0b69d17fc"
+    },
+    "course.json": {
+     "path": "data/topic-bot-creation-course.json.enc",
+     "bytes": 626,
+     "sha256": "34b36e0cb8468459"
+    }
+   }
+  },
+  {
+   "slug": "python",
+   "title": "Python",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 567,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-python-lesson.md.enc",
+     "bytes": 3964,
+     "sha256": "21eb5dc9676d8922"
+    },
+    "lab.json": {
+     "path": "data/topic-python-lab.json.enc",
+     "bytes": 599945,
+     "sha256": "e02d23efc6546e8e"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-python-lab.teacher.json.enc",
+     "bytes": 853977,
+     "sha256": "b6abb9c1fadbf9e9"
+    },
+    "course.json": {
+     "path": "data/topic-python-course.json.enc",
+     "bytes": 848,
+     "sha256": "d72d4daa91a20b67"
+    }
+   }
+  },
+  {
+   "slug": "javascript-typescript",
+   "title": "JavaScript / TypeScript",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 416,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-javascript-typescript-lesson.md.enc",
+     "bytes": 4051,
+     "sha256": "3be93f788e0c65f1"
+    },
+    "lab.json": {
+     "path": "data/topic-javascript-typescript-lab.json.enc",
+     "bytes": 443111,
+     "sha256": "d72fcb0389d8cd32"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-javascript-typescript-lab.teacher.json.enc",
+     "bytes": 636619,
+     "sha256": "5bfbea6ca79d4305"
+    },
+    "course.json": {
+     "path": "data/topic-javascript-typescript-course.json.enc",
+     "bytes": 974,
+     "sha256": "abd77630731390a1"
+    }
+   }
+  },
+  {
+   "slug": "go",
+   "title": "Go",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 418,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-go-lesson.md.enc",
+     "bytes": 3713,
+     "sha256": "4077cb87bb167e4e"
+    },
+    "lab.json": {
+     "path": "data/topic-go-lab.json.enc",
+     "bytes": 432631,
+     "sha256": "083772c7b6404384"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-go-lab.teacher.json.enc",
+     "bytes": 613950,
+     "sha256": "863d2d98c7318ce4"
+    },
+    "course.json": {
+     "path": "data/topic-go-course.json.enc",
+     "bytes": 756,
+     "sha256": "e095a18d0256a036"
+    }
+   }
+  },
+  {
+   "slug": "java",
+   "title": "Java",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 424,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-java-lesson.md.enc",
+     "bytes": 3767,
+     "sha256": "2bb0f0c76f9ceb4b"
+    },
+    "lab.json": {
+     "path": "data/topic-java-lab.json.enc",
+     "bytes": 439284,
+     "sha256": "f992b3dfbdb252d4"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-java-lab.teacher.json.enc",
+     "bytes": 633040,
+     "sha256": "221c10018b585028"
+    },
+    "course.json": {
+     "path": "data/topic-java-course.json.enc",
+     "bytes": 823,
+     "sha256": "bb042da58f48e503"
+    }
+   }
+  },
+  {
+   "slug": "csharp",
+   "title": "C#",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 416,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-csharp-lesson.md.enc",
+     "bytes": 3763,
+     "sha256": "95a5557f6835e56f"
+    },
+    "lab.json": {
+     "path": "data/topic-csharp-lab.json.enc",
+     "bytes": 424572,
+     "sha256": "98feb17686df88d0"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-csharp-lab.teacher.json.enc",
+     "bytes": 614171,
+     "sha256": "a25ab0b6ca1d2938"
+    },
+    "course.json": {
+     "path": "data/topic-csharp-course.json.enc",
+     "bytes": 775,
+     "sha256": "29806b94f6cbe875"
+    }
+   }
+  },
+  {
+   "slug": "elixir",
+   "title": "Elixir",
+   "kind": "language",
+   "kindLabel": "Язык",
+   "quizCount": 416,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-elixir-lesson.md.enc",
+     "bytes": 3753,
+     "sha256": "b8bddd30af4ed1a9"
+    },
+    "lab.json": {
+     "path": "data/topic-elixir-lab.json.enc",
+     "bytes": 412949,
+     "sha256": "93ae3c04941fa5e9"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-elixir-lab.teacher.json.enc",
+     "bytes": 592576,
+     "sha256": "6515b8ee95fc00e9"
+    },
+    "course.json": {
+     "path": "data/topic-elixir-course.json.enc",
+     "bytes": 827,
+     "sha256": "51ac7b07bd421a62"
+    }
+   }
+  },
+  {
+   "slug": "languages-together",
+   "title": "Языки вместе",
+   "kind": "polyglot",
+   "kindLabel": "Полиглот",
+   "quizCount": 416,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-languages-together-lesson.md.enc",
+     "bytes": 3941,
+     "sha256": "946c94d83070a640"
+    },
+    "lab.json": {
+     "path": "data/topic-languages-together-lab.json.enc",
+     "bytes": 453856,
+     "sha256": "023f4835024e8296"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-languages-together-lab.teacher.json.enc",
+     "bytes": 638129,
+     "sha256": "04bdfdeec963ebe6"
+    },
+    "course.json": {
+     "path": "data/topic-languages-together-course.json.enc",
+     "bytes": 875,
+     "sha256": "4a6993f9f3c53c83"
+    }
+   }
+  },
+  {
+   "slug": "interview-algorithms",
+   "title": "Interview Prep — Algorithms",
+   "kind": "interview",
+   "kindLabel": "Интервью",
+   "quizCount": 414,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-interview-algorithms-lesson.md.enc",
+     "bytes": 4294,
+     "sha256": "04391b1bb1e6d5aa"
+    },
+    "lab.json": {
+     "path": "data/topic-interview-algorithms-lab.json.enc",
+     "bytes": 470856,
+     "sha256": "4aa8271c77b304a7"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-interview-algorithms-lab.teacher.json.enc",
+     "bytes": 665911,
+     "sha256": "bdb7a160cb5f73f2"
+    },
+    "course.json": {
+     "path": "data/topic-interview-algorithms-course.json.enc",
+     "bytes": 1044,
+     "sha256": "1655411241a3081a"
+    }
+   }
+  },
+  {
+   "slug": "interview-system-design",
+   "title": "Interview Prep — System Design",
+   "kind": "interview",
+   "kindLabel": "Интервью",
+   "quizCount": 428,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-interview-system-design-lesson.md.enc",
+     "bytes": 4140,
+     "sha256": "eb039232a927439f"
+    },
+    "lab.json": {
+     "path": "data/topic-interview-system-design-lab.json.enc",
+     "bytes": 497710,
+     "sha256": "fcd3443fccb54cd7"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-interview-system-design-lab.teacher.json.enc",
+     "bytes": 690961,
+     "sha256": "5390175c2591051f"
+    },
+    "course.json": {
+     "path": "data/topic-interview-system-design-course.json.enc",
+     "bytes": 1040,
+     "sha256": "089dd1f2fffb3aa9"
+    }
+   }
+  },
+  {
+   "slug": "system-design-mock",
+   "title": "System Design Mock",
+   "kind": "interview",
+   "kindLabel": "Интервью",
+   "quizCount": 414,
+   "files": {
+    "lesson.md": {
+     "path": "data/topic-system-design-mock-lesson.md.enc",
+     "bytes": 3947,
+     "sha256": "29a3f365424c4b43"
+    },
+    "lab.json": {
+     "path": "data/topic-system-design-mock-lab.json.enc",
+     "bytes": 495771,
+     "sha256": "0694a7b789f753b2"
+    },
+    "lab.teacher.json": {
+     "path": "data/topic-system-design-mock-lab.teacher.json.enc",
+     "bytes": 695632,
+     "sha256": "7dfca69411ea0b3d"
+    },
+    "course.json": {
+     "path": "data/topic-system-design-mock-course.json.enc",
+     "bytes": 722,
+     "sha256": "f95cb8932975ad0b"
+    }
+   }
+  }
+ ],
+ "weeks": {
+  "1": [
+   "wsl",
+   "docker",
+   "docker-troubleshooting",
+   "cursor-ai-tools",
+   "github-pr"
+  ],
+  "2": [
+   "git-flow",
+   "jira-automation",
+   "confluence-automation",
+   "cursor-debug",
+   "cursor-rules-ui"
+  ],
+  "3": [
+   "python",
+   "postgresql",
+   "sql",
+   "mongodb",
+   "redis"
+  ],
+  "4": [
+   "javascript-typescript",
+   "redux",
+   "ui-ux",
+   "figma",
+   "playwright"
+  ],
+  "5": [
+   "microservices-contracts",
+   "s3-minio",
+   "languages-together"
+  ],
+  "6": [
+   "rabbitmq",
+   "websocket"
+  ],
+  "7": [
+   "playwright",
+   "github-actions"
+  ],
+  "8": [
+   "github-actions",
+   "jenkins",
+   "docker"
+  ],
+  "9": [
+   "kubernetes",
+   "proxmox"
+  ],
+  "10": [
+   "prometheus-grafana",
+   "elasticsearch",
+   "kibana",
+   "cursor-debug"
+  ],
+  "11": [
+   "recognition-cv"
+  ],
+  "12": [
+   "cvat",
+   "clearml-training"
+  ],
+  "13": [
+   "clearml-training",
+   "optuna"
+  ],
+  "14": [
+   "recognition-cv",
+   "mcp"
+  ],
+  "15": [
+   "bot-creation",
+   "interview-system-design",
+   "ui-ux"
+  ],
+  "16": [
+   "interview-algorithms",
+   "interview-system-design",
+   "system-design-mock"
+  ],
+  "17": [
+   "recognition-cv",
+   "yolo",
+   "cvat",
+   "s3-minio",
+   "docker"
+  ],
+  "18": [
+   "unreal-engine"
+  ],
+  "19": [
+   "go"
+  ],
+  "20": [
+   "java"
+  ],
+  "21": [
+   "csharp"
+  ],
+  "22": [
+   "jetbrains",
+   "vscode",
+   "languages-together",
+   "github-actions",
+   "software-qa",
+   "junior-workflow"
+  ],
+  "23": [
+   "jenkins",
+   "proxmox"
+  ],
+  "24": [
+   "optuna",
+   "bot-creation"
+  ]
+ },
  "kdf": {
   "name": "PBKDF2-SHA256",
   "iterations": 300000,
-  "salt": "AchdtJQyzZC00XfOm7+54A=="
+  "salt": "eap2FRaDYY3obRD4R5raOw=="
+ },
+ "teacherKdf": {
+  "name": "PBKDF2-SHA256",
+  "iterations": 300000,
+  "salt": "47xEBZMGfMK8OROS4E2dXQ=="
+ },
+ "contentKey": {
+  "student": "IzZ0gsOTKTFxexB4oNDEGbnNwcyGO7mnFLKlPZBuXXXw6Vo7akI3etyQfRcjOkDmSxk4kpifvGESjrfy",
+  "teacher": "cVg/fuG9xa0kZD34/UbwWHZIDQCHmQu2TiKwKb91mFk6JwRaUGoI4CDqGg7YSZNjAwmwO93Ubg8g39Cr"
  }
 }
