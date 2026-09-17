@@ -1,5 +1,41 @@
 
 
+# Private inputs and restricted source material (public course ciphertext is intentional)
+.env*
+!.env.example
+!.env.sample
+!**/.env.example
+!**/.env.sample
+*.key
+*.pem
+*.p12
+*.pfx
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.ppt
+*.pptx
+*.jpeg
+*.bin
+books/
+record/
+records/
+recordings/
+Meet Recordings*
+prezentation/
+private/
+nda/
+cohort.yaml
+cohort.yml
+roster.md
+credentials.json
+service-account.json
+
+!data/verifier.bin
+!data/teacher-verifier.bin
+
 # Media is generated in memory or supplied privately; do not commit source or encrypted media.
 *.[mM][pP]4
 *.[mM][pP]4.[eE][nN][cC]
