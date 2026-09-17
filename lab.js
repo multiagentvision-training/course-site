@@ -481,14 +481,14 @@
           </div>`
         : '';
       card.innerHTML = `
-        <p class="muted">${topicLabel(lab, q.topic)} · карточка ${visIdx + 1} из ${visible.length}${q.type === 'click' ? ' · куда нажать' : ''}</p>
+        <p class="muted">${escapeHtml(topicLabel(lab, q.topic))} · карточка ${visIdx + 1} из ${visible.length}${q.type === 'click' ? ' · куда нажать' : ''}</p>
         <p class="lab-prompt">${escapeHtml(q.prompt)}</p>
         ${stem}
         ${path}
         <div class="lab-why" id="lab-why"></div>
         <div class="lab-nav">
           ${prev ? `<a class="lab-arrow" href="${escapeHtml(href(opts, 'quiz', { q: prev, topic: showAll ? 'all' : filter, rand: rand || undefined }))}"${linkAttr(opts)}>← Предыдущая</a>` : '<span></span>'}
-          ${next ? `<a class="lab-arrow" href="${escapeHtml(href(opts, 'quiz', { q: next, topic: showAll ? 'all' : filter, rand: rand || undefined }))}"${linkAttr(opts)}" id="lab-next">Следующая задача →</a>` : `<a class="lab-arrow" href="${escapeHtml(href(opts, 'hub'))}"${linkAttr(opts)}>К хабу →</a>`}
+          ${next ? `<a class="lab-arrow" href="${escapeHtml(href(opts, 'quiz', { q: next, topic: showAll ? 'all' : filter, rand: rand || undefined }))}"${linkAttr(opts)} id="lab-next">Следующая задача →</a>` : `<a class="lab-arrow" href="${escapeHtml(href(opts, 'hub'))}"${linkAttr(opts)}>К хабу →</a>`}
         </div>`;
       const why = card.querySelector('#lab-why');
       if (teacher) {
@@ -514,7 +514,8 @@
         const scoreEl = root.querySelector('.lab-score');
         const sc = quizScore(sid, lab);
         if (scoreEl) scoreEl.textContent = `${sc.n}/${sc.total}`;
-        const sideItem = root.querySelector(`.lab-q[href="${href(opts, 'quiz', { q: idx, topic: showAll ? 'all' : filter, rand: rand || undefined })}"]`)
+        const expectedHref = href(opts, 'quiz', { q: idx, topic: showAll ? 'all' : filter, rand: rand || undefined });
+        const sideItem = [...root.querySelectorAll('.lab-q')].find((a) => a.getAttribute('href') === expectedHref)
           || [...root.querySelectorAll('.lab-q')].find((a) => a.classList.contains('is-on'));
         if (sideItem) sideItem.classList.add('is-ok');
           paintCard(true);
@@ -671,7 +672,7 @@
     }
     const tasks = lab.tasks || [];
     root.innerHTML = `<div class="lab-hub">
-      <p class="lab-crumb"><a href="${escapeHtml(href(opts, 'hub'))}"${linkAttr(opts)}>← Хаб недели ${week}</a></p>
+      <p class="lab-crumb"><a href="${escapeHtml(href(opts, 'hub'))}"${linkAttr(opts)}>← Хаб недели ${escapeHtml(week)}</a></p>
       <h1>Задания LRN</h1>
       <p class="muted">После квиза и стенда на сайте. Полные карточки — в docs/tasks/w01/.</p>
       <ul class="lab-tasks">${tasks.map((t) => `<li>

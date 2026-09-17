@@ -194,34 +194,16 @@
     return window.MvtLab.escapeHtml(value);
   }
 
-  function sanitizeHtmlTree(doc) {
-    doc.querySelectorAll('script,iframe,object,embed,form,math,svg,link,meta,base,style,template,textarea,noscript').forEach((n) => n.remove());
-    doc.querySelectorAll('*').forEach((el) => {
-      [...el.attributes].forEach((attr) => {
-        const name = attr.name.toLowerCase();
-        const val = (attr.value || '').trim();
-        if (name.startsWith('on') || name === 'srcdoc' || name === 'formaction' || name === 'xlink:href' || name === 'style') {
-          el.removeAttribute(attr.name);
-          return;
-        }
-        if (['href', 'src', 'poster', 'action', 'cite', 'data', 'srcset'].includes(name)) {
-          if (/^(https?:|\/|#\/|#)/i.test(val) || mediaKind(val.replace(/^\.\//, ''))) return;
-          el.removeAttribute(attr.name);
-        }
-      });
-    });
-  }
-
   function safeMarkdown(md, week) {
     const html = marked.parse(md, { mangle: false, headerIds: false });
     const doc = new DOMParser().parseFromString(html, 'text/html');
-    sanitizeHtmlTree(doc);
+    window.MvtSanitizer.sanitizeHtmlTree(doc);
     doc.querySelectorAll('a[href]').forEach((a) => {
       const h = a.getAttribute('href') || '';
       if (/^https?:/.test(h) || h.startsWith('#/')) {
         if (/^https?:/.test(h)) {
           a.target = '_blank';
-          a.rel = 'noopener';
+          a.rel = 'noopener noreferrer';
         }
         return;
       }
@@ -349,7 +331,7 @@
       (m.lessons || []).map((l) => {
         const recs = recMap[String(l.week)] || [];
         const labels = recs.map((s) => (courses[s] ? courses[s].title : s)).join(' · ');
-        return `<li><a href="#/w/${l.week}">${escapeHtml(l.title)}</a><span class="badge">${done.includes(l.week) ? 'пройдено' : escapeHtml(labels || 'без полки')}</span></li>`;
+        return `<li><a href="#/w/${escapeHtml(l.week)}">${escapeHtml(l.title)}</a><span class="badge">${done.includes(l.week) ? 'пройдено' : escapeHtml(labels || 'без полки')}</span></li>`;
       }).join('') + '</ul>';
   }
 
@@ -367,7 +349,7 @@
     app.innerHTML = `<h1>Полка курсов</h1>
       <p class="muted">Не привязано к неделе. Квиз — click/fill/choice. Экзамена нет.</p>
       <div class="lab-filters">${chips}</div>
-      <ul class="list">${shown.map((c) => `<li><a href="#/t/${escapeHtml(c.slug)}">${escapeHtml(c.title)}</a><span class="badge">${escapeHtml(c.kindLabel || c.kind)} · ${c.quizCount || 0} карточек</span></li>`).join('')}</ul>`;
+      <ul class="list">${shown.map((c) => `<li><a href="#/t/${escapeHtml(c.slug)}">${escapeHtml(c.title)}</a><span class="badge">${escapeHtml(c.kindLabel || c.kind)} · ${escapeHtml(c.quizCount || 0)} карточек</span></li>`).join('')}</ul>`;
   }
 
   function recForWeek(m, week) {
@@ -394,7 +376,7 @@
           ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr), week)}</details>` : ''}
         </div>`
       : '';
-    app.innerHTML = `<p class="lab-crumb"><a href="${crumb}">← Хаб</a></p>
+    app.innerHTML = `<p class="lab-crumb"><a href="${escapeHtml(crumb)}">← Хаб</a></p>
       <article>${safeMarkdown(mdBuf ? dec.decode(mdBuf) : '', week)}</article>${media}`;
     window.MvtLab.prepareMaterial(app.querySelector('article'), lab, week, o);
   }
