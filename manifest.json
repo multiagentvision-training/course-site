@@ -23,26 +23,6 @@
      "path": "data/w01-lab.teacher.json.enc",
      "bytes": 38344,
      "sha256": "8ec14c09997d2b22"
-    },
-    "audio.mp3": {
-     "path": "data/w01-audio.mp3.enc",
-     "bytes": 1672217,
-     "sha256": "efa644e5258e419f"
-    },
-    "video.mp4": {
-     "path": "data/w01-video.mp4.enc",
-     "bytes": 2793881,
-     "sha256": "d4e2763f59b76446"
-    },
-    "video.vtt": {
-     "path": "data/w01-video.vtt.enc",
-     "bytes": 8863,
-     "sha256": "bf35522b6c1a252e"
-    },
-    "poster.jpg": {
-     "path": "data/w01-poster.jpg.enc",
-     "bytes": 137661,
-     "sha256": "91e6e71c20b0f126"
     }
    }
   },
@@ -69,26 +49,6 @@
      "path": "data/w02-lab.teacher.json.enc",
      "bytes": 36917,
      "sha256": "ae56cb0d69748eee"
-    },
-    "audio.mp3": {
-     "path": "data/w02-audio.mp3.enc",
-     "bytes": 1633046,
-     "sha256": "260c582d15f0c8b7"
-    },
-    "video.mp4": {
-     "path": "data/w02-video.mp4.enc",
-     "bytes": 2856024,
-     "sha256": "86cffecc203b01c6"
-    },
-    "video.vtt": {
-     "path": "data/w02-video.vtt.enc",
-     "bytes": 9006,
-     "sha256": "fc1927ac861dc4e5"
-    },
-    "poster.jpg": {
-     "path": "data/w02-poster.jpg.enc",
-     "bytes": 156476,
-     "sha256": "7308a53dac271f86"
     }
    }
   },
@@ -115,26 +75,6 @@
      "path": "data/w03-lab.teacher.json.enc",
      "bytes": 34303,
      "sha256": "3e084d9f80dba595"
-    },
-    "audio.mp3": {
-     "path": "data/w03-audio.mp3.enc",
-     "bytes": 1291789,
-     "sha256": "d89c5416ac9b2322"
-    },
-    "video.mp4": {
-     "path": "data/w03-video.mp4.enc",
-     "bytes": 2173712,
-     "sha256": "437931e425fd09d7"
-    },
-    "video.vtt": {
-     "path": "data/w03-video.vtt.enc",
-     "bytes": 7119,
-     "sha256": "612c432a66032cef"
-    },
-    "poster.jpg": {
-     "path": "data/w03-poster.jpg.enc",
-     "bytes": 134145,
-     "sha256": "e315e4be78e8d80e"
     }
    }
   },
@@ -161,26 +101,6 @@
      "path": "data/w04-lab.teacher.json.enc",
      "bytes": 31332,
      "sha256": "f2c0a9b23909939e"
-    },
-    "audio.mp3": {
-     "path": "data/w04-audio.mp3.enc",
-     "bytes": 1155424,
-     "sha256": "2db339ba68b324de"
-    },
-    "video.mp4": {
-     "path": "data/w04-video.mp4.enc",
-     "bytes": 1913329,
-     "sha256": "869e4366d68e10e4"
-    },
-    "video.vtt": {
-     "path": "data/w04-video.vtt.enc",
-     "bytes": 6352,
-     "sha256": "3b63536ad2a8176a"
-    },
-    "poster.jpg": {
-     "path": "data/w04-poster.jpg.enc",
-     "bytes": 141505,
-     "sha256": "94c8be00f7600114"
     }
    }
   },
@@ -207,26 +127,6 @@
      "path": "data/w05-lab.teacher.json.enc",
      "bytes": 34018,
      "sha256": "813ac929426474e3"
-    },
-    "audio.mp3": {
-     "path": "data/w05-audio.mp3.enc",
-     "bytes": 1097401,
-     "sha256": "cccf10649c1e34e3"
-    },
-    "video.mp4": {
-     "path": "data/w05-video.mp4.enc",
-     "bytes": 1798015,
-     "sha256": "e22cd67b7345778f"
-    },
-    "video.vtt": {
-     "path": "data/w05-video.vtt.enc",
-     "bytes": 6059,
-     "sha256": "7ad29db4e141ce73"
-    },
-    "poster.jpg": {
-     "path": "data/w05-poster.jpg.enc",
-     "bytes": 132127,
-     "sha256": "25575b6cf2f1c4aa"
     }
    }
   },
@@ -253,26 +153,6 @@
      "path": "data/w06-lab.teacher.json.enc",
      "bytes": 30282,
      "sha256": "c8086288bc48d1d2"
-    },
-    "audio.mp3": {
-     "path": "data/w06-audio.mp3.enc",
-     "bytes": 1063821,
-     "sha256": "c416fc943732a7c5"
-    },
-    "video.mp4": {
-     "path": "data/w06-video.mp4.enc",
-     "bytes": 1714307,
-     "sha256": "d848bb8168aa3838"
-    },
-    "video.vtt": {
-     "path": "data/w06-video.vtt.enc",
-     "bytes": 6002,
-     "sha256": "ec4a5a95100472cd"
-    },
-    "poster.jpg": {
-     "path": "data/w06-poster.jpg.enc",
-     "bytes": 120657,
-     "sha256": "7e4d25490ef83a7b"
     }
    }
   },
@@ -299,26 +179,6 @@
      "path": "data/w07-lab.teacher.json.enc",
      "bytes": 28383,
      "sha256": "e5a0bbbc6018db1b"
-    },
-    "audio.mp3": {
-     "path": "data/w07-audio.mp3.enc",
-     "bytes": 990676,
-     "sha256": "3978ca9a5d56a1d8"
-    },
-    "video.mp4": {
-     "path": "data/w07-video.mp4.enc",
-     "bytes": 1562188,
-     "sha256": "0ebb042cc16e8f7c"
-    },
-    "video.vtt": {
-     "path": "data/w07-video.vtt.enc",
-     "bytes": 5633,
-     "sha256": "80010cdd26814dae"
-    },
-    "poster.jpg": {
-     "path": "data/w07-poster.jpg.enc",
-     "bytes": 119107,
-     "sha256": "19e32656e768231d"
     }
    }
   },
@@ -345,26 +205,6 @@
      "path": "data/w08-lab.teacher.json.enc",
      "bytes": 32833,
      "sha256": "513173f91a54ea29"
-    },
-    "audio.mp3": {
-     "path": "data/w08-audio.mp3.enc",
-     "bytes": 1082814,
-     "sha256": "317343512a61796a"
-    },
-    "video.mp4": {
-     "path": "data/w08-video.mp4.enc",
-     "bytes": 1759950,
-     "sha256": "3cf21740be32dd64"
-    },
-    "video.vtt": {
-     "path": "data/w08-video.vtt.enc",
-     "bytes": 5953,
-     "sha256": "38fb9e27e7a187a0"
-    },
-    "poster.jpg": {
-     "path": "data/w08-poster.jpg.enc",
-     "bytes": 134255,
-     "sha256": "f2399337df0de9c3"
     }
    }
   },
@@ -391,26 +231,6 @@
      "path": "data/w09-lab.teacher.json.enc",
      "bytes": 29519,
      "sha256": "178a3c5b5c8802ab"
-    },
-    "audio.mp3": {
-     "path": "data/w09-audio.mp3.enc",
-     "bytes": 1071586,
-     "sha256": "2f281b23342f49e9"
-    },
-    "video.mp4": {
-     "path": "data/w09-video.mp4.enc",
-     "bytes": 1784843,
-     "sha256": "7003fc07dd56a660"
-    },
-    "video.vtt": {
-     "path": "data/w09-video.vtt.enc",
-     "bytes": 5878,
-     "sha256": "4820a0c8d5e9da70"
-    },
-    "poster.jpg": {
-     "path": "data/w09-poster.jpg.enc",
-     "bytes": 143771,
-     "sha256": "061e03a896bf7146"
     }
    }
   },
@@ -437,26 +257,6 @@
      "path": "data/w10-lab.teacher.json.enc",
      "bytes": 27986,
      "sha256": "8f9c26ff8c21f74c"
-    },
-    "audio.mp3": {
-     "path": "data/w10-audio.mp3.enc",
-     "bytes": 1011974,
-     "sha256": "39bbea6bccc005da"
-    },
-    "video.mp4": {
-     "path": "data/w10-video.mp4.enc",
-     "bytes": 1642789,
-     "sha256": "8017a991714cdc2f"
-    },
-    "video.vtt": {
-     "path": "data/w10-video.vtt.enc",
-     "bytes": 5595,
-     "sha256": "fb4a9b4e41f51ac3"
-    },
-    "poster.jpg": {
-     "path": "data/w10-poster.jpg.enc",
-     "bytes": 124359,
-     "sha256": "c8caade8961db21d"
     }
    }
   },
@@ -483,26 +283,6 @@
      "path": "data/w11-lab.teacher.json.enc",
      "bytes": 40888,
      "sha256": "14182684943f1d68"
-    },
-    "audio.mp3": {
-     "path": "data/w11-audio.mp3.enc",
-     "bytes": 1304474,
-     "sha256": "58a4c7dc3bbd0d02"
-    },
-    "video.mp4": {
-     "path": "data/w11-video.mp4.enc",
-     "bytes": 2203633,
-     "sha256": "c6234181e0bdcd96"
-    },
-    "video.vtt": {
-     "path": "data/w11-video.vtt.enc",
-     "bytes": 7141,
-     "sha256": "de762122ba074df1"
-    },
-    "poster.jpg": {
-     "path": "data/w11-poster.jpg.enc",
-     "bytes": 174347,
-     "sha256": "4073d1cd95769167"
     }
    }
   },
@@ -529,26 +309,6 @@
      "path": "data/w12-lab.teacher.json.enc",
      "bytes": 36650,
      "sha256": "267f8fd9225a2aa3"
-    },
-    "audio.mp3": {
-     "path": "data/w12-audio.mp3.enc",
-     "bytes": 1310110,
-     "sha256": "d87e90a681c27d1b"
-    },
-    "video.mp4": {
-     "path": "data/w12-video.mp4.enc",
-     "bytes": 2235830,
-     "sha256": "8ad07aea35cb31fc"
-    },
-    "video.vtt": {
-     "path": "data/w12-video.vtt.enc",
-     "bytes": 7146,
-     "sha256": "5b858a49e34d3bf2"
-    },
-    "poster.jpg": {
-     "path": "data/w12-poster.jpg.enc",
-     "bytes": 167989,
-     "sha256": "3c4fcd0a76589e49"
     }
    }
   },
@@ -575,26 +335,6 @@
      "path": "data/w13-lab.teacher.json.enc",
      "bytes": 36259,
      "sha256": "1a7b6e023bc8b1f6"
-    },
-    "audio.mp3": {
-     "path": "data/w13-audio.mp3.enc",
-     "bytes": 1234354,
-     "sha256": "e3f8dcbca38b88cf"
-    },
-    "video.mp4": {
-     "path": "data/w13-video.mp4.enc",
-     "bytes": 2109739,
-     "sha256": "0b118e0393efd8e6"
-    },
-    "video.vtt": {
-     "path": "data/w13-video.vtt.enc",
-     "bytes": 6703,
-     "sha256": "49584fca59c698ef"
-    },
-    "poster.jpg": {
-     "path": "data/w13-poster.jpg.enc",
-     "bytes": 153883,
-     "sha256": "f279910b8ca7f118"
     }
    }
   },
@@ -621,26 +361,6 @@
      "path": "data/w14-lab.teacher.json.enc",
      "bytes": 35274,
      "sha256": "21124420082a5188"
-    },
-    "audio.mp3": {
-     "path": "data/w14-audio.mp3.enc",
-     "bytes": 1013467,
-     "sha256": "d28f27602f4c3fc5"
-    },
-    "video.mp4": {
-     "path": "data/w14-video.mp4.enc",
-     "bytes": 1694060,
-     "sha256": "d0ce4fe004416044"
-    },
-    "video.vtt": {
-     "path": "data/w14-video.vtt.enc",
-     "bytes": 5539,
-     "sha256": "408363d8cf9361ac"
-    },
-    "poster.jpg": {
-     "path": "data/w14-poster.jpg.enc",
-     "bytes": 142862,
-     "sha256": "5847c6d8bed75a0c"
     }
    }
   },
@@ -667,26 +387,6 @@
      "path": "data/w15-lab.teacher.json.enc",
      "bytes": 29254,
      "sha256": "848276e378504b36"
-    },
-    "audio.mp3": {
-     "path": "data/w15-audio.mp3.enc",
-     "bytes": 969255,
-     "sha256": "ca0221261d42f49c"
-    },
-    "video.mp4": {
-     "path": "data/w15-video.mp4.enc",
-     "bytes": 1608065,
-     "sha256": "4b3c1b52fc62d7a3"
-    },
-    "video.vtt": {
-     "path": "data/w15-video.vtt.enc",
-     "bytes": 5280,
-     "sha256": "00b5c68d25a4fd4d"
-    },
-    "poster.jpg": {
-     "path": "data/w15-poster.jpg.enc",
-     "bytes": 132111,
-     "sha256": "0f211af772d36b5d"
     }
    }
   },
@@ -713,26 +413,6 @@
      "path": "data/w16-lab.teacher.json.enc",
      "bytes": 28251,
      "sha256": "65f8e2212f777e3c"
-    },
-    "audio.mp3": {
-     "path": "data/w16-audio.mp3.enc",
-     "bytes": 1003827,
-     "sha256": "ecba342dd3bc22a8"
-    },
-    "video.mp4": {
-     "path": "data/w16-video.mp4.enc",
-     "bytes": 1670317,
-     "sha256": "cd9746a9aa1d11be"
-    },
-    "video.vtt": {
-     "path": "data/w16-video.vtt.enc",
-     "bytes": 5510,
-     "sha256": "f77a30a9082e98c4"
-    },
-    "poster.jpg": {
-     "path": "data/w16-poster.jpg.enc",
-     "bytes": 119329,
-     "sha256": "0ef8cf1f7039c8b7"
     }
    }
   },
@@ -759,26 +439,6 @@
      "path": "data/w17-lab.teacher.json.enc",
      "bytes": 33485,
      "sha256": "9ff97d1010765d40"
-    },
-    "audio.mp3": {
-     "path": "data/w17-audio.mp3.enc",
-     "bytes": 1005951,
-     "sha256": "16d19d6cfc917d2e"
-    },
-    "video.mp4": {
-     "path": "data/w17-video.mp4.enc",
-     "bytes": 1684080,
-     "sha256": "576372fafa9d83a1"
-    },
-    "video.vtt": {
-     "path": "data/w17-video.vtt.enc",
-     "bytes": 5583,
-     "sha256": "a2bd7a18824b3a4b"
-    },
-    "poster.jpg": {
-     "path": "data/w17-poster.jpg.enc",
-     "bytes": 136493,
-     "sha256": "5da408d76835627a"
     }
    }
   },
@@ -805,26 +465,6 @@
      "path": "data/w18-lab.teacher.json.enc",
      "bytes": 28637,
      "sha256": "635afa533ac81a4c"
-    },
-    "audio.mp3": {
-     "path": "data/w18-audio.mp3.enc",
-     "bytes": 790552,
-     "sha256": "5fb7fa32615e5256"
-    },
-    "video.mp4": {
-     "path": "data/w18-video.mp4.enc",
-     "bytes": 1305473,
-     "sha256": "bc435aafaba0bc3f"
-    },
-    "video.vtt": {
-     "path": "data/w18-video.vtt.enc",
-     "bytes": 4423,
-     "sha256": "2e48c6ca73f6abd8"
-    },
-    "poster.jpg": {
-     "path": "data/w18-poster.jpg.enc",
-     "bytes": 150799,
-     "sha256": "0d03667fb0cdffdd"
     }
    }
   },
@@ -851,26 +491,6 @@
      "path": "data/w19-lab.teacher.json.enc",
      "bytes": 25927,
      "sha256": "347d48594a642895"
-    },
-    "audio.mp3": {
-     "path": "data/w19-audio.mp3.enc",
-     "bytes": 821389,
-     "sha256": "af1053501ead7e04"
-    },
-    "video.mp4": {
-     "path": "data/w19-video.mp4.enc",
-     "bytes": 1332074,
-     "sha256": "b7e2be54480f4e7a"
-    },
-    "video.vtt": {
-     "path": "data/w19-video.vtt.enc",
-     "bytes": 4600,
-     "sha256": "7cd94bd901ed735a"
-    },
-    "poster.jpg": {
-     "path": "data/w19-poster.jpg.enc",
-     "bytes": 134851,
-     "sha256": "55c75d46eef02c8c"
     }
    }
   },
@@ -897,26 +517,6 @@
      "path": "data/w20-lab.teacher.json.enc",
      "bytes": 25876,
      "sha256": "b92df472cd74250a"
-    },
-    "audio.mp3": {
-     "path": "data/w20-audio.mp3.enc",
-     "bytes": 681423,
-     "sha256": "b46c0b86ab76930c"
-    },
-    "video.mp4": {
-     "path": "data/w20-video.mp4.enc",
-     "bytes": 1116389,
-     "sha256": "48772a8a79cf6b82"
-    },
-    "video.vtt": {
-     "path": "data/w20-video.vtt.enc",
-     "bytes": 3815,
-     "sha256": "babed2f530edfda6"
-    },
-    "poster.jpg": {
-     "path": "data/w20-poster.jpg.enc",
-     "bytes": 156308,
-     "sha256": "3477a7f6b6a82f44"
     }
    }
   },
@@ -943,26 +543,6 @@
      "path": "data/w21-lab.teacher.json.enc",
      "bytes": 24631,
      "sha256": "78245dc4b3cf8b65"
-    },
-    "audio.mp3": {
-     "path": "data/w21-audio.mp3.enc",
-     "bytes": 680393,
-     "sha256": "ee57a3b58d674727"
-    },
-    "video.mp4": {
-     "path": "data/w21-video.mp4.enc",
-     "bytes": 1105779,
-     "sha256": "b0b5594af466b8ff"
-    },
-    "video.vtt": {
-     "path": "data/w21-video.vtt.enc",
-     "bytes": 3771,
-     "sha256": "33cdaa84839ef34b"
-    },
-    "poster.jpg": {
-     "path": "data/w21-poster.jpg.enc",
-     "bytes": 135515,
-     "sha256": "72e1fc6be5d5d693"
     }
    }
   },
@@ -989,26 +569,6 @@
      "path": "data/w22-lab.teacher.json.enc",
      "bytes": 23755,
      "sha256": "ac7d74ca18db862d"
-    },
-    "audio.mp3": {
-     "path": "data/w22-audio.mp3.enc",
-     "bytes": 665145,
-     "sha256": "5cc394fcb5de03e4"
-    },
-    "video.mp4": {
-     "path": "data/w22-video.mp4.enc",
-     "bytes": 1080598,
-     "sha256": "99da8bcd4b192602"
-    },
-    "video.vtt": {
-     "path": "data/w22-video.vtt.enc",
-     "bytes": 3698,
-     "sha256": "371ff3fd1ea9290c"
-    },
-    "poster.jpg": {
-     "path": "data/w22-poster.jpg.enc",
-     "bytes": 157450,
-     "sha256": "5709827a4ab3e69a"
     }
    }
   },
@@ -1035,26 +595,6 @@
      "path": "data/w23-lab.teacher.json.enc",
      "bytes": 25218,
      "sha256": "c6029e68ac97d59f"
-    },
-    "audio.mp3": {
-     "path": "data/w23-audio.mp3.enc",
-     "bytes": 766514,
-     "sha256": "c14818f4639b1d08"
-    },
-    "video.mp4": {
-     "path": "data/w23-video.mp4.enc",
-     "bytes": 1271755,
-     "sha256": "33e701513619b64f"
-    },
-    "video.vtt": {
-     "path": "data/w23-video.vtt.enc",
-     "bytes": 4276,
-     "sha256": "b84ccf2b915f7258"
-    },
-    "poster.jpg": {
-     "path": "data/w23-poster.jpg.enc",
-     "bytes": 155016,
-     "sha256": "3b75c0c30215c519"
     }
    }
   },
@@ -1081,26 +621,6 @@
      "path": "data/w24-lab.teacher.json.enc",
      "bytes": 24434,
      "sha256": "7869555f21d2ae67"
-    },
-    "audio.mp3": {
-     "path": "data/w24-audio.mp3.enc",
-     "bytes": 682120,
-     "sha256": "ecd5052fc7df4ac0"
-    },
-    "video.mp4": {
-     "path": "data/w24-video.mp4.enc",
-     "bytes": 1113405,
-     "sha256": "5106d2a5fcad217c"
-    },
-    "video.vtt": {
-     "path": "data/w24-video.vtt.enc",
-     "bytes": 3830,
-     "sha256": "b777d22a7177af3f"
-    },
-    "poster.jpg": {
-     "path": "data/w24-poster.jpg.enc",
-     "bytes": 159516,
-     "sha256": "1509f84087b75d8b"
     }
    }
   }
