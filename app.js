@@ -9,7 +9,6 @@
   let teacherKey = null;
   const cache = new Map();
   const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
-  const mime = { 'audio.mp3': 'audio/mpeg', 'video.mp4': 'video/mp4', 'video.vtt': 'text/vtt', 'poster.jpg': 'image/jpeg' };
 
   async function loadManifest() {
     if (!manifest) manifest = await (await fetch('manifest.json', { cache: 'no-store' })).json();
@@ -71,10 +70,6 @@
     const buf = await decryptWith(k, await (await fetch(meta.path)).arrayBuffer(), id.split('/').pop());
     cache.set(id, buf);
     return buf;
-  }
-  async function url(entry, name) {
-    const buf = await file(entry, name);
-    return buf ? URL.createObjectURL(new Blob([buf], { type: mime[name] })) : null;
   }
   async function decodeLab(entry) {
     if (teacherKey && entry && entry.files && entry.files['lab.teacher.json']) {
@@ -187,7 +182,7 @@
 
   function mediaKind(href) {
     const h = (href || '').trim().replace(/^\.\//, '');
-    return /^(narration\.md|audio\.mp3|video\.mp4)$/.test(h) ? h : null;
+    return h === 'narration.md' ? h : null;
   }
 
   function escapeHtml(value) {
@@ -197,6 +192,21 @@
   function safeMarkdown(md, week) {
     const html = marked.parse(md, { mangle: false, headerIds: false });
     const doc = new DOMParser().parseFromString(html, 'text/html');
+    // Existing encrypted lessons can still contain the old playback shortcuts.
+    // Remove them without changing the access codes or re-encrypting lesson text.
+    const removedMedia = /^(?:\.\/)?(?:audio\.mp3|video\.mp4|video\.vtt|poster\.jpg)(?:[?#].*)?$/i;
+    doc.querySelectorAll('audio,video,source,track').forEach((el) => el.remove());
+    doc.querySelectorAll('a[href],img[src]').forEach((el) => {
+      if (!removedMedia.test(el.getAttribute('href') || el.getAttribute('src') || '')) return;
+      const next = el.nextSibling;
+      const previous = el.previousSibling;
+      if (next && next.nodeType === 3 && /^\s*·/.test(next.textContent)) {
+        next.textContent = next.textContent.replace(/^\s*·\s*/, '');
+      } else if (previous && previous.nodeType === 3) {
+        previous.textContent = previous.textContent.replace(/\s*·\s*$/, '');
+      }
+      el.remove();
+    });
     window.MvtSanitizer.sanitizeHtmlTree(doc);
     doc.querySelectorAll('a[href]').forEach((a) => {
       const h = a.getAttribute('href') || '';
@@ -209,6 +219,7 @@
       }
       const kind = mediaKind(h);
       if (kind && week) {
+        a.textContent = 'Прочитать пояснение к уроку';
         a.setAttribute('href', `#/w/${week}`);
         a.setAttribute('data-media', kind);
         return;
@@ -222,13 +233,7 @@
     const box = document.getElementById('media');
     if (!box) return;
     box.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (kind === 'audio.mp3') {
-      const el = box.querySelector('audio');
-      if (el) el.play().catch(() => {});
-    } else if (kind === 'video.mp4') {
-      const el = box.querySelector('video');
-      if (el) el.play().catch(() => {});
-    } else if (kind === 'narration.md') {
+    if (kind === 'narration.md') {
       const d = box.querySelector('details.narr');
       if (d) {
         d.open = true;
@@ -359,25 +364,19 @@
   }
 
   async function renderLabMaterial(week, entry, lab, o) {
-    const [mdBuf, narr, poster, audio, video, vtt] = await Promise.all([
+    const [mdBuf, narr] = await Promise.all([
       file(entry, 'lesson.md'),
       file(entry, 'narration.md'),
-      url(entry, 'poster.jpg'),
-      url(entry, 'audio.mp3'),
-      url(entry, 'video.mp4'),
-      url(entry, 'video.vtt'),
     ]);
     const crumb = o.kind === 'topic' ? `#/t/${week}` : `#/w/${week}`;
-    const media = (video || audio || narr)
+    const explanation = narr
       ? `<div id="media" class="media media-bottom">
-          <h2>Озвучка и видеоразбор</h2>
-          ${video ? `<video controls playsinline preload="metadata" ${poster ? `poster="${poster}"` : ''}><source src="${video}" type="video/mp4">${vtt ? `<track kind="captions" srclang="ru" label="Русские субтитры" src="${vtt}" default>` : ''}</video>` : ''}
-          ${audio ? `<audio controls preload="none" src="${audio}"></audio>` : ''}
-          ${narr ? `<details class="narr"><summary>Текст озвучки</summary>${safeMarkdown(dec.decode(narr), week)}</details>` : ''}
+          <h2>Пояснение к уроку</h2>
+          <details class="narr"><summary>Прочитать</summary>${safeMarkdown(dec.decode(narr), week)}</details>
         </div>`
       : '';
     app.innerHTML = `<p class="lab-crumb"><a href="${escapeHtml(crumb)}">← Хаб</a></p>
-      <article>${safeMarkdown(mdBuf ? dec.decode(mdBuf) : '', week)}</article>${media}`;
+      <article>${safeMarkdown(mdBuf ? dec.decode(mdBuf) : '', week)}</article>${explanation}`;
     window.MvtLab.prepareMaterial(app.querySelector('article'), lab, week, o);
   }
 
